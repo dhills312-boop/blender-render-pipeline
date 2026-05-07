@@ -1,0 +1,4 @@
+# Keep this repo script-first by default. If large assets are committed later,
+# enable Git LFS intentionally with patterns like:
+# *.blend filter=lfs diff=lfs merge=lfs -text
+# *.exr filter=lfs diff=lfs merge=lfs -text

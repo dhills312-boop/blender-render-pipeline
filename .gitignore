@@ -1,0 +1,16 @@
+output/
+renders/
+
+*.blend1
+*.blend2
+
+*.pyc
+__pycache__/
+
+.DS_Store
+Thumbs.db
+
+*.tmp
+*.log
+
+# Keep this repo cloneable for RunPod test; include the selected LO_083 blend payload.
