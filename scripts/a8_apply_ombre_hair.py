@@ -36,6 +36,16 @@ def generate_ombre(src_path, out_path):
     src.pixels.foreach_get(pixels)
     new_pixels = array("f", [0.0]) * (n_pixels * 4)
 
+    # Blender can return black RGB for very transparent source texels. If that
+    # happens, keep the ombre visible by generating strand-like value variation
+    # from pixel position instead of trusting the sampled RGB.
+    probe_step = max(1, n_pixels // 20000)
+    probe = []
+    for p in range(0, n_pixels, probe_step):
+        idx = p * 4
+        probe.append(0.2126 * pixels[idx] + 0.7152 * pixels[idx + 1] + 0.0722 * pixels[idx + 2])
+    source_has_detail = (max(probe) - min(probe)) > 0.02 if probe else False
+
     for y in range(h):
         v_norm = y / max(1, h - 1)
         for x in range(w):
@@ -44,17 +54,22 @@ def generate_ombre(src_path, out_path):
             g = pixels[idx + 1]
             b = pixels[idx + 2]
             a = pixels[idx + 3]
-            lum = 0.2126 * r + 0.7152 * g + 0.0722 * b
+            if source_has_detail:
+                lum = 0.2126 * r + 0.7152 * g + 0.0722 * b
+            else:
+                strand = ((x * 37 + y * 11) % 97) / 96.0
+                lum = 0.35 + (strand * 0.3)
             value = max(0.0, min(1.0, v_norm + ((lum - 0.5) * 0.6)))
             new_pixels[idx] = value
             new_pixels[idx + 1] = value
             new_pixels[idx + 2] = value
-            new_pixels[idx + 3] = a
+            new_pixels[idx + 3] = max(a, 1.0)
 
     ombre = bpy.data.images.new(
         os.path.splitext(os.path.basename(out_path))[0], w, h, alpha=True
     )
     ombre.pixels.foreach_set(new_pixels)
+    ombre.update()
     ombre.colorspace_settings.name = "sRGB"
     ombre.filepath_raw = out_path
     ombre.file_format = "PNG"

@@ -90,6 +90,7 @@ def main():
         w, h, alpha=True
     )
     out_img.pixels.foreach_set(new_pixels)
+    out_img.update()
     out_img.colorspace_settings.name = "sRGB"
     out_img.filepath_raw = args.out
     out_img.file_format = "PNG"
