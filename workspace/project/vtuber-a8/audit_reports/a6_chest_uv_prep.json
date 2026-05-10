@@ -1,0 +1,13 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\a6_v07_chest_uv_prep.blend",
+  "output": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/a6_v07_chest_uv_prep.blend",
+  "chest_face_count": 3267,
+  "chest_vert_count": 3460,
+  "uv_layer_added": "UV_chest",
+  "vertex_group_added": "chest_faces",
+  "active_uv_layer": "UV_chest",
+  "uv_layers_after": [
+    "Channel0",
+    "UV_chest"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\a6_v09_diffuse_fixed.blend",
+  "output": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/a6_v09_diffuse_fixed.blend",
+  "fixes_attempted": 5,
+  "fixes_applied": 5,
+  "actions": [
+    {
+      "material": "Skin_Head",
+      "role": "DIFFUSE",
+      "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1011",
+      "old_image": "Std_Upper_Teeth_Diffuse",
+      "new_image": "Std_Skin_Head_Diffuse",
+      "status": "fixed"
+    },
+    {
+      "material": "Skin_Body",
+      "role": "DIFFUSE",
+      "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1013",
+      "old_image": "Std_Upper_Teeth_Diffuse",
+      "new_image": "Std_Skin_Body_Diffuse",
+      "status": "fixed"
+    },
+    {
+      "material": "Skin_Arm",
+      "role": "DIFFUSE",
+      "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1015",
+      "old_image": "Std_Upper_Teeth_Diffuse",
+      "new_image": "Std_Skin_Arm_Diffuse",
+      "status": "fixed"
+    },
+    {
+      "material": "Skin_Leg",
+      "role": "DIFFUSE",
+      "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1017",
+      "old_image": "Std_Upper_Teeth_Diffuse",
+      "new_image": "Std_Skin_Leg_Diffuse",
+      "status": "fixed"
+    },
+    {
+      "material": "Nails",
+      "role": "DIFFUSE",
+      "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1019",
+      "old_image": "Std_Upper_Teeth_Diffuse",
+      "new_image": "Std_Nails_Diffuse",
+      "status": "fixed"
+    }
+  ]
+}

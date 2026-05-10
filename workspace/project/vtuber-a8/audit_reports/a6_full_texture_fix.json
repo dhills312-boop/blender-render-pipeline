@@ -1,0 +1,177 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\a6_v11_textures_fixed.blend",
+  "output": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/a6_v11_textures_fixed.blend",
+  "torso_decals_size": 4543,
+  "fixes_applied": 5,
+  "fixes": [
+    {
+      "material": "Scalp1_Transparency",
+      "role": "DIFFUSE",
+      "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1008",
+      "old": "Std_Upper_Teeth_Diffuse",
+      "new": "Std_Skin_Head_Diffuse"
+    },
+    {
+      "material": "Scalp1_Transparency",
+      "role": "ROUGHNESS",
+      "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1097",
+      "old": "Scalp1_Transparency_metallic.png",
+      "new": "Std_Skin_Head_Roughness Pack"
+    },
+    {
+      "material": "Eye_L",
+      "role": "DIFFUSE",
+      "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1027",
+      "old": "Std_Cornea_L_Diffuse",
+      "new": "Std_Eye_L_Diffuse"
+    },
+    {
+      "material": "Eye_R",
+      "role": "DIFFUSE",
+      "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1024",
+      "old": "Std_Cornea_R_Diffuse",
+      "new": "Std_Eye_R_Diffuse"
+    },
+    {
+      "material": "Lower_Teeth",
+      "role": "DIFFUSE",
+      "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1002",
+      "old": "Std_Upper_Teeth_Diffuse",
+      "new": "Std_Lower_Teeth_Diffuse"
+    }
+  ],
+  "skipped": [
+    {
+      "material": "Scalp1_Transparency",
+      "role": "ALPHA",
+      "current": "Scalp1_Transparency_Opacity",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Scalp1_Transparency",
+      "role": "METALLIC",
+      "current": "Scalp1_Transparency_metallic.png",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Eyelash",
+      "role": "AO",
+      "current": "Std_Skin_Arm_MicroNMask.jpg",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Eye_L",
+      "role": "SCLERA",
+      "current": "Std_Cornea_R_Sclera.png",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Eye_L",
+      "role": "EYEBLEND",
+      "current": "Std_Cornea_R_BCBMap.jpg",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Eye_L",
+      "role": "METALLIC",
+      "current": "Std_Cornea_R_metallic.jpg",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Eye_L",
+      "role": "AO",
+      "current": "Std_Cornea_R_ao.jpg",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Eye_L",
+      "role": "SCLERANORMAL",
+      "current": "Std_Lower_Teeth_MicroN.png",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Eye_R",
+      "role": "SCLERA",
+      "current": "Std_Cornea_R_Sclera.png",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Eye_R",
+      "role": "EYEBLEND",
+      "current": "Std_Cornea_R_BCBMap.jpg",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Eye_R",
+      "role": "METALLIC",
+      "current": "Std_Cornea_R_metallic.jpg",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Eye_R",
+      "role": "AO",
+      "current": "Std_Cornea_R_ao.jpg",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Eye_R",
+      "role": "SCLERANORMAL",
+      "current": "Std_Lower_Teeth_MicroN.png",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Cornea_L",
+      "role": "SCLERA",
+      "current": "Std_Cornea_R_Sclera.png",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Cornea_L",
+      "role": "EYEBLEND",
+      "current": "Std_Cornea_R_BCBMap.jpg",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Cornea_L",
+      "role": "METALLIC",
+      "current": "Std_Cornea_R_metallic.jpg",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Cornea_L",
+      "role": "AO",
+      "current": "Std_Cornea_R_ao.jpg",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Cornea_L",
+      "role": "SCLERANORMAL",
+      "current": "Std_Lower_Teeth_MicroN.png",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Cornea_R",
+      "role": "SCLERANORMAL",
+      "current": "Std_Lower_Teeth_MicroN.png",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Upper_Teeth",
+      "role": "GUMSMASK",
+      "current": "Std_Lower_Teeth_GumsMask.jpg",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Upper_Teeth",
+      "role": "MICRONORMAL",
+      "current": "Std_Lower_Teeth_MicroN.png",
+      "reason": "no_candidate"
+    },
+    {
+      "material": "Lower_Teeth",
+      "role": "METALLIC",
+      "current": "Std_Upper_Teeth_metallic.jpg",
+      "reason": "no_candidate"
+    }
+  ]
+}

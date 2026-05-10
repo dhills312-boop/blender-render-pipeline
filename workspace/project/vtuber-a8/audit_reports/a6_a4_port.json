@@ -1,0 +1,133 @@
+{
+  "phase1_extracted": [
+    {
+      "image": "Std_Skin_Arm_ao.jpg",
+      "tag": "ao",
+      "path_4k": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Arm_ao_4k.jpg",
+      "path_1k": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Arm_ao_1k.jpg",
+      "size_4k": 105517,
+      "size_1k": 25666,
+      "src_resolution": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "image": "Std_Skin_Body_ao.jpg",
+      "tag": "ao",
+      "path_4k": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Body_ao_4k.jpg",
+      "path_1k": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Body_ao_1k.jpg",
+      "size_4k": 87430,
+      "size_1k": 22432,
+      "src_resolution": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "image": "Std_Skin_Head_ao.jpg",
+      "tag": "ao",
+      "path_4k": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Head_ao_4k.jpg",
+      "path_1k": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Head_ao_1k.jpg",
+      "size_4k": 92186,
+      "size_1k": 22785,
+      "src_resolution": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "image": "Std_Skin_Head_MicroN.png",
+      "tag": "MicroN",
+      "path_4k": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Head_MicroN_4k.png",
+      "path_1k": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Head_MicroN_1k.png",
+      "size_4k": 6561711,
+      "size_1k": 1574951,
+      "src_resolution": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "image": "Std_Skin_Leg_ao.jpg",
+      "tag": "ao",
+      "path_4k": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Leg_ao_4k.jpg",
+      "path_1k": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Leg_ao_1k.jpg",
+      "size_4k": 113660,
+      "size_1k": 28272,
+      "src_resolution": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "image": "Std_Skin_Leg_MicroNMask.jpg",
+      "tag": "MicroNMask",
+      "path_4k": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Leg_MicroNMask_4k.jpg",
+      "path_1k": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Leg_MicroNMask_1k.jpg",
+      "size_4k": 66176,
+      "size_1k": 17025,
+      "src_resolution": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "phase1_skipped": [
+    {
+      "image": "Std_Skin_Arm_MicroNMask.jpg",
+      "reason": "already_exists",
+      "path": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Arm_MicroNMask_4k.jpg"
+    },
+    {
+      "image": "Std_Skin_Body_MicroNMask.jpg",
+      "reason": "already_exists",
+      "path": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Body_MicroNMask_4k.jpg"
+    },
+    {
+      "image": "Std_Skin_Head_MicroNMask.jpg",
+      "reason": "already_exists",
+      "path": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Head_MicroNMask_4k.jpg"
+    },
+    {
+      "image": "Std_Skin_Head_MSMNAO Pack",
+      "reason": "already_exists",
+      "path": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Head_MSMNAO_Pack_4k.png"
+    }
+  ],
+  "phase2_actions": [
+    {
+      "step": "remove_skin_head_decal",
+      "removed": true
+    },
+    {
+      "material": "Skin_Head",
+      "ao_path": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Head_ao_1k.jpg",
+      "ao_added": true,
+      "micron_path": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Head_MicroN_1k.png",
+      "micron_added": true
+    },
+    {
+      "material": "Skin_Body",
+      "ao_path": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Body_ao_1k.jpg",
+      "ao_added": true,
+      "micron_path": null,
+      "micron_added": false
+    },
+    {
+      "material": "Skin_Arm",
+      "ao_path": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Arm_ao_1k.jpg",
+      "ao_added": true,
+      "micron_path": null,
+      "micron_added": false
+    },
+    {
+      "material": "Skin_Leg",
+      "ao_path": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Std_Skin_Leg_ao_1k.jpg",
+      "ao_added": true,
+      "micron_path": null,
+      "micron_added": false
+    }
+  ],
+  "a6_output": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/a6_v12_a4_textures_ported.blend"
+}

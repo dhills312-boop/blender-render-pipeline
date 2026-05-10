@@ -1,0 +1,68 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\a6_v10_skin_shader_rebuilt.blend",
+  "output": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/a6_v10_skin_shader_rebuilt.blend",
+  "porcelain_color_hex": "#f0d8c8",
+  "porcelain_color_linear_rgb": [
+    0.941,
+    0.847,
+    0.784,
+    1.0
+  ],
+  "results": [
+    {
+      "material": "Skin_Head",
+      "status": "rebuilt",
+      "found_textures": {
+        "NORMAL": "Std_Skin_Head_Normal",
+        "ROUGHNESS": "Std_Skin_Head_Roughness Pack",
+        "AO": null,
+        "SSS": "Std_Skin_Head_SSSMap.jpg"
+      },
+      "decals_wired": true
+    },
+    {
+      "material": "Skin_Body",
+      "status": "rebuilt",
+      "found_textures": {
+        "NORMAL": "Std_Skin_Body_Normal",
+        "ROUGHNESS": "Std_Skin_Body_roughness.jpg",
+        "AO": null,
+        "SSS": "Std_Skin_Body_SSSMap.png"
+      },
+      "decals_wired": true
+    },
+    {
+      "material": "Skin_Arm",
+      "status": "rebuilt",
+      "found_textures": {
+        "NORMAL": "Std_Skin_Arm_Normal",
+        "ROUGHNESS": "Std_Skin_Arm_roughness.jpg",
+        "AO": null,
+        "SSS": "Std_Skin_Arm_SSSMap.png"
+      },
+      "decals_wired": false
+    },
+    {
+      "material": "Skin_Leg",
+      "status": "rebuilt",
+      "found_textures": {
+        "NORMAL": "Std_Skin_Leg_Normal",
+        "ROUGHNESS": "Std_Skin_Leg_roughness.jpg",
+        "AO": null,
+        "SSS": "Std_Skin_Leg_SSSMap.png"
+      },
+      "decals_wired": false
+    },
+    {
+      "material": "Nails",
+      "status": "rebuilt",
+      "found_textures": {
+        "NORMAL": "Std_Nails_Normal",
+        "ROUGHNESS": "Std_Nails_roughness.jpg",
+        "AO": "Std_Nails_ao.jpg",
+        "SSS": null
+      },
+      "decals_wired": false
+    }
+  ]
+}

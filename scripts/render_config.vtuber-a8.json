@@ -1,0 +1,18 @@
+{
+  "blend_file": "/workspace/project/vtuber-a8/a6_v13_anatomy_p1.blend",
+  "resolution_x": 1400,
+  "resolution_y": 1400,
+  "resolution_percentage": 100,
+  "engine": "CYCLES",
+  "device": "GPU",
+  "samples": 96,
+  "use_denoising": true,
+  "denoiser": "OPENIMAGEDENOISE",
+  "output_format": "PNG",
+  "color_depth": "16",
+  "output_dir": "/workspace/output/",
+  "frame": 1,
+  "frame_start": 1,
+  "frame_end": 1,
+  "frame_step": 1
+}

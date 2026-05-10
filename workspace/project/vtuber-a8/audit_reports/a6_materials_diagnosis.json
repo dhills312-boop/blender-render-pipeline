@@ -1,0 +1,3684 @@
+{
+  "blend_file": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\a6_v02_textures_1k.blend",
+  "materials": [
+    {
+      "name": "Breast_Panels",
+      "use_nodes": true,
+      "node_count": 6,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_pbr_shader_BSDF)_v2.2.3_1256"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1038",
+          "image": {
+            "name": "Breast_Panels_Diffuse",
+            "filepath": "//textures\\Breast_Panels_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Breast_Panels_Diffuse_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1255",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1257",
+          "image": {
+            "name": "Default_Material_Transparency_metallic.png",
+            "filepath": "//textures\\Default_Material_Transparency_metallic_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_metallic_1k.png",
+            "size": [
+              64,
+              64
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1255",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1258",
+          "image": {
+            "name": "Waista__roughness.png",
+            "filepath": "//textures\\Waista__roughness_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Waista__roughness_1k.png",
+            "size": [
+              64,
+              64
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1255",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Cornea_L",
+      "use_nodes": true,
+      "node_count": 12,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_cornea_shader_BSDF)_v2.2.3_1220"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1029",
+          "image": {
+            "name": "Std_Cornea_L_Diffuse",
+            "filepath": "//textures\\Std_Cornea_L_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_L_Diffuse_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1219",
+              "to_node_type": "GROUP",
+              "to_socket": "Cornea Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SCLERA)_v2.2.3_1221",
+          "image": {
+            "name": "Std_Cornea_R_Sclera.png",
+            "filepath": "//textures\\Std_Cornea_R_Sclera_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_Sclera_1k.png",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1219",
+              "to_node_type": "GROUP",
+              "to_socket": "Sclera Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(EYEBLEND)_v2.2.3_1224",
+          "image": {
+            "name": "Std_Cornea_R_BCBMap.jpg",
+            "filepath": "//textures\\Std_Cornea_R_BCBMap_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_BCBMap_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1219",
+              "to_node_type": "GROUP",
+              "to_socket": "Color Blend Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1225",
+          "image": {
+            "name": "Std_Cornea_R_metallic.jpg",
+            "filepath": "//textures\\Std_Cornea_R_metallic_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_metallic_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1219",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(AO)_v2.2.3_1226",
+          "image": {
+            "name": "Std_Cornea_R_ao.jpg",
+            "filepath": "//textures\\Std_Cornea_R_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_ao_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1219",
+              "to_node_type": "GROUP",
+              "to_socket": "AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SCLERANORMAL)_v2.2.3_1227",
+          "image": {
+            "name": "Std_Lower_Teeth_MicroN.png",
+            "filepath": "//textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1219",
+              "to_node_type": "GROUP",
+              "to_socket": "Sclera Normal Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Cornea_R",
+      "use_nodes": true,
+      "node_count": 12,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_cornea_shader_BSDF)_v2.2.3_1200"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1026",
+          "image": {
+            "name": "Std_Cornea_R_Diffuse",
+            "filepath": "//textures\\Std_Cornea_R_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_Diffuse_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1199",
+              "to_node_type": "GROUP",
+              "to_socket": "Cornea Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SCLERA)_v2.2.3_1201",
+          "image": {
+            "name": "Std_Cornea_R_Sclera.png",
+            "filepath": "//textures\\Std_Cornea_R_Sclera_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_Sclera_1k.png",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1199",
+              "to_node_type": "GROUP",
+              "to_socket": "Sclera Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(EYEBLEND)_v2.2.3_1204",
+          "image": {
+            "name": "Std_Cornea_R_BCBMap.jpg",
+            "filepath": "//textures\\Std_Cornea_R_BCBMap_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_BCBMap_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1199",
+              "to_node_type": "GROUP",
+              "to_socket": "Color Blend Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1205",
+          "image": {
+            "name": "Std_Cornea_R_metallic.jpg",
+            "filepath": "//textures\\Std_Cornea_R_metallic_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_metallic_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1199",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(AO)_v2.2.3_1206",
+          "image": {
+            "name": "Std_Cornea_R_ao.jpg",
+            "filepath": "//textures\\Std_Cornea_R_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_ao_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1199",
+              "to_node_type": "GROUP",
+              "to_socket": "AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SCLERANORMAL)_v2.2.3_1207",
+          "image": {
+            "name": "Std_Lower_Teeth_MicroN.png",
+            "filepath": "//textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1199",
+              "to_node_type": "GROUP",
+              "to_socket": "Sclera Normal Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Default_Material_Transparency",
+      "use_nodes": true,
+      "node_count": 7,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_hair_shader_BSDF)_v2.2.3_1091"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1006",
+          "image": {
+            "name": "Std_Upper_Teeth_Diffuse",
+            "filepath": "//textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_hair_shader)_v2.2.3_1090",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ALPHA)_v2.2.3_1007",
+          "image": {
+            "name": "Default_Material_Transparency_Opacity",
+            "filepath": "//textures\\Default_Material_Transparency_Opacity_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_Opacity_1k.jpg",
+            "size": [
+              1024,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_hair_shader)_v2.2.3_1090",
+              "to_node_type": "GROUP",
+              "to_socket": "Alpha Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1092",
+          "image": {
+            "name": "Default_Material_Transparency_metallic.png",
+            "filepath": "//textures\\Default_Material_Transparency_metallic_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_metallic_1k.png",
+            "size": [
+              64,
+              64
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_hair_shader)_v2.2.3_1090",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1093",
+          "image": {
+            "name": "Default_Material_Transparency_roughness.png",
+            "filepath": "//textures\\Default_Material_Transparency_roughness_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_roughness_1k.png",
+            "size": [
+              64,
+              64
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_hair_shader)_v2.2.3_1090",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": false
+    },
+    {
+      "name": "Dots Stroke",
+      "use_nodes": false,
+      "is_used_in_scene": false
+    },
+    {
+      "name": "Eye_L",
+      "use_nodes": true,
+      "node_count": 12,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_eye_shader_BSDF)_v2.2.3_1210"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1027",
+          "image": {
+            "name": "Std_Cornea_L_Diffuse",
+            "filepath": "//textures\\Std_Cornea_L_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_L_Diffuse_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1209",
+              "to_node_type": "GROUP",
+              "to_socket": "Cornea Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SCLERA)_v2.2.3_1211",
+          "image": {
+            "name": "Std_Cornea_R_Sclera.png",
+            "filepath": "//textures\\Std_Cornea_R_Sclera_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_Sclera_1k.png",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1209",
+              "to_node_type": "GROUP",
+              "to_socket": "Sclera Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(EYEBLEND)_v2.2.3_1214",
+          "image": {
+            "name": "Std_Cornea_R_BCBMap.jpg",
+            "filepath": "//textures\\Std_Cornea_R_BCBMap_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_BCBMap_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1209",
+              "to_node_type": "GROUP",
+              "to_socket": "Color Blend Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1215",
+          "image": {
+            "name": "Std_Cornea_R_metallic.jpg",
+            "filepath": "//textures\\Std_Cornea_R_metallic_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_metallic_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1209",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(AO)_v2.2.3_1216",
+          "image": {
+            "name": "Std_Cornea_R_ao.jpg",
+            "filepath": "//textures\\Std_Cornea_R_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_ao_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1209",
+              "to_node_type": "GROUP",
+              "to_socket": "AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SCLERANORMAL)_v2.2.3_1217",
+          "image": {
+            "name": "Std_Lower_Teeth_MicroN.png",
+            "filepath": "//textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1209",
+              "to_node_type": "GROUP",
+              "to_socket": "Sclera Normal Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Eye_Occlusion_L",
+      "use_nodes": true,
+      "node_count": 3,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_eye_occlusion_shader_BSDF)_v2.2.3_1236"
+      },
+      "tex_image_nodes": [],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Eye_Occlusion_R",
+      "use_nodes": true,
+      "node_count": 3,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_eye_occlusion_shader_BSDF)_v2.2.3_1234"
+      },
+      "tex_image_nodes": [],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Eye_R",
+      "use_nodes": true,
+      "node_count": 12,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_eye_shader_BSDF)_v2.2.3_1190"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1024",
+          "image": {
+            "name": "Std_Cornea_R_Diffuse",
+            "filepath": "//textures\\Std_Cornea_R_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_Diffuse_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1189",
+              "to_node_type": "GROUP",
+              "to_socket": "Cornea Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SCLERA)_v2.2.3_1191",
+          "image": {
+            "name": "Std_Cornea_R_Sclera.png",
+            "filepath": "//textures\\Std_Cornea_R_Sclera_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_Sclera_1k.png",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1189",
+              "to_node_type": "GROUP",
+              "to_socket": "Sclera Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(EYEBLEND)_v2.2.3_1194",
+          "image": {
+            "name": "Std_Cornea_R_BCBMap.jpg",
+            "filepath": "//textures\\Std_Cornea_R_BCBMap_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_BCBMap_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1189",
+              "to_node_type": "GROUP",
+              "to_socket": "Color Blend Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1195",
+          "image": {
+            "name": "Std_Cornea_R_metallic.jpg",
+            "filepath": "//textures\\Std_Cornea_R_metallic_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_metallic_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1189",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(AO)_v2.2.3_1196",
+          "image": {
+            "name": "Std_Cornea_R_ao.jpg",
+            "filepath": "//textures\\Std_Cornea_R_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_ao_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1189",
+              "to_node_type": "GROUP",
+              "to_socket": "AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SCLERANORMAL)_v2.2.3_1197",
+          "image": {
+            "name": "Std_Lower_Teeth_MicroN.png",
+            "filepath": "//textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1189",
+              "to_node_type": "GROUP",
+              "to_socket": "Sclera Normal Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Eyelash",
+      "use_nodes": true,
+      "node_count": 8,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_pbr_shader_BSDF)_v2.2.3_1186"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1021",
+          "image": {
+            "name": "Std_Eyelash_Diffuse",
+            "filepath": "//textures\\Std_Eyelash_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_Diffuse_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1185",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(NORMAL)_v2.2.3_1022",
+          "image": {
+            "name": "Std_Eyelash_Normal",
+            "filepath": "//textures\\Std_Eyelash_Normal_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_Normal_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1185",
+              "to_node_type": "GROUP",
+              "to_socket": "Normal Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ALPHA)_v2.2.3_1023",
+          "image": {
+            "name": "Std_Eyelash_Opacity",
+            "filepath": "//textures\\Std_Eyelash_Opacity_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_Opacity_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1185",
+              "to_node_type": "GROUP",
+              "to_socket": "Alpha Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(AO)_v2.2.3_1187",
+          "image": {
+            "name": "Std_Skin_Arm_MicroNMask.jpg",
+            "filepath": "//textures\\Std_Skin_Arm_MicroNMask_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_MicroNMask_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1185",
+              "to_node_type": "GROUP",
+              "to_socket": "AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1188",
+          "image": {
+            "name": "Std_Eyelash_roughness.jpg",
+            "filepath": "//textures\\Std_Eyelash_roughness_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_roughness_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1185",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Lower_Teeth",
+      "use_nodes": true,
+      "node_count": 12,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_teeth_shader_BSDF)_v2.2.3_1074"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1002",
+          "image": {
+            "name": "Std_Upper_Teeth_Diffuse",
+            "filepath": "//textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1073",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(NORMAL)_v2.2.3_1003",
+          "image": {
+            "name": "Std_Lower_Teeth_Normal",
+            "filepath": "//textures\\Std_Lower_Teeth_Normal_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_Normal_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1073",
+              "to_node_type": "GROUP",
+              "to_socket": "Normal Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(GUMSMASK)_v2.2.3_1075",
+          "image": {
+            "name": "Std_Lower_Teeth_GumsMask.jpg",
+            "filepath": "//textures\\Std_Lower_Teeth_GumsMask_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_GumsMask_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1073",
+              "to_node_type": "GROUP",
+              "to_socket": "Gums Mask"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(GRADIENTAO)_v2.2.3_1076",
+          "image": {
+            "name": "Std_Tongue_GradAO.jpg",
+            "filepath": "//textures\\Std_Tongue_GradAO_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_GradAO_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1073",
+              "to_node_type": "GROUP",
+              "to_socket": "Gradient AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(AO)_v2.2.3_1077",
+          "image": {
+            "name": "Std_Lower_Teeth_ao.jpg",
+            "filepath": "//textures\\Std_Lower_Teeth_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_ao_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1073",
+              "to_node_type": "GROUP",
+              "to_socket": "AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1078",
+          "image": {
+            "name": "Std_Upper_Teeth_metallic.jpg",
+            "filepath": "//textures\\Std_Upper_Teeth_metallic_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_metallic_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1073",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1079",
+          "image": {
+            "name": "Std_Lower_Teeth_roughness.jpg",
+            "filepath": "//textures\\Std_Lower_Teeth_roughness_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_roughness_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1073",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(MICRONORMAL)_v2.2.3_1080",
+          "image": {
+            "name": "Std_Lower_Teeth_MicroN.png",
+            "filepath": "//textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1073",
+              "to_node_type": "GROUP",
+              "to_socket": "Micro Normal Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Nails",
+      "use_nodes": true,
+      "node_count": 13,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_skin_shader_BSDF)_v2.2.3_1176"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1019",
+          "image": {
+            "name": "Std_Upper_Teeth_Diffuse",
+            "filepath": "//textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1175",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(NORMAL)_v2.2.3_1020",
+          "image": {
+            "name": "Std_Nails_Normal",
+            "filepath": "//textures\\Std_Nails_Normal_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_Normal_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1175",
+              "to_node_type": "GROUP",
+              "to_socket": "Normal Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(AO)_v2.2.3_1177",
+          "image": {
+            "name": "Std_Nails_ao.jpg",
+            "filepath": "//textures\\Std_Nails_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_ao_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1175",
+              "to_node_type": "GROUP",
+              "to_socket": "AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SSS)_v2.2.3_1178",
+          "image": {
+            "name": "Std_Nails_SSSMap.jpg",
+            "filepath": "//textures\\Std_Nails_SSSMap_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_SSSMap_1k.jpg",
+            "size": [
+              4,
+              4
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1175",
+              "to_node_type": "GROUP",
+              "to_socket": "Subsurface Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(TRANSMISSION)_v2.2.3_1179",
+          "image": {
+            "name": "Std_Nails_TransMap.png",
+            "filepath": "//textures\\Std_Nails_TransMap_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_TransMap_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1175",
+              "to_node_type": "GROUP",
+              "to_socket": "Transmission Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1180",
+          "image": {
+            "name": "Std_Nails_roughness.jpg",
+            "filepath": "//textures\\Std_Nails_roughness_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_roughness_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1175",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(MICRONORMAL)_v2.2.3_1181",
+          "image": {
+            "name": "Std_Tongue_MicroN.png",
+            "filepath": "//textures\\Std_Tongue_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1175",
+              "to_node_type": "GROUP",
+              "to_socket": "Micro Normal Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(MICRONMASK)_v2.2.3_1183",
+          "image": {
+            "name": "Std_Skin_Arm_MicroNMask.jpg",
+            "filepath": "//textures\\Std_Skin_Arm_MicroNMask_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_MicroNMask_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1175",
+              "to_node_type": "GROUP",
+              "to_socket": "Micro Normal Mask"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(RGBAMASK)_v2.2.3_1184",
+          "image": {
+            "name": "Std_Nails_RGBAMask.tga",
+            "filepath": "//textures\\Std_Nails_RGBAMask_1k.tga",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_RGBAMask_1k.tga",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1175",
+              "to_node_type": "GROUP",
+              "to_socket": "RGBA Map"
+            },
+            {
+              "from_socket": "Alpha",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1175",
+              "to_node_type": "GROUP",
+              "to_socket": "RGBA Alpha"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Scalp1_Transparency",
+      "use_nodes": true,
+      "node_count": 7,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_pbr_shader_BSDF)_v2.2.3_1095"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1008",
+          "image": {
+            "name": "Std_Upper_Teeth_Diffuse",
+            "filepath": "//textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1094",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ALPHA)_v2.2.3_1009",
+          "image": {
+            "name": "Scalp1_Transparency_Opacity",
+            "filepath": "//textures\\Scalp1_Transparency_Opacity_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Scalp1_Transparency_Opacity_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1094",
+              "to_node_type": "GROUP",
+              "to_socket": "Alpha Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1096",
+          "image": {
+            "name": "Scalp1_Transparency_metallic.png",
+            "filepath": "//textures\\Scalp1_Transparency_metallic_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Scalp1_Transparency_metallic_1k.png",
+            "size": [
+              64,
+              64
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1094",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1097",
+          "image": {
+            "name": "Scalp1_Transparency_metallic.png",
+            "filepath": "//textures\\Scalp1_Transparency_metallic_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Scalp1_Transparency_metallic_1k.png",
+            "size": [
+              64,
+              64
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1094",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Skin_Arm",
+      "use_nodes": true,
+      "node_count": 12,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_skin_shader_BSDF)_v2.2.3_1158"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1015",
+          "image": {
+            "name": "Std_Upper_Teeth_Diffuse",
+            "filepath": "//textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1157",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(NORMAL)_v2.2.3_1016",
+          "image": {
+            "name": "Std_Skin_Arm_Normal",
+            "filepath": "//textures\\Std_Skin_Arm_Normal_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_Normal_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1157",
+              "to_node_type": "GROUP",
+              "to_socket": "Normal Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SSS)_v2.2.3_1159",
+          "image": {
+            "name": "Std_Skin_Arm_SSSMap.png",
+            "filepath": "//textures\\Std_Skin_Arm_SSSMap_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_SSSMap_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1157",
+              "to_node_type": "GROUP",
+              "to_socket": "Subsurface Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(TRANSMISSION)_v2.2.3_1160",
+          "image": {
+            "name": "Std_Skin_Arm_TransMap.png",
+            "filepath": "//textures\\Std_Skin_Arm_TransMap_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_TransMap_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1157",
+              "to_node_type": "GROUP",
+              "to_socket": "Transmission Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1161",
+          "image": {
+            "name": "Std_Skin_Arm_roughness.jpg",
+            "filepath": "//textures\\Std_Skin_Arm_roughness_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_roughness_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1157",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(MICRONORMAL)_v2.2.3_1162",
+          "image": {
+            "name": "Std_Tongue_MicroN.png",
+            "filepath": "//textures\\Std_Tongue_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1157",
+              "to_node_type": "GROUP",
+              "to_socket": "Micro Normal Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(MICRONMASK)_v2.2.3_1164",
+          "image": {
+            "name": "Std_Skin_Arm_MicroNMask.jpg",
+            "filepath": "//textures\\Std_Skin_Arm_MicroNMask_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_MicroNMask_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1157",
+              "to_node_type": "GROUP",
+              "to_socket": "Micro Normal Mask"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(RGBAMASK)_v2.2.3_1165",
+          "image": {
+            "name": "Std_Skin_Arm_RGBAMask.tga",
+            "filepath": "//textures\\Std_Skin_Arm_RGBAMask_1k.tga",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_RGBAMask_1k.tga",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1157",
+              "to_node_type": "GROUP",
+              "to_socket": "RGBA Map"
+            },
+            {
+              "from_socket": "Alpha",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1157",
+              "to_node_type": "GROUP",
+              "to_socket": "RGBA Alpha"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Skin_Body",
+      "use_nodes": true,
+      "node_count": 12,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_skin_shader_BSDF)_v2.2.3_1149"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1013",
+          "image": {
+            "name": "Std_Upper_Teeth_Diffuse",
+            "filepath": "//textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1148",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(NORMAL)_v2.2.3_1014",
+          "image": {
+            "name": "Std_Skin_Body_Normal",
+            "filepath": "//textures\\Std_Skin_Body_Normal_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_Normal_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1148",
+              "to_node_type": "GROUP",
+              "to_socket": "Normal Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SSS)_v2.2.3_1150",
+          "image": {
+            "name": "Std_Skin_Body_SSSMap.png",
+            "filepath": "//textures\\Std_Skin_Body_SSSMap_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_SSSMap_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1148",
+              "to_node_type": "GROUP",
+              "to_socket": "Subsurface Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(TRANSMISSION)_v2.2.3_1151",
+          "image": {
+            "name": "Std_Skin_Body_TransMap.png",
+            "filepath": "//textures\\Std_Skin_Body_TransMap_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_TransMap_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1148",
+              "to_node_type": "GROUP",
+              "to_socket": "Transmission Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1152",
+          "image": {
+            "name": "Std_Skin_Body_roughness.jpg",
+            "filepath": "//textures\\Std_Skin_Body_roughness_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_roughness_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1148",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(MICRONORMAL)_v2.2.3_1153",
+          "image": {
+            "name": "Std_Tongue_MicroN.png",
+            "filepath": "//textures\\Std_Tongue_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1148",
+              "to_node_type": "GROUP",
+              "to_socket": "Micro Normal Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(MICRONMASK)_v2.2.3_1155",
+          "image": {
+            "name": "Std_Skin_Body_MicroNMask.jpg",
+            "filepath": "//textures\\Std_Skin_Body_MicroNMask_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_MicroNMask_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1148",
+              "to_node_type": "GROUP",
+              "to_socket": "Micro Normal Mask"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(RGBAMASK)_v2.2.3_1156",
+          "image": {
+            "name": "Std_Skin_Body_RGBAMask.tga",
+            "filepath": "//textures\\Std_Skin_Body_RGBAMask_1k.tga",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_RGBAMask_1k.tga",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1148",
+              "to_node_type": "GROUP",
+              "to_socket": "RGBA Map"
+            },
+            {
+              "from_socket": "Alpha",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1148",
+              "to_node_type": "GROUP",
+              "to_socket": "RGBA Alpha"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Skin_Head",
+      "use_nodes": true,
+      "node_count": 43,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_head_shader_BSDF)_v2.2.3_1103"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1011",
+          "image": {
+            "name": "Std_Upper_Teeth_Diffuse",
+            "filepath": "//textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(cc3iid_(rl_wrinkle_shader)_v2.2.3_1117)_v2.2.3_1118",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(NORMAL)_v2.2.3_1012",
+          "image": {
+            "name": "Std_Skin_Head_Normal",
+            "filepath": "//textures\\Std_Skin_Head_Normal_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Normal_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(cc3iid_(rl_wrinkle_shader)_v2.2.3_1117)_v2.2.3_1118",
+              "to_node_type": "GROUP",
+              "to_socket": "Normal Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(BLEND2)_v2.2.3_1104",
+          "image": {
+            "name": "Std_Skin_Head_BCBMap.jpg",
+            "filepath": "//textures\\Std_Skin_Head_BCBMap_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_BCBMap_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_head_shader)_v2.2.3_1102",
+              "to_node_type": "GROUP",
+              "to_socket": "Blend Overlay"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(MCMAOMASK)_v2.2.3_1105",
+          "image": {
+            "name": "Std_Skin_Head_MNAOMask.tga",
+            "filepath": "//textures\\Std_Skin_Head_MNAOMask_1k.tga",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_MNAOMask_1k.tga",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_head_shader)_v2.2.3_1102",
+              "to_node_type": "GROUP",
+              "to_socket": "MCMAO Map"
+            },
+            {
+              "from_socket": "Alpha",
+              "to_node": "cc3iid_(rl_head_shader)_v2.2.3_1102",
+              "to_node_type": "GROUP",
+              "to_socket": "MCMAO Alpha"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SSS)_v2.2.3_1106",
+          "image": {
+            "name": "Std_Skin_Head_SSSMap.jpg",
+            "filepath": "//textures\\Std_Skin_Head_SSSMap_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_SSSMap_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": []
+        },
+        {
+          "node_name": "cc3iid_(TRANSMISSION)_v2.2.3_1107",
+          "image": {
+            "name": "Std_Skin_Head_TransMap.png",
+            "filepath": "//textures\\Std_Skin_Head_TransMap_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_TransMap_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": []
+        },
+        {
+          "node_name": "cc3iid_(SPECMASK)_v2.2.3_1108",
+          "image": {
+            "name": "Std_Skin_Head_SpecMask.jpg",
+            "filepath": "//textures\\Std_Skin_Head_SpecMask_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_SpecMask_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": []
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1109",
+          "image": {
+            "name": "Std_Skin_Head_roughness.jpg",
+            "filepath": "//textures\\Std_Skin_Head_roughness_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_roughness_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": []
+        },
+        {
+          "node_name": "cc3iid_(MICRONORMAL)_v2.2.3_1110",
+          "image": {
+            "name": "Std_Tongue_MicroN.png",
+            "filepath": "//textures\\Std_Tongue_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_head_shader)_v2.2.3_1102",
+              "to_node_type": "GROUP",
+              "to_socket": "Micro Normal Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(MICRONMASK)_v2.2.3_1112",
+          "image": {
+            "name": "Std_Skin_Head_MicroNMask.jpg",
+            "filepath": "//textures\\Std_Skin_Head_MicroNMask_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_MicroNMask_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": []
+        },
+        {
+          "node_name": "cc3iid_(NORMALBLEND)_v2.2.3_1113",
+          "image": {
+            "name": "Std_Skin_Head_NBMap.jpg",
+            "filepath": "//textures\\Std_Skin_Head_NBMap_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_NBMap_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_head_shader)_v2.2.3_1102",
+              "to_node_type": "GROUP",
+              "to_socket": "Normal Blend Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(NMUILMASK)_v2.2.3_1114",
+          "image": {
+            "name": "Std_Skin_Head_NMUILMask.tga",
+            "filepath": "//textures\\Std_Skin_Head_NMUILMask_1k.tga",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_NMUILMask_1k.tga",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_head_shader)_v2.2.3_1102",
+              "to_node_type": "GROUP",
+              "to_socket": "NMUIL Map"
+            },
+            {
+              "from_socket": "Alpha",
+              "to_node": "cc3iid_(rl_head_shader)_v2.2.3_1102",
+              "to_node_type": "GROUP",
+              "to_socket": "NMUIL Alpha"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(CFULCMASK)_v2.2.3_1115",
+          "image": {
+            "name": "Std_Skin_Head_CFULCMask.tga",
+            "filepath": "//textures\\Std_Skin_Head_CFULCMask_1k.tga",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_CFULCMask_1k.tga",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_head_shader)_v2.2.3_1102",
+              "to_node_type": "GROUP",
+              "to_socket": "CFULC Map"
+            },
+            {
+              "from_socket": "Alpha",
+              "to_node": "cc3iid_(rl_head_shader)_v2.2.3_1102",
+              "to_node_type": "GROUP",
+              "to_socket": "CFULC Alpha"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ENNASK)_v2.2.3_1116",
+          "image": {
+            "name": "Std_Skin_Head_ENMask.tga",
+            "filepath": "//textures\\Std_Skin_Head_ENMask_1k.tga",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_ENMask_1k.tga",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_head_shader)_v2.2.3_1102",
+              "to_node_type": "GROUP",
+              "to_socket": "EN Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(WRINKLEDIFFUSE1)_v2.2.3_1119",
+          "image": {
+            "name": "Std_Skin_Head_Wrinkle_Diffuse1.png",
+            "filepath": "//textures\\Std_Skin_Head_Wrinkle_Diffuse1_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Diffuse1_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(cc3iid_(rl_wrinkle_shader)_v2.2.3_1117)_v2.2.3_1118",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Blend Map 1"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(WRINKLEDIFFUSE2)_v2.2.3_1120",
+          "image": {
+            "name": "Std_Skin_Head_Wrinkle_Diffuse2.png",
+            "filepath": "//textures\\Std_Skin_Head_Wrinkle_Diffuse2_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Diffuse2_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(cc3iid_(rl_wrinkle_shader)_v2.2.3_1117)_v2.2.3_1118",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Blend Map 2"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(WRINKLEDIFFUSE3)_v2.2.3_1121",
+          "image": {
+            "name": "Std_Skin_Head_Wrinkle_Diffuse3.png",
+            "filepath": "//textures\\Std_Skin_Head_Wrinkle_Diffuse3_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Diffuse3_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(cc3iid_(rl_wrinkle_shader)_v2.2.3_1117)_v2.2.3_1118",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Blend Map 3"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(WRINKLEROUGHNESS1)_v2.2.3_1122",
+          "image": {
+            "name": "Std_Skin_Head_Wrinkle_Roughness1.png",
+            "filepath": "//textures\\Std_Skin_Head_Wrinkle_Roughness1_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Roughness1_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": []
+        },
+        {
+          "node_name": "cc3iid_(WRINKLEROUGHNESS2)_v2.2.3_1123",
+          "image": {
+            "name": "Std_Skin_Head_Wrinkle_Roughness2.png",
+            "filepath": "//textures\\Std_Skin_Head_Wrinkle_Roughness2_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Roughness2_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": []
+        },
+        {
+          "node_name": "cc3iid_(WRINKLEROUGHNESS3)_v2.2.3_1124",
+          "image": {
+            "name": "Std_Skin_Head_Wrinkle_Roughness3.png",
+            "filepath": "//textures\\Std_Skin_Head_Wrinkle_Roughness3_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Roughness3_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": []
+        },
+        {
+          "node_name": "cc3iid_(WRINKLENORMAL1)_v2.2.3_1125",
+          "image": {
+            "name": "Std_Skin_Head_Wrinkle_Normal1.png",
+            "filepath": "//textures\\Std_Skin_Head_Wrinkle_Normal1_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Normal1_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(cc3iid_(rl_wrinkle_shader)_v2.2.3_1117)_v2.2.3_1118",
+              "to_node_type": "GROUP",
+              "to_socket": "Normal Blend Map 1"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(WRINKLENORMAL2)_v2.2.3_1126",
+          "image": {
+            "name": "Std_Skin_Head_Wrinkle_Normal2.png",
+            "filepath": "//textures\\Std_Skin_Head_Wrinkle_Normal2_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Normal2_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(cc3iid_(rl_wrinkle_shader)_v2.2.3_1117)_v2.2.3_1118",
+              "to_node_type": "GROUP",
+              "to_socket": "Normal Blend Map 2"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(WRINKLENORMAL3)_v2.2.3_1127",
+          "image": {
+            "name": "Std_Skin_Head_Wrinkle_Normal3.png",
+            "filepath": "//textures\\Std_Skin_Head_Wrinkle_Normal3_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Normal3_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(cc3iid_(rl_wrinkle_shader)_v2.2.3_1117)_v2.2.3_1118",
+              "to_node_type": "GROUP",
+              "to_socket": "Normal Blend Map 3"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(WRINKLEFLOW1)_v2.2.3_1128",
+          "image": {
+            "name": "Std_Skin_Head_Wrinkle_Flow1.jpg",
+            "filepath": "//textures\\Std_Skin_Head_Wrinkle_Flow1_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Flow1_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": []
+        },
+        {
+          "node_name": "cc3iid_(WRINKLEFLOW2)_v2.2.3_1129",
+          "image": {
+            "name": "Std_Skin_Head_Wrinkle_Flow2.jpg",
+            "filepath": "//textures\\Std_Skin_Head_Wrinkle_Flow2_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Flow2_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": []
+        },
+        {
+          "node_name": "cc3iid_(WRINKLEFLOW3)_v2.2.3_1130",
+          "image": {
+            "name": "Std_Skin_Head_Wrinkle_Flow3.jpg",
+            "filepath": "//textures\\Std_Skin_Head_Wrinkle_Flow3_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Flow3_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": []
+        },
+        {
+          "node_name": "cc3iid_(WRINKLEMASK1A)_v2.2.3_1132",
+          "image": {
+            "name": "cc3iid_RL_WrinkleMask_Set1A_v2.2.3_1131",
+            "filepath": "//textures\\cc3iid_RL_WrinkleMask_Set1A_v2.2_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\cc3iid_RL_WrinkleMask_Set1A_v2.2_1k.png",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(cc3iid_(rl_wrinkle_shader)_v2.2.3_1117)_v2.2.3_1118",
+              "to_node_type": "GROUP",
+              "to_socket": "Mask 1A RGB"
+            },
+            {
+              "from_socket": "Alpha",
+              "to_node": "cc3iid_(cc3iid_(rl_wrinkle_shader)_v2.2.3_1117)_v2.2.3_1118",
+              "to_node_type": "GROUP",
+              "to_socket": "Mask 1A A"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(WRINKLEMASK1B)_v2.2.3_1134",
+          "image": {
+            "name": "cc3iid_RL_WrinkleMask_Set1B_v2.2.3_1133",
+            "filepath": "//textures\\cc3iid_RL_WrinkleMask_Set1B_v2.2_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\cc3iid_RL_WrinkleMask_Set1B_v2.2_1k.png",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(cc3iid_(rl_wrinkle_shader)_v2.2.3_1117)_v2.2.3_1118",
+              "to_node_type": "GROUP",
+              "to_socket": "Mask 1B RGB"
+            },
+            {
+              "from_socket": "Alpha",
+              "to_node": "cc3iid_(cc3iid_(rl_wrinkle_shader)_v2.2.3_1117)_v2.2.3_1118",
+              "to_node_type": "GROUP",
+              "to_socket": "Mask 1B A"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(WRINKLEMASK2)_v2.2.3_1136",
+          "image": {
+            "name": "cc3iid_RL_WrinkleMask_Set2_v2.2.3_1135",
+            "filepath": "//textures\\cc3iid_RL_WrinkleMask_Set2_v2.2_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\cc3iid_RL_WrinkleMask_Set2_v2.2_1k.png",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(cc3iid_(rl_wrinkle_shader)_v2.2.3_1117)_v2.2.3_1118",
+              "to_node_type": "GROUP",
+              "to_socket": "Mask 2 RGB"
+            },
+            {
+              "from_socket": "Alpha",
+              "to_node": "cc3iid_(cc3iid_(rl_wrinkle_shader)_v2.2.3_1117)_v2.2.3_1118",
+              "to_node_type": "GROUP",
+              "to_socket": "Mask 2 A"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(WRINKLEMASK3)_v2.2.3_1138",
+          "image": {
+            "name": "cc3iid_RL_WrinkleMask_Set3_v2.2.3_1137",
+            "filepath": "//textures\\cc3iid_RL_WrinkleMask_Set3_v2.2_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\cc3iid_RL_WrinkleMask_Set3_v2.2_1k.png",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(cc3iid_(rl_wrinkle_shader)_v2.2.3_1117)_v2.2.3_1118",
+              "to_node_type": "GROUP",
+              "to_socket": "Mask 3 RGB"
+            },
+            {
+              "from_socket": "Alpha",
+              "to_node": "cc3iid_(cc3iid_(rl_wrinkle_shader)_v2.2.3_1117)_v2.2.3_1118",
+              "to_node_type": "GROUP",
+              "to_socket": "Mask 3 A"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(WRINKLEMASK123)_v2.2.3_1140",
+          "image": {
+            "name": "cc3iid_RL_WrinkleMask_Set123_v2.2.3_1139",
+            "filepath": "//textures\\cc3iid_RL_WrinkleMask_Set123_v2.2_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\cc3iid_RL_WrinkleMask_Set123_v2.2_1k.png",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(cc3iid_(rl_wrinkle_shader)_v2.2.3_1117)_v2.2.3_1118",
+              "to_node_type": "GROUP",
+              "to_socket": "Mask 123 RGB"
+            },
+            {
+              "from_socket": "Alpha",
+              "to_node": "cc3iid_(cc3iid_(rl_wrinkle_shader)_v2.2.3_1117)_v2.2.3_1118",
+              "to_node_type": "GROUP",
+              "to_socket": "Mask 123 A"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS_PACK)_v2.2.3_1141",
+          "image": {
+            "name": "Std_Skin_Head_Roughness Pack",
+            "filepath": "//textures\\Std_Skin_Head_Roughness_Pack_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Roughness_Pack_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(ROUGHNESS_PACK_SPLIT)_v2.2.3_1142",
+              "to_node_type": "SEPRGB",
+              "to_socket": "Image"
+            },
+            {
+              "from_socket": "Alpha",
+              "to_node": "cc3iid_(cc3iid_(rl_wrinkle_shader)_v2.2.3_1117)_v2.2.3_1118",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(FLOW_PACK)_v2.2.3_1143",
+          "image": {
+            "name": "Std_Skin_Head_Flow Pack",
+            "filepath": "//textures\\Std_Skin_Head_Flow_Pack_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Flow_Pack_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(FLOW_PACK_SPLIT)_v2.2.3_1144",
+              "to_node_type": "SEPRGB",
+              "to_socket": "Image"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SSTM_PACK)_v2.2.3_1145",
+          "image": {
+            "name": "Std_Skin_Head_SSTM Pack",
+            "filepath": "//textures\\Std_Skin_Head_SSTM_Pack_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_SSTM_Pack_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_head_shader)_v2.2.3_1102",
+              "to_node_type": "GROUP",
+              "to_socket": "Subsurface Map"
+            },
+            {
+              "from_socket": "Alpha",
+              "to_node": "cc3iid_(rl_head_shader)_v2.2.3_1102",
+              "to_node_type": "GROUP",
+              "to_socket": "Transmission Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(MSMNAO_PACK)_v2.2.3_1146",
+          "image": {
+            "name": "Std_Skin_Head_MSMNAO Pack",
+            "filepath": "//textures\\Std_Skin_Head_MSMNAO_Pack_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_MSMNAO_Pack_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(MSMNAO_PACK_SPLIT)_v2.2.3_1147",
+              "to_node_type": "SEPRGB",
+              "to_socket": "Image"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Skin_Leg",
+      "use_nodes": true,
+      "node_count": 12,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_skin_shader_BSDF)_v2.2.3_1167"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1017",
+          "image": {
+            "name": "Std_Upper_Teeth_Diffuse",
+            "filepath": "//textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1166",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(NORMAL)_v2.2.3_1018",
+          "image": {
+            "name": "Std_Skin_Leg_Normal",
+            "filepath": "//textures\\Std_Skin_Leg_Normal_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_Normal_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1166",
+              "to_node_type": "GROUP",
+              "to_socket": "Normal Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SSS)_v2.2.3_1168",
+          "image": {
+            "name": "Std_Skin_Leg_SSSMap.png",
+            "filepath": "//textures\\Std_Skin_Leg_SSSMap_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_SSSMap_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1166",
+              "to_node_type": "GROUP",
+              "to_socket": "Subsurface Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(TRANSMISSION)_v2.2.3_1169",
+          "image": {
+            "name": "Std_Skin_Leg_TransMap.png",
+            "filepath": "//textures\\Std_Skin_Leg_TransMap_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_TransMap_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1166",
+              "to_node_type": "GROUP",
+              "to_socket": "Transmission Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1170",
+          "image": {
+            "name": "Std_Skin_Leg_roughness.jpg",
+            "filepath": "//textures\\Std_Skin_Leg_roughness_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_roughness_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1166",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(MICRONORMAL)_v2.2.3_1171",
+          "image": {
+            "name": "Std_Tongue_MicroN.png",
+            "filepath": "//textures\\Std_Tongue_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1166",
+              "to_node_type": "GROUP",
+              "to_socket": "Micro Normal Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(MICRONMASK)_v2.2.3_1173",
+          "image": {
+            "name": "Std_Skin_Arm_MicroNMask.jpg",
+            "filepath": "//textures\\Std_Skin_Arm_MicroNMask_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_MicroNMask_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1166",
+              "to_node_type": "GROUP",
+              "to_socket": "Micro Normal Mask"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(RGBAMASK)_v2.2.3_1174",
+          "image": {
+            "name": "Std_Skin_Leg_RGBAMask.tga",
+            "filepath": "//textures\\Std_Skin_Leg_RGBAMask_1k.tga",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_RGBAMask_1k.tga",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1166",
+              "to_node_type": "GROUP",
+              "to_socket": "RGBA Map"
+            },
+            {
+              "from_socket": "Alpha",
+              "to_node": "cc3iid_(rl_skin_shader)_v2.2.3_1166",
+              "to_node_type": "GROUP",
+              "to_socket": "RGBA Alpha"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Tearline_L",
+      "use_nodes": true,
+      "node_count": 3,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_tearline_shader_BSDF)_v2.2.3_1250"
+      },
+      "tex_image_nodes": [],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Tearline_R",
+      "use_nodes": true,
+      "node_count": 3,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_tearline_shader_BSDF)_v2.2.3_1248"
+      },
+      "tex_image_nodes": [],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Tongue",
+      "use_nodes": true,
+      "node_count": 11,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_tongue_shader_BSDF)_v2.2.3_1083"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1004",
+          "image": {
+            "name": "Std_Tongue_Diffuse",
+            "filepath": "//textures\\Std_Tongue_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_Diffuse_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_tongue_shader)_v2.2.3_1082",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(NORMAL)_v2.2.3_1005",
+          "image": {
+            "name": "Std_Tongue_Normal",
+            "filepath": "//textures\\Std_Tongue_Normal_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_Normal_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_tongue_shader)_v2.2.3_1082",
+              "to_node_type": "GROUP",
+              "to_socket": "Normal Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(GRADIENTAO)_v2.2.3_1084",
+          "image": {
+            "name": "Std_Tongue_GradAO.jpg",
+            "filepath": "//textures\\Std_Tongue_GradAO_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_GradAO_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_tongue_shader)_v2.2.3_1082",
+              "to_node_type": "GROUP",
+              "to_socket": "Gradient AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(AO)_v2.2.3_1085",
+          "image": {
+            "name": "Std_Tongue_ao.jpg",
+            "filepath": "//textures\\Std_Tongue_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_ao_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_tongue_shader)_v2.2.3_1082",
+              "to_node_type": "GROUP",
+              "to_socket": "AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1086",
+          "image": {
+            "name": "Std_Tongue_metallic.jpg",
+            "filepath": "//textures\\Std_Tongue_metallic_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_metallic_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_tongue_shader)_v2.2.3_1082",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1087",
+          "image": {
+            "name": "Std_Tongue_roughness.jpg",
+            "filepath": "//textures\\Std_Tongue_roughness_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_roughness_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_tongue_shader)_v2.2.3_1082",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(MICRONORMAL)_v2.2.3_1088",
+          "image": {
+            "name": "Std_Tongue_MicroN.png",
+            "filepath": "//textures\\Std_Tongue_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_tongue_shader)_v2.2.3_1082",
+              "to_node_type": "GROUP",
+              "to_socket": "Micro Normal Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Upper_Teeth",
+      "use_nodes": true,
+      "node_count": 12,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_teeth_shader_BSDF)_v2.2.3_1064"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1000",
+          "image": {
+            "name": "Std_Upper_Teeth_Diffuse",
+            "filepath": "//textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1063",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(NORMAL)_v2.2.3_1001",
+          "image": {
+            "name": "Std_Upper_Teeth_Normal",
+            "filepath": "//textures\\Std_Upper_Teeth_Normal_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_Normal_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1063",
+              "to_node_type": "GROUP",
+              "to_socket": "Normal Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(GUMSMASK)_v2.2.3_1065",
+          "image": {
+            "name": "Std_Lower_Teeth_GumsMask.jpg",
+            "filepath": "//textures\\Std_Lower_Teeth_GumsMask_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_GumsMask_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1063",
+              "to_node_type": "GROUP",
+              "to_socket": "Gums Mask"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(GRADIENTAO)_v2.2.3_1066",
+          "image": {
+            "name": "Std_Tongue_GradAO.jpg",
+            "filepath": "//textures\\Std_Tongue_GradAO_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_GradAO_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1063",
+              "to_node_type": "GROUP",
+              "to_socket": "Gradient AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(AO)_v2.2.3_1067",
+          "image": {
+            "name": "Std_Upper_Teeth_ao.jpg",
+            "filepath": "//textures\\Std_Upper_Teeth_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_ao_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1063",
+              "to_node_type": "GROUP",
+              "to_socket": "AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1068",
+          "image": {
+            "name": "Std_Upper_Teeth_metallic.jpg",
+            "filepath": "//textures\\Std_Upper_Teeth_metallic_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_metallic_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1063",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1069",
+          "image": {
+            "name": "Std_Upper_Teeth_roughness.jpg",
+            "filepath": "//textures\\Std_Upper_Teeth_roughness_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_roughness_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1063",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(MICRONORMAL)_v2.2.3_1070",
+          "image": {
+            "name": "Std_Lower_Teeth_MicroN.png",
+            "filepath": "//textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1063",
+              "to_node_type": "GROUP",
+              "to_socket": "Micro Normal Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Waista_",
+      "use_nodes": true,
+      "node_count": 6,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_pbr_shader_BSDF)_v2.2.3_1099"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1010",
+          "image": {
+            "name": "Waista__Diffuse",
+            "filepath": "//textures\\Waista__Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Waista__Diffuse_1k.jpg",
+            "size": [
+              1,
+              1
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1098",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1100",
+          "image": {
+            "name": "Default_Material_Transparency_metallic.png",
+            "filepath": "//textures\\Default_Material_Transparency_metallic_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_metallic_1k.png",
+            "size": [
+              64,
+              64
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1098",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1101",
+          "image": {
+            "name": "Waista__roughness.png",
+            "filepath": "//textures\\Waista__roughness_1k.png",
+            "abs_filepath": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Waista__roughness_1k.png",
+            "size": [
+              64,
+              64
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1098",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    }
+  ],
+  "summary": {
+    "total_materials": 22,
+    "used_in_scene": 20,
+    "flagged_count": 0,
+    "flagged_names": []
+  }
+}

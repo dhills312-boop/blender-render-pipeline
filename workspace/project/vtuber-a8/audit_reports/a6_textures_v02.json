@@ -1,0 +1,1332 @@
+{
+  "tex_dir": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures",
+  "out_blend": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/a6_v02_textures_1k.blend",
+  "target_1k_size": 1024,
+  "processed": [
+    {
+      "name": "Breast_Panels_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Breast_Panels_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Breast_Panels_Diffuse_1k.jpg",
+      "size_4k_kb": 0.9,
+      "size_1k_kb": 0.9,
+      "blend_now_points_to": "//textures/Breast_Panels_Diffuse_1k.jpg",
+      "current_size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "cc3iid_RL_WrinkleMask_Set123_v2.2.3_1139",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\cc3iid_RL_WrinkleMask_Set123_v2.2_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\cc3iid_RL_WrinkleMask_Set123_v2.2_1k.png",
+      "size_4k_kb": 7.3,
+      "size_1k_kb": 6.1,
+      "blend_now_points_to": "//textures/cc3iid_RL_WrinkleMask_Set123_v2.2_1k.png",
+      "current_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cc3iid_RL_WrinkleMask_Set1A_v2.2.3_1131",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\cc3iid_RL_WrinkleMask_Set1A_v2.2_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\cc3iid_RL_WrinkleMask_Set1A_v2.2_1k.png",
+      "size_4k_kb": 5.2,
+      "size_1k_kb": 4.7,
+      "blend_now_points_to": "//textures/cc3iid_RL_WrinkleMask_Set1A_v2.2_1k.png",
+      "current_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cc3iid_RL_WrinkleMask_Set1B_v2.2.3_1133",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\cc3iid_RL_WrinkleMask_Set1B_v2.2_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\cc3iid_RL_WrinkleMask_Set1B_v2.2_1k.png",
+      "size_4k_kb": 4.6,
+      "size_1k_kb": 4.0,
+      "blend_now_points_to": "//textures/cc3iid_RL_WrinkleMask_Set1B_v2.2_1k.png",
+      "current_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cc3iid_RL_WrinkleMask_Set2_v2.2.3_1135",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\cc3iid_RL_WrinkleMask_Set2_v2.2_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\cc3iid_RL_WrinkleMask_Set2_v2.2_1k.png",
+      "size_4k_kb": 9.5,
+      "size_1k_kb": 7.9,
+      "blend_now_points_to": "//textures/cc3iid_RL_WrinkleMask_Set2_v2.2_1k.png",
+      "current_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "cc3iid_RL_WrinkleMask_Set3_v2.2.3_1137",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\cc3iid_RL_WrinkleMask_Set3_v2.2_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\cc3iid_RL_WrinkleMask_Set3_v2.2_1k.png",
+      "size_4k_kb": 11.2,
+      "size_1k_kb": 8.9,
+      "blend_now_points_to": "//textures/cc3iid_RL_WrinkleMask_Set3_v2.2_1k.png",
+      "current_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "Default_Material_Transparency_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_Diffuse_1k.jpg",
+      "size_4k_kb": 0.9,
+      "size_1k_kb": 0.9,
+      "blend_now_points_to": "//textures/Default_Material_Transparency_Diffuse_1k.jpg",
+      "current_size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "Default_Material_Transparency_metallic.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_metallic_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_metallic_1k.png",
+      "size_4k_kb": 0.2,
+      "size_1k_kb": 0.2,
+      "blend_now_points_to": "//textures/Default_Material_Transparency_metallic_1k.png",
+      "current_size": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "Default_Material_Transparency_Opacity",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_Opacity_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_Opacity_1k.jpg",
+      "size_4k_kb": 543.3,
+      "size_1k_kb": 150.3,
+      "blend_now_points_to": "//textures/Default_Material_Transparency_Opacity_1k.jpg",
+      "current_size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "Default_Material_Transparency_roughness.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_roughness_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_roughness_1k.png",
+      "size_4k_kb": 0.3,
+      "size_1k_kb": 0.3,
+      "blend_now_points_to": "//textures/Default_Material_Transparency_roughness_1k.png",
+      "current_size": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "Scalp1_Transparency_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Scalp1_Transparency_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Scalp1_Transparency_Diffuse_1k.jpg",
+      "size_4k_kb": 0.9,
+      "size_1k_kb": 0.9,
+      "blend_now_points_to": "//textures/Scalp1_Transparency_Diffuse_1k.jpg",
+      "current_size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "Scalp1_Transparency_metallic.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Scalp1_Transparency_metallic_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Scalp1_Transparency_metallic_1k.png",
+      "size_4k_kb": 0.3,
+      "size_1k_kb": 0.3,
+      "blend_now_points_to": "//textures/Scalp1_Transparency_metallic_1k.png",
+      "current_size": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "Scalp1_Transparency_Opacity",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Scalp1_Transparency_Opacity_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Scalp1_Transparency_Opacity_1k.jpg",
+      "size_4k_kb": 34.1,
+      "size_1k_kb": 32.3,
+      "blend_now_points_to": "//textures/Scalp1_Transparency_Opacity_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Cornea_L_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_L_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_L_Diffuse_1k.jpg",
+      "size_4k_kb": 92.1,
+      "size_1k_kb": 77.3,
+      "blend_now_points_to": "//textures/Std_Cornea_L_Diffuse_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Cornea_R_ao.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_ao_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_ao_1k.jpg",
+      "size_4k_kb": 9.2,
+      "size_1k_kb": 7.9,
+      "blend_now_points_to": "//textures/Std_Cornea_R_ao_1k.jpg",
+      "current_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "Std_Cornea_R_BCBMap.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_BCBMap_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_BCBMap_1k.jpg",
+      "size_4k_kb": 8.9,
+      "size_1k_kb": 9.4,
+      "blend_now_points_to": "//textures/Std_Cornea_R_BCBMap_1k.jpg",
+      "current_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "Std_Cornea_R_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_Diffuse_1k.jpg",
+      "size_4k_kb": 91.9,
+      "size_1k_kb": 77.1,
+      "blend_now_points_to": "//textures/Std_Cornea_R_Diffuse_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Cornea_R_metallic.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_metallic_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_metallic_1k.jpg",
+      "size_4k_kb": 0.9,
+      "size_1k_kb": 0.9,
+      "blend_now_points_to": "//textures/Std_Cornea_R_metallic_1k.jpg",
+      "current_size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "Std_Cornea_R_Sclera.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_Sclera_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_Sclera_1k.png",
+      "size_4k_kb": 0.6,
+      "size_1k_kb": 0.6,
+      "blend_now_points_to": "//textures/Std_Cornea_R_Sclera_1k.png",
+      "current_size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "Std_Eye_L_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_L_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_L_Diffuse_1k.jpg",
+      "size_4k_kb": 92.1,
+      "size_1k_kb": 77.3,
+      "blend_now_points_to": "//textures/Std_Eye_L_Diffuse_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Eye_L_Normal",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_L_Normal_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_L_Normal_1k.png",
+      "size_4k_kb": 200.4,
+      "size_1k_kb": 195.6,
+      "blend_now_points_to": "//textures/Std_Eye_L_Normal_1k.png",
+      "current_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "Std_Eye_Occlusion_L_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_Occlusion_L_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_Occlusion_L_Diffuse_1k.jpg",
+      "size_4k_kb": 0.7,
+      "size_1k_kb": 0.7,
+      "blend_now_points_to": "//textures/Std_Eye_Occlusion_L_Diffuse_1k.jpg",
+      "current_size": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "Std_Eye_Occlusion_R_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_Occlusion_R_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_Occlusion_R_Diffuse_1k.jpg",
+      "size_4k_kb": 0.7,
+      "size_1k_kb": 0.7,
+      "blend_now_points_to": "//textures/Std_Eye_Occlusion_R_Diffuse_1k.jpg",
+      "current_size": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "Std_Eye_Occlusion_R_Opacity",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_Occlusion_R_Opacity_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_Occlusion_R_Opacity_1k.jpg",
+      "size_4k_kb": 0.7,
+      "size_1k_kb": 0.7,
+      "blend_now_points_to": "//textures/Std_Eye_Occlusion_R_Opacity_1k.jpg",
+      "current_size": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "Std_Eye_R_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_R_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_R_Diffuse_1k.jpg",
+      "size_4k_kb": 91.9,
+      "size_1k_kb": 77.1,
+      "blend_now_points_to": "//textures/Std_Eye_R_Diffuse_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Eye_R_Normal",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_R_Normal_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_R_Normal_1k.png",
+      "size_4k_kb": 203.4,
+      "size_1k_kb": 198.0,
+      "blend_now_points_to": "//textures/Std_Eye_R_Normal_1k.png",
+      "current_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "Std_Eyelash_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_Diffuse_1k.jpg",
+      "size_4k_kb": 0.9,
+      "size_1k_kb": 0.9,
+      "blend_now_points_to": "//textures/Std_Eyelash_Diffuse_1k.jpg",
+      "current_size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "Std_Eyelash_Normal",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_Normal_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_Normal_1k.png",
+      "size_4k_kb": 5334.3,
+      "size_1k_kb": 443.1,
+      "blend_now_points_to": "//textures/Std_Eyelash_Normal_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Eyelash_Opacity",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_Opacity_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_Opacity_1k.jpg",
+      "size_4k_kb": 1682.4,
+      "size_1k_kb": 240.4,
+      "blend_now_points_to": "//textures/Std_Eyelash_Opacity_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Eyelash_roughness.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_roughness_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_roughness_1k.jpg",
+      "size_4k_kb": 256.6,
+      "size_1k_kb": 16.6,
+      "blend_now_points_to": "//textures/Std_Eyelash_roughness_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Lower_Teeth_ao.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_ao_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_ao_1k.jpg",
+      "size_4k_kb": 41.7,
+      "size_1k_kb": 39.7,
+      "blend_now_points_to": "//textures/Std_Lower_Teeth_ao_1k.jpg",
+      "current_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "Std_Lower_Teeth_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_Diffuse_1k.jpg",
+      "size_4k_kb": 0.9,
+      "size_1k_kb": 0.9,
+      "blend_now_points_to": "//textures/Std_Lower_Teeth_Diffuse_1k.jpg",
+      "current_size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "Std_Lower_Teeth_GumsMask.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_GumsMask_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_GumsMask_1k.jpg",
+      "size_4k_kb": 20.8,
+      "size_1k_kb": 20.8,
+      "blend_now_points_to": "//textures/Std_Lower_Teeth_GumsMask_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Lower_Teeth_MicroN.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_MicroN_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_MicroN_1k.png",
+      "size_4k_kb": 7390.2,
+      "size_1k_kb": 1684.9,
+      "blend_now_points_to": "//textures/Std_Lower_Teeth_MicroN_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Lower_Teeth_Normal",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_Normal_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_Normal_1k.jpg",
+      "size_4k_kb": 79.5,
+      "size_1k_kb": 70.4,
+      "blend_now_points_to": "//textures/Std_Lower_Teeth_Normal_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Lower_Teeth_roughness.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_roughness_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_roughness_1k.jpg",
+      "size_4k_kb": 198.3,
+      "size_1k_kb": 222.0,
+      "blend_now_points_to": "//textures/Std_Lower_Teeth_roughness_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Nails_ao.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_ao_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_ao_1k.jpg",
+      "size_4k_kb": 672.7,
+      "size_1k_kb": 47.4,
+      "blend_now_points_to": "//textures/Std_Nails_ao_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Nails_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_Diffuse_1k.jpg",
+      "size_4k_kb": 0.9,
+      "size_1k_kb": 0.9,
+      "blend_now_points_to": "//textures/Std_Nails_Diffuse_1k.jpg",
+      "current_size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "Std_Nails_Normal",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_Normal_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_Normal_1k.png",
+      "size_4k_kb": 6327.9,
+      "size_1k_kb": 608.8,
+      "blend_now_points_to": "//textures/Std_Nails_Normal_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Nails_RGBAMask.tga",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_RGBAMask_4k.tga",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_RGBAMask_1k.tga",
+      "size_4k_kb": 32.5,
+      "size_1k_kb": 32.5,
+      "blend_now_points_to": "//textures/Std_Nails_RGBAMask_1k.tga",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Nails_roughness.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_roughness_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_roughness_1k.jpg",
+      "size_4k_kb": 1527.6,
+      "size_1k_kb": 162.3,
+      "blend_now_points_to": "//textures/Std_Nails_roughness_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Nails_SSSMap.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_SSSMap_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_SSSMap_1k.jpg",
+      "size_4k_kb": 0.6,
+      "size_1k_kb": 0.6,
+      "blend_now_points_to": "//textures/Std_Nails_SSSMap_1k.jpg",
+      "current_size": [
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Std_Nails_TransMap.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_TransMap_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_TransMap_1k.png",
+      "size_4k_kb": 259.5,
+      "size_1k_kb": 186.2,
+      "blend_now_points_to": "//textures/Std_Nails_TransMap_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Arm_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_Diffuse_1k.jpg",
+      "size_4k_kb": 0.9,
+      "size_1k_kb": 0.9,
+      "blend_now_points_to": "//textures/Std_Skin_Arm_Diffuse_1k.jpg",
+      "current_size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "Std_Skin_Arm_MicroNMask.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_MicroNMask_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_MicroNMask_1k.jpg",
+      "size_4k_kb": 256.6,
+      "size_1k_kb": 16.6,
+      "blend_now_points_to": "//textures/Std_Skin_Arm_MicroNMask_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Arm_Normal",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_Normal_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_Normal_1k.png",
+      "size_4k_kb": 18016.3,
+      "size_1k_kb": 1136.1,
+      "blend_now_points_to": "//textures/Std_Skin_Arm_Normal_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Arm_RGBAMask.tga",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_RGBAMask_4k.tga",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_RGBAMask_1k.tga",
+      "size_4k_kb": 32.5,
+      "size_1k_kb": 32.5,
+      "blend_now_points_to": "//textures/Std_Skin_Arm_RGBAMask_1k.tga",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Arm_roughness.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_roughness_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_roughness_1k.jpg",
+      "size_4k_kb": 5823.6,
+      "size_1k_kb": 323.9,
+      "blend_now_points_to": "//textures/Std_Skin_Arm_roughness_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Arm_SSSMap.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_SSSMap_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_SSSMap_1k.png",
+      "size_4k_kb": 405.7,
+      "size_1k_kb": 402.2,
+      "blend_now_points_to": "//textures/Std_Skin_Arm_SSSMap_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Arm_TransMap.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_TransMap_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_TransMap_1k.png",
+      "size_4k_kb": 415.3,
+      "size_1k_kb": 129.7,
+      "blend_now_points_to": "//textures/Std_Skin_Arm_TransMap_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Body_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_Diffuse_1k.jpg",
+      "size_4k_kb": 0.9,
+      "size_1k_kb": 0.9,
+      "blend_now_points_to": "//textures/Std_Skin_Body_Diffuse_1k.jpg",
+      "current_size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "Std_Skin_Body_MicroNMask.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_MicroNMask_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_MicroNMask_1k.jpg",
+      "size_4k_kb": 264.1,
+      "size_1k_kb": 17.4,
+      "blend_now_points_to": "//textures/Std_Skin_Body_MicroNMask_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Body_Normal",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_Normal_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_Normal_1k.png",
+      "size_4k_kb": 15721.9,
+      "size_1k_kb": 1049.3,
+      "blend_now_points_to": "//textures/Std_Skin_Body_Normal_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Body_RGBAMask.tga",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_RGBAMask_4k.tga",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_RGBAMask_1k.tga",
+      "size_4k_kb": 32.5,
+      "size_1k_kb": 32.5,
+      "blend_now_points_to": "//textures/Std_Skin_Body_RGBAMask_1k.tga",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Body_roughness.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_roughness_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_roughness_1k.jpg",
+      "size_4k_kb": 3677.7,
+      "size_1k_kb": 277.0,
+      "blend_now_points_to": "//textures/Std_Skin_Body_roughness_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Body_SSSMap.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_SSSMap_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_SSSMap_1k.png",
+      "size_4k_kb": 433.6,
+      "size_1k_kb": 429.5,
+      "blend_now_points_to": "//textures/Std_Skin_Body_SSSMap_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Body_TransMap.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_TransMap_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_TransMap_1k.png",
+      "size_4k_kb": 88.5,
+      "size_1k_kb": 22.0,
+      "blend_now_points_to": "//textures/Std_Skin_Body_TransMap_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_BCBMap.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_BCBMap_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_BCBMap_1k.jpg",
+      "size_4k_kb": 935.9,
+      "size_1k_kb": 92.6,
+      "blend_now_points_to": "//textures/Std_Skin_Head_BCBMap_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_CFULCMask.tga",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_CFULCMask_4k.tga",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_CFULCMask_1k.tga",
+      "size_4k_kb": 32.5,
+      "size_1k_kb": 32.5,
+      "blend_now_points_to": "//textures/Std_Skin_Head_CFULCMask_1k.tga",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Diffuse_1k.jpg",
+      "size_4k_kb": 0.9,
+      "size_1k_kb": 0.9,
+      "blend_now_points_to": "//textures/Std_Skin_Head_Diffuse_1k.jpg",
+      "current_size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_ENMask.tga",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_ENMask_4k.tga",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_ENMask_1k.tga",
+      "size_4k_kb": 230.8,
+      "size_1k_kb": 147.6,
+      "blend_now_points_to": "//textures/Std_Skin_Head_ENMask_1k.tga",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_Flow Pack",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Flow_Pack_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Flow_Pack_1k.png",
+      "size_4k_kb": 1448.3,
+      "size_1k_kb": 372.9,
+      "blend_now_points_to": "//textures/Std_Skin_Head_Flow_Pack_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_MicroNMask.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_MicroNMask_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_MicroNMask_1k.jpg",
+      "size_4k_kb": 332.0,
+      "size_1k_kb": 31.7,
+      "blend_now_points_to": "//textures/Std_Skin_Head_MicroNMask_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_MNAOMask.tga",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_MNAOMask_4k.tga",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_MNAOMask_1k.tga",
+      "size_4k_kb": 99.6,
+      "size_1k_kb": 74.1,
+      "blend_now_points_to": "//textures/Std_Skin_Head_MNAOMask_1k.tga",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_MSMNAO Pack",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_MSMNAO_Pack_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_MSMNAO_Pack_1k.png",
+      "size_4k_kb": 7268.5,
+      "size_1k_kb": 966.8,
+      "blend_now_points_to": "//textures/Std_Skin_Head_MSMNAO_Pack_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_NBMap.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_NBMap_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_NBMap_1k.jpg",
+      "size_4k_kb": 730.7,
+      "size_1k_kb": 40.3,
+      "blend_now_points_to": "//textures/Std_Skin_Head_NBMap_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_NMUILMask.tga",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_NMUILMask_4k.tga",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_NMUILMask_1k.tga",
+      "size_4k_kb": 34.0,
+      "size_1k_kb": 33.2,
+      "blend_now_points_to": "//textures/Std_Skin_Head_NMUILMask_1k.tga",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_Normal",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Normal_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Normal_1k.png",
+      "size_4k_kb": 20315.4,
+      "size_1k_kb": 1206.0,
+      "blend_now_points_to": "//textures/Std_Skin_Head_Normal_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_Roughness Pack",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Roughness_Pack_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Roughness_Pack_1k.png",
+      "size_4k_kb": 20282.8,
+      "size_1k_kb": 1445.2,
+      "blend_now_points_to": "//textures/Std_Skin_Head_Roughness_Pack_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_roughness.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_roughness_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_roughness_1k.jpg",
+      "size_4k_kb": 6586.0,
+      "size_1k_kb": 353.8,
+      "blend_now_points_to": "//textures/Std_Skin_Head_roughness_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_SpecMask.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_SpecMask_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_SpecMask_1k.jpg",
+      "size_4k_kb": 562.4,
+      "size_1k_kb": 99.1,
+      "blend_now_points_to": "//textures/Std_Skin_Head_SpecMask_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_SSSMap.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_SSSMap_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_SSSMap_1k.jpg",
+      "size_4k_kb": 84.7,
+      "size_1k_kb": 84.1,
+      "blend_now_points_to": "//textures/Std_Skin_Head_SSSMap_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_SSTM Pack",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_SSTM_Pack_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_SSTM_Pack_1k.png",
+      "size_4k_kb": 51.2,
+      "size_1k_kb": 44.0,
+      "blend_now_points_to": "//textures/Std_Skin_Head_SSTM_Pack_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_TransMap.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_TransMap_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_TransMap_1k.png",
+      "size_4k_kb": 1040.6,
+      "size_1k_kb": 58.9,
+      "blend_now_points_to": "//textures/Std_Skin_Head_TransMap_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_Wrinkle_Diffuse1.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Diffuse1_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Diffuse1_1k.png",
+      "size_4k_kb": 499.8,
+      "size_1k_kb": 107.8,
+      "blend_now_points_to": "//textures/Std_Skin_Head_Wrinkle_Diffuse1_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_Wrinkle_Diffuse2.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Diffuse2_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Diffuse2_1k.png",
+      "size_4k_kb": 571.4,
+      "size_1k_kb": 109.1,
+      "blend_now_points_to": "//textures/Std_Skin_Head_Wrinkle_Diffuse2_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_Wrinkle_Diffuse3.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Diffuse3_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Diffuse3_1k.png",
+      "size_4k_kb": 268.2,
+      "size_1k_kb": 59.2,
+      "blend_now_points_to": "//textures/Std_Skin_Head_Wrinkle_Diffuse3_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_Wrinkle_Flow1.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Flow1_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Flow1_1k.jpg",
+      "size_4k_kb": 116.8,
+      "size_1k_kb": 30.5,
+      "blend_now_points_to": "//textures/Std_Skin_Head_Wrinkle_Flow1_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_Wrinkle_Flow2.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Flow2_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Flow2_1k.jpg",
+      "size_4k_kb": 139.5,
+      "size_1k_kb": 36.8,
+      "blend_now_points_to": "//textures/Std_Skin_Head_Wrinkle_Flow2_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_Wrinkle_Flow3.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Flow3_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Flow3_1k.jpg",
+      "size_4k_kb": 107.9,
+      "size_1k_kb": 26.0,
+      "blend_now_points_to": "//textures/Std_Skin_Head_Wrinkle_Flow3_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_Wrinkle_Normal1.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Normal1_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Normal1_1k.png",
+      "size_4k_kb": 5315.9,
+      "size_1k_kb": 1204.6,
+      "blend_now_points_to": "//textures/Std_Skin_Head_Wrinkle_Normal1_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_Wrinkle_Normal2.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Normal2_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Normal2_1k.png",
+      "size_4k_kb": 5305.9,
+      "size_1k_kb": 1200.2,
+      "blend_now_points_to": "//textures/Std_Skin_Head_Wrinkle_Normal2_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_Wrinkle_Normal3.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Normal3_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Normal3_1k.png",
+      "size_4k_kb": 5308.3,
+      "size_1k_kb": 1199.2,
+      "blend_now_points_to": "//textures/Std_Skin_Head_Wrinkle_Normal3_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_Wrinkle_Roughness1.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Roughness1_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Roughness1_1k.png",
+      "size_4k_kb": 4042.9,
+      "size_1k_kb": 1002.7,
+      "blend_now_points_to": "//textures/Std_Skin_Head_Wrinkle_Roughness1_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_Wrinkle_Roughness2.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Roughness2_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Roughness2_1k.png",
+      "size_4k_kb": 4090.4,
+      "size_1k_kb": 1013.6,
+      "blend_now_points_to": "//textures/Std_Skin_Head_Wrinkle_Roughness2_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Head_Wrinkle_Roughness3.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Roughness3_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Wrinkle_Roughness3_1k.png",
+      "size_4k_kb": 4044.7,
+      "size_1k_kb": 1001.4,
+      "blend_now_points_to": "//textures/Std_Skin_Head_Wrinkle_Roughness3_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Leg_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_Diffuse_1k.jpg",
+      "size_4k_kb": 0.9,
+      "size_1k_kb": 0.9,
+      "blend_now_points_to": "//textures/Std_Skin_Leg_Diffuse_1k.jpg",
+      "current_size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "Std_Skin_Leg_Normal",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_Normal_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_Normal_1k.png",
+      "size_4k_kb": 17538.4,
+      "size_1k_kb": 1111.7,
+      "blend_now_points_to": "//textures/Std_Skin_Leg_Normal_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Leg_RGBAMask.tga",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_RGBAMask_4k.tga",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_RGBAMask_1k.tga",
+      "size_4k_kb": 32.5,
+      "size_1k_kb": 32.5,
+      "blend_now_points_to": "//textures/Std_Skin_Leg_RGBAMask_1k.tga",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Leg_roughness.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_roughness_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_roughness_1k.jpg",
+      "size_4k_kb": 5828.1,
+      "size_1k_kb": 324.4,
+      "blend_now_points_to": "//textures/Std_Skin_Leg_roughness_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Leg_SSSMap.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_SSSMap_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_SSSMap_1k.png",
+      "size_4k_kb": 392.4,
+      "size_1k_kb": 369.9,
+      "blend_now_points_to": "//textures/Std_Skin_Leg_SSSMap_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Skin_Leg_TransMap.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_TransMap_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_TransMap_1k.png",
+      "size_4k_kb": 493.9,
+      "size_1k_kb": 151.5,
+      "blend_now_points_to": "//textures/Std_Skin_Leg_TransMap_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Tearline_L_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tearline_L_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tearline_L_Diffuse_1k.jpg",
+      "size_4k_kb": 0.7,
+      "size_1k_kb": 0.7,
+      "blend_now_points_to": "//textures/Std_Tearline_L_Diffuse_1k.jpg",
+      "current_size": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "Std_Tearline_R_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tearline_R_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tearline_R_Diffuse_1k.jpg",
+      "size_4k_kb": 0.7,
+      "size_1k_kb": 0.7,
+      "blend_now_points_to": "//textures/Std_Tearline_R_Diffuse_1k.jpg",
+      "current_size": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "Std_Tearline_R_Opacity",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tearline_R_Opacity_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tearline_R_Opacity_1k.jpg",
+      "size_4k_kb": 0.7,
+      "size_1k_kb": 0.7,
+      "blend_now_points_to": "//textures/Std_Tearline_R_Opacity_1k.jpg",
+      "current_size": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "Std_Tongue_ao.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_ao_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_ao_1k.jpg",
+      "size_4k_kb": 7.2,
+      "size_1k_kb": 5.8,
+      "blend_now_points_to": "//textures/Std_Tongue_ao_1k.jpg",
+      "current_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "Std_Tongue_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_Diffuse_1k.jpg",
+      "size_4k_kb": 0.9,
+      "size_1k_kb": 0.9,
+      "blend_now_points_to": "//textures/Std_Tongue_Diffuse_1k.jpg",
+      "current_size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "Std_Tongue_GradAO.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_GradAO_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_GradAO_1k.jpg",
+      "size_4k_kb": 20.8,
+      "size_1k_kb": 19.8,
+      "blend_now_points_to": "//textures/Std_Tongue_GradAO_1k.jpg",
+      "current_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "Std_Tongue_metallic.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_metallic_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_metallic_1k.jpg",
+      "size_4k_kb": 4.6,
+      "size_1k_kb": 4.6,
+      "blend_now_points_to": "//textures/Std_Tongue_metallic_1k.jpg",
+      "current_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "Std_Tongue_MicroN.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_MicroN_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_MicroN_1k.png",
+      "size_4k_kb": 6407.9,
+      "size_1k_kb": 1538.0,
+      "blend_now_points_to": "//textures/Std_Tongue_MicroN_1k.png",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Tongue_Normal",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_Normal_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_Normal_1k.jpg",
+      "size_4k_kb": 124.6,
+      "size_1k_kb": 110.7,
+      "blend_now_points_to": "//textures/Std_Tongue_Normal_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Tongue_roughness.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_roughness_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_roughness_1k.jpg",
+      "size_4k_kb": 58.2,
+      "size_1k_kb": 68.7,
+      "blend_now_points_to": "//textures/Std_Tongue_roughness_1k.jpg",
+      "current_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "Std_Upper_Teeth_ao.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_ao_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_ao_1k.jpg",
+      "size_4k_kb": 43.8,
+      "size_1k_kb": 41.8,
+      "blend_now_points_to": "//textures/Std_Upper_Teeth_ao_1k.jpg",
+      "current_size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "Std_Upper_Teeth_Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+      "size_4k_kb": 0.9,
+      "size_1k_kb": 0.9,
+      "blend_now_points_to": "//textures/Std_Upper_Teeth_Diffuse_1k.jpg",
+      "current_size": [
+        128,
+        128
+      ]
+    },
+    {
+      "name": "Std_Upper_Teeth_metallic.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_metallic_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_metallic_1k.jpg",
+      "size_4k_kb": 16.6,
+      "size_1k_kb": 16.6,
+      "blend_now_points_to": "//textures/Std_Upper_Teeth_metallic_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Upper_Teeth_Normal",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_Normal_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_Normal_1k.jpg",
+      "size_4k_kb": 82.7,
+      "size_1k_kb": 73.2,
+      "blend_now_points_to": "//textures/Std_Upper_Teeth_Normal_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Std_Upper_Teeth_roughness.jpg",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_roughness_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_roughness_1k.jpg",
+      "size_4k_kb": 208.0,
+      "size_1k_kb": 235.7,
+      "blend_now_points_to": "//textures/Std_Upper_Teeth_roughness_1k.jpg",
+      "current_size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "studio.exr",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\studio_4k.exr",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\studio_1k.exr",
+      "size_4k_kb": 2593.8,
+      "size_1k_kb": 2593.8,
+      "blend_now_points_to": "//textures/studio_1k.exr",
+      "current_size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "name": "Waista__Diffuse",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Waista__Diffuse_4k.jpg",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Waista__Diffuse_1k.jpg",
+      "size_4k_kb": 0.6,
+      "size_1k_kb": 0.6,
+      "blend_now_points_to": "//textures/Waista__Diffuse_1k.jpg",
+      "current_size": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Waista__roughness.png",
+      "saved_4k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Waista__roughness_4k.png",
+      "saved_1k": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\textures\\Waista__roughness_1k.png",
+      "size_4k_kb": 0.3,
+      "size_1k_kb": 0.3,
+      "blend_now_points_to": "//textures/Waista__roughness_1k.png",
+      "current_size": [
+        64,
+        64
+      ]
+    }
+  ],
+  "skipped": [],
+  "total_4k_mb": 189.6,
+  "total_1k_mb": 26.7,
+  "count_processed": 110,
+  "count_skipped": 0
+}

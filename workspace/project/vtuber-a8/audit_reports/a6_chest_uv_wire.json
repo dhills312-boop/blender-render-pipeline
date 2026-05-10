@@ -1,0 +1,13 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\workspace\\project\\vtuber-a8\\a6_v08_torso_decal_ready.blend",
+  "output": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/a6_v08_torso_decal_ready.blend",
+  "uv_chest_status": "wired",
+  "decal_image_1k": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Torso_Decals_1k.png",
+  "decal_image_4k": "C:/Users/14047/Documents/VS Code Scripts/blender-render-pipeline/workspace/project/vtuber-a8/textures\\Torso_Decals_4k.png",
+  "decal_image_resolution": 1024,
+  "uv_layer_used": "UV_chest",
+  "wired_into": {
+    "Skin_Head": "wired",
+    "Skin_Body": "wired"
+  }
+}

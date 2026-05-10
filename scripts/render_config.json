@@ -1,0 +1,18 @@
+{
+  "blend_file": "/workspace/blender-render-pipeline/workspace/project/blender-output/lift-off/LO_085_spiderverse_visible_halftone.blend",
+  "resolution_x": 1400,
+  "resolution_y": 1400,
+  "resolution_percentage": 100,
+  "engine": "CYCLES",
+  "device": "GPU",
+  "samples": 128,
+  "use_denoising": true,
+  "denoiser": "OPENIMAGEDENOISE",
+  "output_format": "PNG",
+  "color_depth": "16",
+  "output_dir": "/workspace/output/",
+  "frame": 73,
+  "frame_start": 1,
+  "frame_end": 152,
+  "frame_step": 1
+}
