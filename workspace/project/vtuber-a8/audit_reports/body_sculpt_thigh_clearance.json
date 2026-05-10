@@ -1,0 +1,226 @@
+{
+  "blend_file": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v13_anatomy_p1.blend",
+  "object": "Body_Sculpt",
+  "bounds": {
+    "min_z": 0.42,
+    "max_z": 0.95,
+    "slice_height": 0.025,
+    "max_center_x": 0.22,
+    "max_front_back_y": 0.22
+  },
+  "matched_leg_vertex_groups": [
+    "DEF-thigh.L",
+    "DEF-thigh.L.001",
+    "DEF-thigh.R",
+    "DEF-thigh.R.001"
+  ],
+  "sampled_vertices": 18185,
+  "slice_count": 22,
+  "min_gap_m": 1.809100331229274e-05,
+  "min_gap_cm": 0.0018091003312292742,
+  "p10_gap_cm": 0.009326764211436966,
+  "median_gap_cm": 0.022151604935061187,
+  "tight_slice_count": 22,
+  "touching_slice_count": 20,
+  "recommendation": "reduce_or_separate_inner_thighs",
+  "slices": [
+    {
+      "z_mid": 0.4325,
+      "gap_m": 0.012965935748070478,
+      "gap_cm": 1.2965935748070478,
+      "left_inner_x": -0.0065764510072767735,
+      "right_inner_x": 0.006389484740793705,
+      "left_samples": 510,
+      "right_samples": 510
+    },
+    {
+      "z_mid": 0.4575,
+      "gap_m": 0.006421032128855586,
+      "gap_cm": 0.6421032128855586,
+      "left_inner_x": -0.0032818785402923822,
+      "right_inner_x": 0.003139153588563204,
+      "left_samples": 435,
+      "right_samples": 437
+    },
+    {
+      "z_mid": 0.4825,
+      "gap_m": 9.326764211436966e-05,
+      "gap_cm": 0.009326764211436966,
+      "left_inner_x": -8.169584907591343e-05,
+      "right_inner_x": 1.1571793038456235e-05,
+      "left_samples": 354,
+      "right_samples": 353
+    },
+    {
+      "z_mid": 0.5075,
+      "gap_m": 0.000247119867708534,
+      "gap_cm": 0.0247119867708534,
+      "left_inner_x": -6.148620741441846e-05,
+      "right_inner_x": 0.00018563366029411554,
+      "left_samples": 324,
+      "right_samples": 315
+    },
+    {
+      "z_mid": 0.5325,
+      "gap_m": 0.00018250679568154737,
+      "gap_cm": 0.018250679568154737,
+      "left_inner_x": -0.00011714805441442877,
+      "right_inner_x": 6.53587412671186e-05,
+      "left_samples": 280,
+      "right_samples": 275
+    },
+    {
+      "z_mid": 0.5575,
+      "gap_m": 0.00046022819878999144,
+      "gap_cm": 0.046022819878999144,
+      "left_inner_x": -0.00022628568694926798,
+      "right_inner_x": 0.00023394251184072345,
+      "left_samples": 260,
+      "right_samples": 269
+    },
+    {
+      "z_mid": 0.5825,
+      "gap_m": 0.00018089931927534053,
+      "gap_cm": 0.018089931927534053,
+      "left_inner_x": -8.084222827164922e-06,
+      "right_inner_x": 0.0001728150964481756,
+      "left_samples": 246,
+      "right_samples": 248
+    },
+    {
+      "z_mid": 0.6074999999999999,
+      "gap_m": 0.0011492360499687493,
+      "gap_cm": 0.11492360499687493,
+      "left_inner_x": -0.0007465036469511688,
+      "right_inner_x": 0.0004027324030175805,
+      "left_samples": 228,
+      "right_samples": 220
+    },
+    {
+      "z_mid": 0.6325000000000001,
+      "gap_m": 0.0010164087871089578,
+      "gap_cm": 0.10164087871089578,
+      "left_inner_x": -0.00045713986037299037,
+      "right_inner_x": 0.0005592689267359674,
+      "left_samples": 243,
+      "right_samples": 242
+    },
+    {
+      "z_mid": 0.6575,
+      "gap_m": 0.001819817058276385,
+      "gap_cm": 0.1819817058276385,
+      "left_inner_x": -0.0008374618482775986,
+      "right_inner_x": 0.0009823552099987864,
+      "left_samples": 246,
+      "right_samples": 247
+    },
+    {
+      "z_mid": 0.6825,
+      "gap_m": 0.0018225396052002907,
+      "gap_cm": 0.18225396052002907,
+      "left_inner_x": -0.000825943541713059,
+      "right_inner_x": 0.0009965960634872317,
+      "left_samples": 259,
+      "right_samples": 266
+    },
+    {
+      "z_mid": 0.7075,
+      "gap_m": 0.0001958682078111451,
+      "gap_cm": 0.01958682078111451,
+      "left_inner_x": -3.605772144510411e-05,
+      "right_inner_x": 0.000159810486366041,
+      "left_samples": 372,
+      "right_samples": 364
+    },
+    {
+      "z_mid": 0.7324999999999999,
+      "gap_m": 0.00011695445937220939,
+      "gap_cm": 0.011695445937220939,
+      "left_inner_x": -8.265578799182549e-05,
+      "right_inner_x": 3.4298671380383894e-05,
+      "left_samples": 439,
+      "right_samples": 457
+    },
+    {
+      "z_mid": 0.7575000000000001,
+      "gap_m": 0.00022151604935061187,
+      "gap_cm": 0.022151604935061187,
+      "left_inner_x": -7.702101720497012e-05,
+      "right_inner_x": 0.00014449503214564174,
+      "left_samples": 569,
+      "right_samples": 570
+    },
+    {
+      "z_mid": 0.7825,
+      "gap_m": 1.809100331229274e-05,
+      "gap_cm": 0.0018091003312292742,
+      "left_inner_x": -1.0785991435113829e-05,
+      "right_inner_x": 7.305011877178913e-06,
+      "left_samples": 655,
+      "right_samples": 665
+    },
+    {
+      "z_mid": 0.8075,
+      "gap_m": 0.00028659417876042426,
+      "gap_cm": 0.028659417876042426,
+      "left_inner_x": -0.00016822558245621622,
+      "right_inner_x": 0.00011836859630420804,
+      "left_samples": 500,
+      "right_samples": 513
+    },
+    {
+      "z_mid": 0.8325,
+      "gap_m": 0.00020254149421816692,
+      "gap_cm": 0.020254149421816692,
+      "left_inner_x": -6.609728006878868e-05,
+      "right_inner_x": 0.00013644421414937824,
+      "left_samples": 480,
+      "right_samples": 492
+    },
+    {
+      "z_mid": 0.8574999999999999,
+      "gap_m": 0.0004830774269066751,
+      "gap_cm": 0.04830774269066751,
+      "left_inner_x": -0.00031572827720083296,
+      "right_inner_x": 0.00016734914970584214,
+      "left_samples": 540,
+      "right_samples": 556
+    },
+    {
+      "z_mid": 0.8825000000000001,
+      "gap_m": 0.00012612058526428882,
+      "gap_cm": 0.012612058526428882,
+      "left_inner_x": -2.0792374925804324e-05,
+      "right_inner_x": 0.0001053282103384845,
+      "left_samples": 606,
+      "right_samples": 612
+    },
+    {
+      "z_mid": 0.9075,
+      "gap_m": 0.00021178343013161793,
+      "gap_cm": 0.021178343013161793,
+      "left_inner_x": -0.00015799021639395505,
+      "right_inner_x": 5.379321373766288e-05,
+      "left_samples": 688,
+      "right_samples": 714
+    },
+    {
+      "z_mid": 0.9325000000000001,
+      "gap_m": 4.2844102608796675e-05,
+      "gap_cm": 0.0042844102608796675,
+      "left_inner_x": -1.2975057870789897e-05,
+      "right_inner_x": 2.9869044738006778e-05,
+      "left_samples": 691,
+      "right_samples": 702
+    },
+    {
+      "z_mid": 0.9575,
+      "gap_m": 0.00041272013913840055,
+      "gap_cm": 0.041272013913840055,
+      "left_inner_x": -0.00010818309965543449,
+      "right_inner_x": 0.00030453703948296607,
+      "left_samples": 119,
+      "right_samples": 114
+    }
+  ]
+}

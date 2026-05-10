@@ -43,38 +43,40 @@ remote/render-remote.sh "$POD_HOST" \
 
 ## Suggested Next Pass
 
-1. Use the remote config for a first GPU render of the current visual state.
-2. In interactive Blender, decide whether the visible anatomy detail lives only on `Body_Sculpt` or has been transferred onto `Body`.
-3. For VRChat export prep, hide or exclude `Body_Sculpt` from export once the desired detail is baked/transferred.
-4. Reduce materials/texture memory after the visual design is locked: atlas body-related materials, trim unused SuperSkin brush images, and keep only export-needed 1k/2k maps.
+1. Preview the Body-to-Body_Sculpt conform pass as an A/B comparison. This
+   creates a `Body_Sculpt_Conform` shape key in memory and renders the conformed
+   rigged `Body` next to the original `Body_Sculpt` reference without saving an
+   experiment blend.
+2. If the proportions look right, save an accepted checkpoint from the same
+   conform script with `--out-blend`.
+3. Reduce/separate inner thighs in interactive Blender before finalizing the
+   conform, because the current Body_Sculpt thigh clearance audit reports
+   effectively touching geometry.
+4. Do the normal/detail bake as an interactive Blender step after the silhouette
+   transfer is accepted.
+5. Reduce materials/texture memory after the visual design is locked: atlas
+   body-related materials, trim unused SuperSkin brush images, and keep only
+   export-needed 1k/2k maps.
 
-## Hair Ombre Test
+## Body Conform Preview
 
-The current hair is likely temporary. To make a non-destructive white-roots to
-black-tips ombre test on the remote pod, run:
+Run a comparison preview without saving a new blend:
 
 ```powershell
 .\remote\run-blender-script-tar.ps1 `
   -HostName "USER@ssh.runpod.io" `
   -IdentityFile "$env:USERPROFILE\.ssh\id_ed25519" `
   -BlendFile "vtuber-a8/a6_v13_anatomy_p1.blend" `
-  -BlenderScript "a8_apply_ombre_hair.py" `
-  -IncludeAssetLibrary `
+  -BlenderScript "a8_render_conform_preview.py" `
   -ScriptArgs @(
-    "--src", "/workspace/Asset_Addon_Library/HairCards/DarkSea.png",
-    "--ombre", "/workspace/project/vtuber-a8/textures/WhiteBlackOmbre.png",
-    "--out-blend", "/workspace/project/vtuber-a8/a6_v14_hair_ombre_test.blend"
+    "--config", "/workspace/render-scripts/render_config.vtuber-a8.json",
+    "--blend-file", "/workspace/project/vtuber-a8/a6_v13_anatomy_p1.blend",
+    "--output-dir", "/workspace/output",
+    "--output-name", "a8_body_conform_preview",
+    "--report", "/workspace/project/vtuber-a8/audit_reports/body_conform_preview_report.json",
+    "--compare-sculpt"
   )
 ```
 
-Then render the generated blend:
-
-```powershell
-.\remote\render-remote-tar.ps1 `
-  -HostName "USER@ssh.runpod.io" `
-  -IdentityFile "$env:USERPROFILE\.ssh\id_ed25519" `
-  -BlendFile "vtuber-a8/a6_v14_hair_ombre_test.blend" `
-  -RenderScript "render_still.py" `
-  -ConfigFile "render_config.vtuber-a8.json" `
-  -LocalRendersDir ".\render-output\vtuber-previews"
-```
+After the pod render, copy `/workspace/output/a8_body_conform_preview.png` into
+`render-output/vtuber-previews/` only if it is useful to keep.
