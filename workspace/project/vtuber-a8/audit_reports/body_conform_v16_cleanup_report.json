@@ -1,0 +1,39 @@
+{
+  "blend_file": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v15_body_conformed.blend",
+  "body": "Body",
+  "shape_key": "Body_Sculpt_Conform",
+  "crotch_region": {
+    "min_z": 0.66,
+    "max_z": 0.95,
+    "inner_x": 0.16,
+    "full_x": 0.1,
+    "min_y": -0.08,
+    "max_y": 0.14,
+    "full_strength": 0.92
+  },
+  "breast_region": {
+    "enabled": true,
+    "strength": 0.68,
+    "center_x_abs": 0.086,
+    "center_y": -0.103,
+    "center_z": 1.168,
+    "radius_x": 0.07,
+    "radius_y": 0.048,
+    "radius_z": 0.1,
+    "full_radius": 0.45
+  },
+  "changed_vertices": 1090,
+  "crotch_changed_vertices": 700,
+  "breast_changed_vertices": 390,
+  "mean_restore_weight": 0.6543830438933744,
+  "mean_delta_before_cm": 1.5261573242792374,
+  "mean_delta_after_cm": 0.5351423262777442,
+  "max_delta_before_cm": 4.96844072155534,
+  "max_delta_after_cm": 2.857294833418081,
+  "crotch_mean_delta_before_cm": 1.587084087358446,
+  "crotch_mean_delta_after_cm": 0.4803312762067456,
+  "breast_mean_delta_before_cm": 1.4168015956755302,
+  "breast_mean_delta_after_cm": 0.6335211340974852,
+  "breast_max_delta_before_cm": 4.407810859405366,
+  "breast_max_delta_after_cm": 2.2662806991089637
+}

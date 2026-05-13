@@ -1,0 +1,23 @@
+{
+  "blend_file": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v17_non_skin_shader_cleanup.blend",
+  "armature": "blender file_Rigify",
+  "profile": "toes_first",
+  "dry_run": false,
+  "before_deform_bones": 171,
+  "after_deform_bones": 159,
+  "removed_from_deform": [
+    "DEF-toe.L",
+    "DEF-toe.R",
+    "DEF-toe_big.L",
+    "DEF-toe_big.R",
+    "DEF-toe_index.L",
+    "DEF-toe_index.R",
+    "DEF-toe_mid.L",
+    "DEF-toe_mid.R",
+    "DEF-toe_pinky.L",
+    "DEF-toe_pinky.R",
+    "DEF-toe_ring.L",
+    "DEF-toe_ring.R"
+  ],
+  "missing": []
+}

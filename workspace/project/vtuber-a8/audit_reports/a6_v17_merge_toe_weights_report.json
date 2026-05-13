@@ -1,0 +1,116 @@
+{
+  "blend_file": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v17_non_skin_shader_cleanup.blend",
+  "results": [
+    {
+      "object": "Body",
+      "target": "DEF-foot.L",
+      "sources_present": [
+        "DEF-toe.L",
+        "DEF-toe_big.L",
+        "DEF-toe_index.L",
+        "DEF-toe_mid.L",
+        "DEF-toe_pinky.L",
+        "DEF-toe_ring.L"
+      ],
+      "vertices_changed": 0,
+      "weights_transferred": 0.0
+    },
+    {
+      "object": "Body",
+      "target": "DEF-foot.R",
+      "sources_present": [
+        "DEF-toe.R",
+        "DEF-toe_big.R",
+        "DEF-toe_index.R",
+        "DEF-toe_mid.R",
+        "DEF-toe_pinky.R",
+        "DEF-toe_ring.R"
+      ],
+      "vertices_changed": 0,
+      "weights_transferred": 0.0
+    },
+    {
+      "object": "Body_Sculpt",
+      "target": "DEF-foot.L",
+      "sources_present": [
+        "DEF-toe.L",
+        "DEF-toe_big.L",
+        "DEF-toe_index.L",
+        "DEF-toe_mid.L",
+        "DEF-toe_pinky.L",
+        "DEF-toe_ring.L"
+      ],
+      "vertices_changed": 0,
+      "weights_transferred": 0.0
+    },
+    {
+      "object": "Body_Sculpt",
+      "target": "DEF-foot.R",
+      "sources_present": [
+        "DEF-toe.R",
+        "DEF-toe_big.R",
+        "DEF-toe_index.R",
+        "DEF-toe_mid.R",
+        "DEF-toe_pinky.R",
+        "DEF-toe_ring.R"
+      ],
+      "vertices_changed": 0,
+      "weights_transferred": 0.0
+    },
+    {
+      "object": "EyeOcclusion",
+      "target": "DEF-foot.L",
+      "sources_present": [
+        "DEF-toe.L"
+      ],
+      "vertices_changed": 0,
+      "weights_transferred": 0.0
+    },
+    {
+      "object": "EyeOcclusion",
+      "target": "DEF-foot.R",
+      "sources_present": [
+        "DEF-toe.R"
+      ],
+      "vertices_changed": 0,
+      "weights_transferred": 0.0
+    },
+    {
+      "object": "TearLine",
+      "target": "DEF-foot.L",
+      "sources_present": [
+        "DEF-toe.L"
+      ],
+      "vertices_changed": 0,
+      "weights_transferred": 0.0
+    },
+    {
+      "object": "TearLine",
+      "target": "DEF-foot.R",
+      "sources_present": [
+        "DEF-toe.R"
+      ],
+      "vertices_changed": 0,
+      "weights_transferred": 0.0
+    },
+    {
+      "object": "Tongue",
+      "target": "DEF-foot.L",
+      "sources_present": [
+        "DEF-toe.L"
+      ],
+      "vertices_changed": 0,
+      "weights_transferred": 0.0
+    },
+    {
+      "object": "Tongue",
+      "target": "DEF-foot.R",
+      "sources_present": [
+        "DEF-toe.R"
+      ],
+      "vertices_changed": 0,
+      "weights_transferred": 0.0
+    }
+  ],
+  "notes": "Toe weights transferred to foot groups and removed from toe groups to support toes-first export reduction."
+}

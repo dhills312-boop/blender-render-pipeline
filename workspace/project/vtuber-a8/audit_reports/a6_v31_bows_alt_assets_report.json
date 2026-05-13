@@ -1,0 +1,78 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v30_chain_outliner_cleanup.blend",
+  "output": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v31_bows_alt_assets.blend",
+  "visible_bows": [
+    {
+      "name": "ACC_SkirtBow_CenterWaist",
+      "location": [
+        -0.001069,
+        -0.311147,
+        0.875239
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation_euler": [
+        1.570796,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "ACC_SkirtBow_LeftPleat",
+      "location": [
+        -0.147969,
+        -0.314147,
+        0.809771
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation_euler": [
+        1.570796,
+        0.0,
+        -0.139626
+      ]
+    },
+    {
+      "name": "ACC_SkirtBow_RightPleat",
+      "location": [
+        0.145831,
+        -0.314147,
+        0.809771
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation_euler": [
+        1.570796,
+        0.0,
+        0.139626
+      ]
+    }
+  ],
+  "alt_streetwear_top_objects": [
+    "ALT_StreetwearTop_SRC_StreetwearTop_m4:Group13263",
+    "ALT_StreetwearTop_SRC_StreetwearTop_Streetwear_Top1:Mesh"
+  ],
+  "alt_hair16_objects": [
+    "ALT_PocolovHair16_SRC_PocolovHair16_Hair_16",
+    "ALT_PocolovHair16_SRC_PocolovHair16_Head"
+  ],
+  "collections": {
+    "visible_bows": "A8_ACTIVE_SKIRT_BOWS",
+    "hidden_alt_top": "ALT_StreetwearTop_Source",
+    "hidden_alt_hair": "ALT_PocolovHair16_Source"
+  },
+  "notes": [
+    "Skirt bows are visible by default.",
+    "Streetwear top FBX and Pocolov Hair 16 are imported into hidden alternate collections.",
+    "Protected v30 visual read remains untouched."
+  ]
+}

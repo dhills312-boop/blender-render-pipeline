@@ -1,0 +1,1217 @@
+{
+  "blend_file": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v17_non_skin_shader_cleanup.blend",
+  "armature": "blender file_Rigify",
+  "include_hidden": true,
+  "visible_skinned_meshes": [
+    "Body",
+    "bottome",
+    "Eye",
+    "EyeOcclusion",
+    "Hair_30629",
+    "Scalp_Male",
+    "TearLine",
+    "Teeth",
+    "Tongue",
+    "top_cloth"
+  ],
+  "counts": {
+    "total_bones": 725,
+    "deform_bones": 159,
+    "non_deform_bones": 566,
+    "weighted_bones": 176,
+    "weighted_deform_bones": 159,
+    "weighted_non_deform_bones": 0,
+    "orphan_deform_bones": 0
+  },
+  "prefix_counts": {
+    "other": 210,
+    "MCH": 168,
+    "DEF": 179,
+    "VIS": 4,
+    "tweak": 6,
+    "ORG": 158
+  },
+  "deform_usage_counts": {
+    "non_deform": 566,
+    "deform": 159
+  },
+  "weighted_non_deform_bones": [],
+  "orphan_deform_bones": [],
+  "top_weighted_deform_bones": [
+    {
+      "name": "DEF-spine.006",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 5,
+      "meshes": [
+        "Body",
+        "EyeOcclusion",
+        "Hair_30629",
+        "Scalp_Male",
+        "TearLine"
+      ],
+      "parent": "DEF-spine.005"
+    },
+    {
+      "name": "DEF-spine.004",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 4,
+      "meshes": [
+        "Body",
+        "Hair_30629",
+        "Scalp_Male",
+        "top_cloth"
+      ],
+      "parent": "DEF-spine.003"
+    },
+    {
+      "name": "DEF-spine.003",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "Hair_30629",
+        "top_cloth"
+      ],
+      "parent": "DEF-spine.002"
+    },
+    {
+      "name": "DEF-spine.005",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "Hair_30629",
+        "Scalp_Male"
+      ],
+      "parent": "DEF-spine.004"
+    },
+    {
+      "name": "DEF-brow.B.L.003",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "EyeOcclusion",
+        "TearLine"
+      ],
+      "parent": "brow.B.L.003"
+    },
+    {
+      "name": "DEF-lid.B.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "EyeOcclusion",
+        "TearLine"
+      ],
+      "parent": "MCH-lid.B.L"
+    },
+    {
+      "name": "DEF-lid.B.L.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "EyeOcclusion",
+        "TearLine"
+      ],
+      "parent": "MCH-lid.B.L.001"
+    },
+    {
+      "name": "DEF-lid.B.L.002",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "EyeOcclusion",
+        "TearLine"
+      ],
+      "parent": "MCH-lid.B.L.002"
+    },
+    {
+      "name": "DEF-lid.B.L.003",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "EyeOcclusion",
+        "TearLine"
+      ],
+      "parent": "MCH-lid.B.L.003"
+    },
+    {
+      "name": "DEF-lid.T.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "EyeOcclusion",
+        "TearLine"
+      ],
+      "parent": "MCH-lid.T.L"
+    },
+    {
+      "name": "DEF-lid.T.L.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "EyeOcclusion",
+        "TearLine"
+      ],
+      "parent": "MCH-lid.T.L.001"
+    },
+    {
+      "name": "DEF-lid.T.L.002",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "EyeOcclusion",
+        "TearLine"
+      ],
+      "parent": "MCH-lid.T.L.002"
+    },
+    {
+      "name": "DEF-lid.T.L.003",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "EyeOcclusion",
+        "TearLine"
+      ],
+      "parent": "MCH-lid.T.L.003"
+    },
+    {
+      "name": "DEF-brow.B.R.003",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "EyeOcclusion",
+        "TearLine"
+      ],
+      "parent": "brow.B.R.003"
+    },
+    {
+      "name": "DEF-lid.B.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "EyeOcclusion",
+        "TearLine"
+      ],
+      "parent": "MCH-lid.B.R"
+    },
+    {
+      "name": "DEF-lid.B.R.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "EyeOcclusion",
+        "TearLine"
+      ],
+      "parent": "MCH-lid.B.R.001"
+    },
+    {
+      "name": "DEF-lid.B.R.002",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "EyeOcclusion",
+        "TearLine"
+      ],
+      "parent": "MCH-lid.B.R.002"
+    },
+    {
+      "name": "DEF-lid.B.R.003",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "EyeOcclusion",
+        "TearLine"
+      ],
+      "parent": "MCH-lid.B.R.003"
+    },
+    {
+      "name": "DEF-lid.T.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "EyeOcclusion",
+        "TearLine"
+      ],
+      "parent": "MCH-lid.T.R"
+    },
+    {
+      "name": "DEF-lid.T.R.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "EyeOcclusion",
+        "TearLine"
+      ],
+      "parent": "MCH-lid.T.R.001"
+    },
+    {
+      "name": "DEF-lid.T.R.002",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "EyeOcclusion",
+        "TearLine"
+      ],
+      "parent": "MCH-lid.T.R.002"
+    },
+    {
+      "name": "DEF-lid.T.R.003",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "EyeOcclusion",
+        "TearLine"
+      ],
+      "parent": "MCH-lid.T.R.003"
+    },
+    {
+      "name": "DEF-shoulder.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "Hair_30629",
+        "top_cloth"
+      ],
+      "parent": "ORG-shoulder.L"
+    },
+    {
+      "name": "DEF-upper_arm.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "Hair_30629",
+        "top_cloth"
+      ],
+      "parent": "ORG-shoulder.L"
+    },
+    {
+      "name": "DEF-shoulder.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 3,
+      "meshes": [
+        "Body",
+        "Hair_30629",
+        "top_cloth"
+      ],
+      "parent": "ORG-shoulder.R"
+    },
+    {
+      "name": "DEF-spine.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 2,
+      "meshes": [
+        "Body",
+        "bottome"
+      ],
+      "parent": "DEF-spine"
+    },
+    {
+      "name": "DEF-spine.002",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 2,
+      "meshes": [
+        "Body",
+        "top_cloth"
+      ],
+      "parent": "DEF-spine.001"
+    },
+    {
+      "name": "DEF-pelvis",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 2,
+      "meshes": [
+        "Body",
+        "bottome"
+      ],
+      "parent": "ORG-pelvis"
+    },
+    {
+      "name": "DEF-thigh.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 2,
+      "meshes": [
+        "Body",
+        "bottome"
+      ],
+      "parent": "ORG-spine"
+    },
+    {
+      "name": "DEF-thigh.L.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 2,
+      "meshes": [
+        "Body",
+        "bottome"
+      ],
+      "parent": "DEF-thigh.L"
+    },
+    {
+      "name": "DEF-thigh.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 2,
+      "meshes": [
+        "Body",
+        "bottome"
+      ],
+      "parent": "ORG-spine"
+    },
+    {
+      "name": "DEF-thigh.R.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 2,
+      "meshes": [
+        "Body",
+        "bottome"
+      ],
+      "parent": "DEF-thigh.R"
+    },
+    {
+      "name": "DEF-brow.B.R.002",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 2,
+      "meshes": [
+        "Body",
+        "TearLine"
+      ],
+      "parent": "brow.B.R.002"
+    },
+    {
+      "name": "DEF-tongue",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 2,
+      "meshes": [
+        "Body",
+        "Tongue"
+      ],
+      "parent": "tongue"
+    },
+    {
+      "name": "DEF-jaw",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 2,
+      "meshes": [
+        "Body",
+        "Hair_30629"
+      ],
+      "parent": "jaw"
+    },
+    {
+      "name": "DEF-tongue.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 2,
+      "meshes": [
+        "Body",
+        "Tongue"
+      ],
+      "parent": "tongue.001"
+    },
+    {
+      "name": "DEF-tongue.002",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 2,
+      "meshes": [
+        "Body",
+        "Tongue"
+      ],
+      "parent": "tongue.002"
+    },
+    {
+      "name": "DEF-upper_arm.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 2,
+      "meshes": [
+        "Body",
+        "top_cloth"
+      ],
+      "parent": "ORG-shoulder.R"
+    },
+    {
+      "name": "DEF-breast_twist.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 2,
+      "meshes": [
+        "Body",
+        "top_cloth"
+      ],
+      "parent": "ORG-breast.L"
+    },
+    {
+      "name": "DEF-breast.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 2,
+      "meshes": [
+        "Body",
+        "top_cloth"
+      ],
+      "parent": "DEF-breast_twist.L"
+    },
+    {
+      "name": "DEF-breast_twist.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 2,
+      "meshes": [
+        "Body",
+        "top_cloth"
+      ],
+      "parent": "ORG-breast.R"
+    },
+    {
+      "name": "DEF-breast.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 2,
+      "meshes": [
+        "Body",
+        "top_cloth"
+      ],
+      "parent": "DEF-breast_twist.R"
+    },
+    {
+      "name": "DEF-spine",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "root"
+    },
+    {
+      "name": "DEF-shin.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "DEF-thigh.L.001"
+    },
+    {
+      "name": "DEF-shin.L.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "DEF-shin.L"
+    },
+    {
+      "name": "DEF-foot.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "DEF-shin.L.001"
+    },
+    {
+      "name": "DEF-knee_share.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "DEF-shin.L"
+    },
+    {
+      "name": "DEF-shin.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "DEF-thigh.R.001"
+    },
+    {
+      "name": "DEF-shin.R.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "DEF-shin.R"
+    },
+    {
+      "name": "DEF-foot.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "DEF-shin.R.001"
+    },
+    {
+      "name": "DEF-knee_share.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "DEF-shin.R"
+    },
+    {
+      "name": "DEF-teeth.T",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Teeth"
+      ],
+      "parent": "ORG-teeth.T"
+    },
+    {
+      "name": "DEF-teeth.B",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Teeth"
+      ],
+      "parent": "ORG-teeth.B"
+    },
+    {
+      "name": "DEF-forehead.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "ORG-face"
+    },
+    {
+      "name": "DEF-forehead.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "ORG-face"
+    },
+    {
+      "name": "DEF-forehead.L.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "ORG-face"
+    },
+    {
+      "name": "DEF-forehead.R.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "ORG-face"
+    },
+    {
+      "name": "DEF-forehead.L.002",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "ORG-face"
+    },
+    {
+      "name": "DEF-forehead.R.002",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "ORG-face"
+    },
+    {
+      "name": "DEF-temple.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "ORG-face"
+    },
+    {
+      "name": "DEF-temple.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "ORG-face"
+    },
+    {
+      "name": "DEF-brow.B.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "brow.B.L"
+    },
+    {
+      "name": "DEF-brow.B.L.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "brow.B.L.001"
+    },
+    {
+      "name": "DEF-brow.B.L.002",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "brow.B.L.002"
+    },
+    {
+      "name": "DEF-eye.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Eye"
+      ],
+      "parent": "ORG-eye.L"
+    },
+    {
+      "name": "DEF-brow.B.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "brow.B.R"
+    },
+    {
+      "name": "DEF-brow.B.R.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "brow.B.R.001"
+    },
+    {
+      "name": "DEF-eye.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Eye"
+      ],
+      "parent": "ORG-eye.R"
+    },
+    {
+      "name": "DEF-ear.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "ear.L"
+    },
+    {
+      "name": "DEF-ear.L.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "ear.L"
+    },
+    {
+      "name": "DEF-ear.L.002",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "ear.L.002"
+    },
+    {
+      "name": "DEF-ear.L.003",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "ear.L.003"
+    },
+    {
+      "name": "DEF-ear.L.004",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "ear.L.004"
+    },
+    {
+      "name": "DEF-ear.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "ear.R"
+    },
+    {
+      "name": "DEF-ear.R.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "ear.R"
+    },
+    {
+      "name": "DEF-ear.R.002",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "ear.R.002"
+    },
+    {
+      "name": "DEF-ear.R.003",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "ear.R.003"
+    },
+    {
+      "name": "DEF-ear.R.004",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "ear.R.004"
+    },
+    {
+      "name": "DEF-chin",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "chin"
+    },
+    {
+      "name": "DEF-chin.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "chin.001"
+    },
+    {
+      "name": "DEF-chin.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "chin.L"
+    },
+    {
+      "name": "DEF-chin.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "chin.R"
+    },
+    {
+      "name": "DEF-jaw.L.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "jaw.L.001"
+    },
+    {
+      "name": "DEF-jaw.R.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "jaw.R.001"
+    },
+    {
+      "name": "DEF-cheek.T.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "brow.T.L"
+    },
+    {
+      "name": "DEF-brow.T.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "brow.T.L"
+    },
+    {
+      "name": "DEF-brow.T.L.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "brow.T.L.001"
+    },
+    {
+      "name": "DEF-brow.T.L.002",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "brow.T.L.002"
+    },
+    {
+      "name": "DEF-brow.T.L.003",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "brow.T.L.003"
+    },
+    {
+      "name": "DEF-cheek.T.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "brow.T.R"
+    },
+    {
+      "name": "DEF-brow.T.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "brow.T.R"
+    },
+    {
+      "name": "DEF-brow.T.R.001",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "brow.T.R.001"
+    },
+    {
+      "name": "DEF-brow.T.R.002",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "brow.T.R.002"
+    },
+    {
+      "name": "DEF-brow.T.R.003",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "brow.T.R.003"
+    },
+    {
+      "name": "DEF-jaw.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "jaw.L"
+    },
+    {
+      "name": "DEF-jaw.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "jaw.R"
+    },
+    {
+      "name": "DEF-nose",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "nose"
+    },
+    {
+      "name": "DEF-nose.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "nose.L"
+    },
+    {
+      "name": "DEF-nose.R",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "nose.R"
+    },
+    {
+      "name": "DEF-lip.B.L",
+      "prefix": "DEF",
+      "use_deform": true,
+      "has_vertex_weights": true,
+      "mesh_count": 1,
+      "meshes": [
+        "Body"
+      ],
+      "parent": "lip.B"
+    }
+  ],
+  "export_notes": [
+    "FBX export with Only Deform Bones should drop non-deform control/mechanism bones automatically.",
+    "Weighted non-deform bones are the dangerous case: they may still matter unless weights are transferred or those bones are marked deform.",
+    "Orphan deform bones are safe candidates to review for removal from export if they truly do not influence the visible meshes."
+  ]
+}

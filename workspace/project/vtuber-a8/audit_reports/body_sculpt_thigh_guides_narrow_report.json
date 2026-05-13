@@ -1,0 +1,172 @@
+{
+  "blend_file": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v13_anatomy_p1.blend",
+  "object": "Body_Sculpt",
+  "created_groups": [
+    "A8_Thigh_Tight_Left",
+    "A8_Thigh_Tight_Right",
+    "A8_Thigh_Tight_All"
+  ],
+  "created_shape_key": "A8_Thigh_Clearance_Guide",
+  "tight_gap_m": 0.015,
+  "target_gap_m": 0.018,
+  "tight_slice_count": 22,
+  "guided_vertex_count": 9048,
+  "mean_preview_move_cm": 0.38499216330230274,
+  "max_preview_move_cm": 0.8989312597575491,
+  "slices": [
+    {
+      "bucket": 0,
+      "z_mid": 0.4325,
+      "gap_m": 0.012965935748070478,
+      "gap_cm": 1.2965935748070478,
+      "vertex_count": 432
+    },
+    {
+      "bucket": 1,
+      "z_mid": 0.4575,
+      "gap_m": 0.006421032128855586,
+      "gap_cm": 0.6421032128855586,
+      "vertex_count": 349
+    },
+    {
+      "bucket": 2,
+      "z_mid": 0.4825,
+      "gap_m": 9.326764211436966e-05,
+      "gap_cm": 0.009326764211436966,
+      "vertex_count": 302
+    },
+    {
+      "bucket": 3,
+      "z_mid": 0.5075,
+      "gap_m": 0.000247119867708534,
+      "gap_cm": 0.0247119867708534,
+      "vertex_count": 267
+    },
+    {
+      "bucket": 4,
+      "z_mid": 0.5325,
+      "gap_m": 0.00018250679568154737,
+      "gap_cm": 0.018250679568154737,
+      "vertex_count": 250
+    },
+    {
+      "bucket": 5,
+      "z_mid": 0.5575,
+      "gap_m": 0.00046022819878999144,
+      "gap_cm": 0.046022819878999144,
+      "vertex_count": 238
+    },
+    {
+      "bucket": 6,
+      "z_mid": 0.5825,
+      "gap_m": 0.00018089931927534053,
+      "gap_cm": 0.018089931927534053,
+      "vertex_count": 229
+    },
+    {
+      "bucket": 7,
+      "z_mid": 0.6074999999999999,
+      "gap_m": 0.0011492360499687493,
+      "gap_cm": 0.11492360499687493,
+      "vertex_count": 198
+    },
+    {
+      "bucket": 8,
+      "z_mid": 0.6325000000000001,
+      "gap_m": 0.0010164087871089578,
+      "gap_cm": 0.10164087871089578,
+      "vertex_count": 221
+    },
+    {
+      "bucket": 9,
+      "z_mid": 0.6575,
+      "gap_m": 0.001819817058276385,
+      "gap_cm": 0.1819817058276385,
+      "vertex_count": 217
+    },
+    {
+      "bucket": 10,
+      "z_mid": 0.6825,
+      "gap_m": 0.0018225396052002907,
+      "gap_cm": 0.18225396052002907,
+      "vertex_count": 238
+    },
+    {
+      "bucket": 11,
+      "z_mid": 0.7075,
+      "gap_m": 0.0001958682078111451,
+      "gap_cm": 0.01958682078111451,
+      "vertex_count": 411
+    },
+    {
+      "bucket": 12,
+      "z_mid": 0.7324999999999999,
+      "gap_m": 0.00011695445937220939,
+      "gap_cm": 0.011695445937220939,
+      "vertex_count": 494
+    },
+    {
+      "bucket": 13,
+      "z_mid": 0.7575000000000001,
+      "gap_m": 0.00022151604935061187,
+      "gap_cm": 0.022151604935061187,
+      "vertex_count": 747
+    },
+    {
+      "bucket": 14,
+      "z_mid": 0.7825,
+      "gap_m": 1.809100331229274e-05,
+      "gap_cm": 0.0018091003312292742,
+      "vertex_count": 899
+    },
+    {
+      "bucket": 15,
+      "z_mid": 0.8075,
+      "gap_m": 0.00028659417876042426,
+      "gap_cm": 0.028659417876042426,
+      "vertex_count": 549
+    },
+    {
+      "bucket": 16,
+      "z_mid": 0.8325,
+      "gap_m": 0.00020254149421816692,
+      "gap_cm": 0.020254149421816692,
+      "vertex_count": 454
+    },
+    {
+      "bucket": 17,
+      "z_mid": 0.8574999999999999,
+      "gap_m": 0.0004830774269066751,
+      "gap_cm": 0.04830774269066751,
+      "vertex_count": 470
+    },
+    {
+      "bucket": 18,
+      "z_mid": 0.8825000000000001,
+      "gap_m": 0.00012612058526428882,
+      "gap_cm": 0.012612058526428882,
+      "vertex_count": 508
+    },
+    {
+      "bucket": 19,
+      "z_mid": 0.9075,
+      "gap_m": 0.00021178343013161793,
+      "gap_cm": 0.021178343013161793,
+      "vertex_count": 633
+    },
+    {
+      "bucket": 20,
+      "z_mid": 0.9325000000000001,
+      "gap_m": 4.2844102608796675e-05,
+      "gap_cm": 0.0042844102608796675,
+      "vertex_count": 812
+    },
+    {
+      "bucket": 21,
+      "z_mid": 0.9575,
+      "gap_m": 0.00041272013913840055,
+      "gap_cm": 0.041272013913840055,
+      "vertex_count": 130
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "blend_file": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v17_non_skin_shader_cleanup.blend",
+  "objects": [
+    {
+      "name": "Hair_30629",
+      "material_slots": [
+        "Material"
+      ],
+      "uv_maps": [
+        "Channel0"
+      ],
+      "active_uv": "Channel0",
+      "poly_count": 29948,
+      "tri_count": 29948,
+      "slot_usage": [
+        {
+          "slot_index": 0,
+          "material": "Material",
+          "polygons": 29948,
+          "triangles": 29948
+        }
+      ]
+    },
+    {
+      "name": "Teeth",
+      "material_slots": [
+        "Upper_Teeth",
+        "Lower_Teeth"
+      ],
+      "uv_maps": [
+        "Channel0"
+      ],
+      "active_uv": "Channel0",
+      "poly_count": 2421,
+      "tri_count": 4842,
+      "slot_usage": [
+        {
+          "slot_index": 0,
+          "material": "Upper_Teeth",
+          "polygons": 1181,
+          "triangles": 2362
+        },
+        {
+          "slot_index": 1,
+          "material": "Lower_Teeth",
+          "polygons": 1240,
+          "triangles": 2480
+        }
+      ]
+    },
+    {
+      "name": "Tongue",
+      "material_slots": [
+        "Tongue"
+      ],
+      "uv_maps": [
+        "Channel0"
+      ],
+      "active_uv": "Channel0",
+      "poly_count": 296,
+      "tri_count": 592,
+      "slot_usage": [
+        {
+          "slot_index": 0,
+          "material": "Tongue",
+          "polygons": 296,
+          "triangles": 592
+        }
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_jaw",
+      "material_slots": [],
+      "uv_maps": [],
+      "active_uv": null,
+      "poly_count": 0,
+      "tri_count": 0,
+      "slot_usage": []
+    },
+    {
+      "name": "WGT-blender file_rig_jaw.L",
+      "material_slots": [],
+      "uv_maps": [],
+      "active_uv": null,
+      "poly_count": 0,
+      "tri_count": 0,
+      "slot_usage": []
+    },
+    {
+      "name": "WGT-blender file_rig_jaw.L.001",
+      "material_slots": [],
+      "uv_maps": [],
+      "active_uv": null,
+      "poly_count": 0,
+      "tri_count": 0,
+      "slot_usage": []
+    },
+    {
+      "name": "WGT-blender file_rig_jaw.R",
+      "material_slots": [],
+      "uv_maps": [],
+      "active_uv": null,
+      "poly_count": 0,
+      "tri_count": 0,
+      "slot_usage": []
+    },
+    {
+      "name": "WGT-blender file_rig_jaw.R.001",
+      "material_slots": [],
+      "uv_maps": [],
+      "active_uv": null,
+      "poly_count": 0,
+      "tri_count": 0,
+      "slot_usage": []
+    },
+    {
+      "name": "WGT-blender file_rig_jaw_master",
+      "material_slots": [],
+      "uv_maps": [],
+      "active_uv": null,
+      "poly_count": 0,
+      "tri_count": 0,
+      "slot_usage": []
+    },
+    {
+      "name": "WGT-blender file_rig_teeth.B",
+      "material_slots": [],
+      "uv_maps": [],
+      "active_uv": null,
+      "poly_count": 0,
+      "tri_count": 0,
+      "slot_usage": []
+    },
+    {
+      "name": "WGT-blender file_rig_teeth.T",
+      "material_slots": [],
+      "uv_maps": [],
+      "active_uv": null,
+      "poly_count": 0,
+      "tri_count": 0,
+      "slot_usage": []
+    },
+    {
+      "name": "WGT-blender file_rig_tongue",
+      "material_slots": [],
+      "uv_maps": [],
+      "active_uv": null,
+      "poly_count": 0,
+      "tri_count": 0,
+      "slot_usage": []
+    },
+    {
+      "name": "WGT-blender file_rig_tongue.001",
+      "material_slots": [],
+      "uv_maps": [],
+      "active_uv": null,
+      "poly_count": 0,
+      "tri_count": 0,
+      "slot_usage": []
+    },
+    {
+      "name": "WGT-blender file_rig_tongue.002",
+      "material_slots": [],
+      "uv_maps": [],
+      "active_uv": null,
+      "poly_count": 0,
+      "tri_count": 0,
+      "slot_usage": []
+    },
+    {
+      "name": "WGT-blender file_rig_tongue.003",
+      "material_slots": [],
+      "uv_maps": [],
+      "active_uv": null,
+      "poly_count": 0,
+      "tri_count": 0,
+      "slot_usage": []
+    },
+    {
+      "name": "WGT-blender file_rig_tongue_master",
+      "material_slots": [],
+      "uv_maps": [],
+      "active_uv": null,
+      "poly_count": 0,
+      "tri_count": 0,
+      "slot_usage": []
+    }
+  ]
+}

@@ -36,6 +36,17 @@ def parse_args():
     argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
     p = argparse.ArgumentParser()
     p.add_argument("--out", required=True, help="Path to write JSON report")
+    p.add_argument(
+        "--visible-only",
+        action="store_true",
+        help="Only count mesh objects that are visible in the current viewport state",
+    )
+    p.add_argument(
+        "--exclude-object",
+        action="append",
+        default=[],
+        help="Object name to exclude from mesh totals; may be supplied multiple times",
+    )
     return p.parse_args(argv)
 
 
@@ -128,11 +139,14 @@ def rank_verdict(total_tris, mat_count, skinned_count, bone_count):
 def main():
     args = parse_args()
     blend_path = bpy.data.filepath
+    excluded_names = set(args.exclude_object or [])
 
     report = {
         "blend_file": blend_path,
         "blend_size_bytes": os.path.getsize(blend_path) if blend_path else None,
         "blender_version": bpy.app.version_string,
+        "visible_only": bool(args.visible_only),
+        "excluded_objects": sorted(excluded_names),
         "scenes": [s.name for s in bpy.data.scenes],
         "objects": {"total": len(bpy.data.objects), "by_type": defaultdict(int)},
         "meshes": [],
@@ -148,7 +162,16 @@ def main():
     for o in bpy.data.objects:
         report["objects"]["by_type"][o.type] += 1
 
-    meshes = [o for o in bpy.data.objects if o.type == "MESH"]
+    meshes = []
+    for o in bpy.data.objects:
+        if o.type != "MESH":
+            continue
+        if o.name in excluded_names:
+            continue
+        if args.visible_only:
+            if o.hide_viewport or o.hide_get() or o.hide_render:
+                continue
+        meshes.append(o)
     armatures = [o for o in bpy.data.objects if o.type == "ARMATURE"]
     total_tris = 0
     all_shape_keys = []

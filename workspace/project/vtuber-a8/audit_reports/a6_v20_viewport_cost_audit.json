@@ -1,0 +1,1723 @@
+{
+  "blend": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v20_clothing_fit_light_30.blend",
+  "counts": {
+    "objects": 258,
+    "meshes": 251,
+    "visible_meshes": 244,
+    "materials": 30,
+    "images": 118,
+    "collections": 11
+  },
+  "modifiers_all": {
+    "ARMATURE": 30,
+    "SUBSURF": 9,
+    "NODES": 1,
+    "DISPLACE": 16,
+    "UV_WARP": 2,
+    "SHRINKWRAP": 4,
+    "CORRECTIVE_SMOOTH": 3,
+    "CLOTH": 1
+  },
+  "modifiers_visible_objects": {
+    "ARMATURE": 24,
+    "DISPLACE": 16,
+    "UV_WARP": 2,
+    "SHRINKWRAP": 4,
+    "SUBSURF": 6
+  },
+  "top_meshes_by_vertices": [
+    {
+      "name": "Body_Sculpt",
+      "verts": 225184,
+      "polys": 224736,
+      "tris": 449472,
+      "hide_viewport": true,
+      "hide_render": true,
+      "modifiers": [
+        "GeometryNodes:NODES:view=True"
+      ],
+      "collections": [
+        "Collection"
+      ]
+    },
+    {
+      "name": "OUT_PleatedSkirt",
+      "verts": 35535,
+      "polys": 34693,
+      "tris": 69383,
+      "hide_viewport": true,
+      "hide_render": true,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "A8_Original_Clothing_Backup"
+      ]
+    },
+    {
+      "name": "Hair_30629",
+      "verts": 30629,
+      "polys": 29948,
+      "tris": 29948,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Scene Collection"
+      ]
+    },
+    {
+      "name": "FIT_PleatedSkirt_Shrinkwrap",
+      "verts": 25011,
+      "polys": 48568,
+      "tris": 48568,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True",
+        "A8_FIT_Shrinkwrap_to_Body:SHRINKWRAP:view=True",
+        "A8_FIT_CorrectiveSmooth_preview:CORRECTIVE_SMOOTH:view=False"
+      ],
+      "collections": [
+        "CLOTHING_FIT_PREP"
+      ]
+    },
+    {
+      "name": "FIT_PleatedSkirt_Shrinkwrap_fitTest",
+      "verts": 25008,
+      "polys": 48568,
+      "tris": 48568,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True",
+        "A8_FIT_Shrinkwrap_to_Body:SHRINKWRAP:view=True",
+        "A8_FIT_CorrectiveSmooth_preview:CORRECTIVE_SMOOTH:view=False"
+      ],
+      "collections": [
+        "CLOTHING_FIT_PREP"
+      ]
+    },
+    {
+      "name": "ACC_EarPiercings_R.002",
+      "verts": 17841,
+      "polys": 17994,
+      "tris": 35570,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "ACC_Face"
+      ]
+    },
+    {
+      "name": "ACC_EarPiercings_R.005",
+      "verts": 17841,
+      "polys": 17994,
+      "tris": 35570,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "ACC_Face"
+      ]
+    },
+    {
+      "name": "Body",
+      "verts": 14164,
+      "polys": 14046,
+      "tris": 28092,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Collection"
+      ]
+    },
+    {
+      "name": "ACC_EarPiercings_R.001",
+      "verts": 11789,
+      "polys": 12610,
+      "tris": 23656,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "ACC_Face"
+      ]
+    },
+    {
+      "name": "ACC_EarPiercings_R.003",
+      "verts": 11789,
+      "polys": 12610,
+      "tris": 23656,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "ACC_Face"
+      ]
+    },
+    {
+      "name": "OUT_Underwear",
+      "verts": 10794,
+      "polys": 10416,
+      "tris": 20734,
+      "hide_viewport": true,
+      "hide_render": true,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "A8_Original_Clothing_Backup"
+      ]
+    },
+    {
+      "name": "ACC_Muzzle",
+      "verts": 8526,
+      "polys": 14402,
+      "tris": 14402,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "ACC_Face"
+      ]
+    },
+    {
+      "name": "ACC_EarPiercings_R.004",
+      "verts": 7743,
+      "polys": 7618,
+      "tris": 15224,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "ACC_Face"
+      ]
+    },
+    {
+      "name": "ACC_EarPiercings_R.006",
+      "verts": 7743,
+      "polys": 7618,
+      "tris": 15224,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "ACC_Face"
+      ]
+    },
+    {
+      "name": "FIT_StreetwearTop",
+      "verts": 4069,
+      "polys": 7554,
+      "tris": 7554,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True",
+        "Shrinkwrap:SHRINKWRAP:view=True",
+        "Cloth:CLOTH:view=False"
+      ],
+      "collections": [
+        "CLOTHING_FIT_PREP"
+      ]
+    },
+    {
+      "name": "FIT_Underwear_Support.001",
+      "verts": 3640,
+      "polys": 6980,
+      "tris": 6980,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True",
+        "A8_FIT_CorrectiveSmooth_preview:CORRECTIVE_SMOOTH:view=False",
+        "Shrinkwrap:SHRINKWRAP:view=True"
+      ],
+      "collections": [
+        "CLOTHING_FIT_PREP"
+      ]
+    },
+    {
+      "name": "ACC_BridgeStud_L",
+      "verts": 3010,
+      "polys": 3338,
+      "tris": 6048,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "ACC_Face"
+      ]
+    },
+    {
+      "name": "ACC_BridgeStud_R",
+      "verts": 3010,
+      "polys": 3338,
+      "tris": 6048,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "ACC_Face"
+      ]
+    },
+    {
+      "name": "Teeth",
+      "verts": 2642,
+      "polys": 2421,
+      "tris": 4842,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Collection"
+      ]
+    },
+    {
+      "name": "ACC_HipChain",
+      "verts": 2496,
+      "polys": 2496,
+      "tris": 4992,
+      "hide_viewport": true,
+      "hide_render": true,
+      "modifiers": [
+        "Subdivision:SUBSURF:view=True",
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "A8_Manual_Chain_Backup"
+      ]
+    },
+    {
+      "name": "ACC_CollarChain",
+      "verts": 2184,
+      "polys": 2184,
+      "tris": 4368,
+      "hide_viewport": true,
+      "hide_render": true,
+      "modifiers": [
+        "Subdivision:SUBSURF:view=True",
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "A8_Manual_Chain_Backup"
+      ]
+    },
+    {
+      "name": "ACC_BridgeChain",
+      "verts": 1560,
+      "polys": 1560,
+      "tris": 3120,
+      "hide_viewport": true,
+      "hide_render": true,
+      "modifiers": [
+        "Subdivision:SUBSURF:view=True",
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "A8_Manual_Chain_Backup"
+      ]
+    },
+    {
+      "name": "Eye",
+      "verts": 648,
+      "polys": 640,
+      "tris": 1280,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "cc3iid_Eye_Displace_R_v2.2.3_1231:DISPLACE:view=True",
+        "cc3iid_Eye_UV_Warp_R_v2.2.3_1232:UV_WARP:view=True",
+        "cc3iid_Eye_Displace_L_v2.2.3_1229:DISPLACE:view=True",
+        "cc3iid_Eye_UV_Warp_L_v2.2.3_1230:UV_WARP:view=True",
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Collection"
+      ]
+    },
+    {
+      "name": "A8_Choker_Work",
+      "verts": 628,
+      "polys": 556,
+      "tris": 992,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Collection"
+      ]
+    },
+    {
+      "name": "Scalp_Male",
+      "verts": 624,
+      "polys": 1148,
+      "tris": 1148,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Collection"
+      ]
+    },
+    {
+      "name": "bottome",
+      "verts": 524,
+      "polys": 542,
+      "tris": 1084,
+      "hide_viewport": true,
+      "hide_render": true,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "A8_Original_Clothing_Backup"
+      ]
+    },
+    {
+      "name": "top_cloth",
+      "verts": 462,
+      "polys": 484,
+      "tris": 968,
+      "hide_viewport": false,
+      "hide_render": true,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "A8_Original_Clothing_Backup"
+      ]
+    },
+    {
+      "name": "Tongue",
+      "verts": 309,
+      "polys": 296,
+      "tris": 592,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Collection"
+      ]
+    },
+    {
+      "name": "Septum_Piercing",
+      "verts": 288,
+      "polys": 288,
+      "tris": 576,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Scene Collection"
+      ]
+    },
+    {
+      "name": "TearLine",
+      "verts": 190,
+      "polys": 136,
+      "tris": 272,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "cc3iid_Tearline_Displace_All_R_v2.2.3_1254:DISPLACE:view=True",
+        "cc3iid_Tearline_Displace_Inner_R_v2.2.3_1253:DISPLACE:view=True",
+        "cc3iid_Tearline_Displace_All_L_v2.2.3_1252:DISPLACE:view=True",
+        "cc3iid_Tearline_Displace_Inner_L_v2.2.3_1251:DISPLACE:view=True",
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Collection"
+      ]
+    },
+    {
+      "name": "EyeOcclusion",
+      "verts": 182,
+      "polys": 144,
+      "tris": 288,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "cc3iid_Occlusion_Displace_All_R_v2.2.3_1246:DISPLACE:view=True",
+        "cc3iid_Occlusion_Displace_Bottom_R_v2.2.3_1245:DISPLACE:view=True",
+        "cc3iid_Occlusion_Displace_Top_R_v2.2.3_1244:DISPLACE:view=True",
+        "cc3iid_Occlusion_Displace_Outer_R_v2.2.3_1243:DISPLACE:view=True",
+        "cc3iid_Occlusion_Displace_Inner_R_v2.2.3_1242:DISPLACE:view=True",
+        "cc3iid_Occlusion_Displace_All_L_v2.2.3_1241:DISPLACE:view=True",
+        "cc3iid_Occlusion_Displace_Bottom_L_v2.2.3_1240:DISPLACE:view=True",
+        "cc3iid_Occlusion_Displace_Top_L_v2.2.3_1239:DISPLACE:view=True",
+        "cc3iid_Occlusion_Displace_Outer_L_v2.2.3_1238:DISPLACE:view=True",
+        "cc3iid_Occlusion_Displace_Inner_L_v2.2.3_1237:DISPLACE:view=True",
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Collection"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_eyes",
+      "verts": 76,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_foot_heel_ik.L",
+      "verts": 52,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_foot_heel_ik.R",
+      "verts": 52,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_foot_spin_ik.L",
+      "verts": 52,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_foot_spin_ik.R",
+      "verts": 52,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_foot_tweak.L",
+      "verts": 48,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_foot_tweak.R",
+      "verts": 48,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_forearm_tweak.L",
+      "verts": 48,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_forearm_tweak.L.001",
+      "verts": 48,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    }
+  ],
+  "visible_meshes_by_vertices": [
+    {
+      "name": "Hair_30629",
+      "verts": 30629,
+      "polys": 29948,
+      "tris": 29948,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Scene Collection"
+      ]
+    },
+    {
+      "name": "FIT_PleatedSkirt_Shrinkwrap",
+      "verts": 25011,
+      "polys": 48568,
+      "tris": 48568,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True",
+        "A8_FIT_Shrinkwrap_to_Body:SHRINKWRAP:view=True",
+        "A8_FIT_CorrectiveSmooth_preview:CORRECTIVE_SMOOTH:view=False"
+      ],
+      "collections": [
+        "CLOTHING_FIT_PREP"
+      ]
+    },
+    {
+      "name": "FIT_PleatedSkirt_Shrinkwrap_fitTest",
+      "verts": 25008,
+      "polys": 48568,
+      "tris": 48568,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True",
+        "A8_FIT_Shrinkwrap_to_Body:SHRINKWRAP:view=True",
+        "A8_FIT_CorrectiveSmooth_preview:CORRECTIVE_SMOOTH:view=False"
+      ],
+      "collections": [
+        "CLOTHING_FIT_PREP"
+      ]
+    },
+    {
+      "name": "ACC_EarPiercings_R.002",
+      "verts": 17841,
+      "polys": 17994,
+      "tris": 35570,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "ACC_Face"
+      ]
+    },
+    {
+      "name": "ACC_EarPiercings_R.005",
+      "verts": 17841,
+      "polys": 17994,
+      "tris": 35570,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "ACC_Face"
+      ]
+    },
+    {
+      "name": "Body",
+      "verts": 14164,
+      "polys": 14046,
+      "tris": 28092,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Collection"
+      ]
+    },
+    {
+      "name": "ACC_EarPiercings_R.001",
+      "verts": 11789,
+      "polys": 12610,
+      "tris": 23656,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "ACC_Face"
+      ]
+    },
+    {
+      "name": "ACC_EarPiercings_R.003",
+      "verts": 11789,
+      "polys": 12610,
+      "tris": 23656,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "ACC_Face"
+      ]
+    },
+    {
+      "name": "ACC_Muzzle",
+      "verts": 8526,
+      "polys": 14402,
+      "tris": 14402,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "ACC_Face"
+      ]
+    },
+    {
+      "name": "ACC_EarPiercings_R.004",
+      "verts": 7743,
+      "polys": 7618,
+      "tris": 15224,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "ACC_Face"
+      ]
+    },
+    {
+      "name": "ACC_EarPiercings_R.006",
+      "verts": 7743,
+      "polys": 7618,
+      "tris": 15224,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "ACC_Face"
+      ]
+    },
+    {
+      "name": "FIT_StreetwearTop",
+      "verts": 4069,
+      "polys": 7554,
+      "tris": 7554,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True",
+        "Shrinkwrap:SHRINKWRAP:view=True",
+        "Cloth:CLOTH:view=False"
+      ],
+      "collections": [
+        "CLOTHING_FIT_PREP"
+      ]
+    },
+    {
+      "name": "FIT_Underwear_Support.001",
+      "verts": 3640,
+      "polys": 6980,
+      "tris": 6980,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True",
+        "A8_FIT_CorrectiveSmooth_preview:CORRECTIVE_SMOOTH:view=False",
+        "Shrinkwrap:SHRINKWRAP:view=True"
+      ],
+      "collections": [
+        "CLOTHING_FIT_PREP"
+      ]
+    },
+    {
+      "name": "ACC_BridgeStud_L",
+      "verts": 3010,
+      "polys": 3338,
+      "tris": 6048,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "ACC_Face"
+      ]
+    },
+    {
+      "name": "ACC_BridgeStud_R",
+      "verts": 3010,
+      "polys": 3338,
+      "tris": 6048,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "ACC_Face"
+      ]
+    },
+    {
+      "name": "Teeth",
+      "verts": 2642,
+      "polys": 2421,
+      "tris": 4842,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Collection"
+      ]
+    },
+    {
+      "name": "Eye",
+      "verts": 648,
+      "polys": 640,
+      "tris": 1280,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "cc3iid_Eye_Displace_R_v2.2.3_1231:DISPLACE:view=True",
+        "cc3iid_Eye_UV_Warp_R_v2.2.3_1232:UV_WARP:view=True",
+        "cc3iid_Eye_Displace_L_v2.2.3_1229:DISPLACE:view=True",
+        "cc3iid_Eye_UV_Warp_L_v2.2.3_1230:UV_WARP:view=True",
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Collection"
+      ]
+    },
+    {
+      "name": "A8_Choker_Work",
+      "verts": 628,
+      "polys": 556,
+      "tris": 992,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Collection"
+      ]
+    },
+    {
+      "name": "Scalp_Male",
+      "verts": 624,
+      "polys": 1148,
+      "tris": 1148,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Collection"
+      ]
+    },
+    {
+      "name": "top_cloth",
+      "verts": 462,
+      "polys": 484,
+      "tris": 968,
+      "hide_viewport": false,
+      "hide_render": true,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "A8_Original_Clothing_Backup"
+      ]
+    },
+    {
+      "name": "Tongue",
+      "verts": 309,
+      "polys": 296,
+      "tris": 592,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Collection"
+      ]
+    },
+    {
+      "name": "Septum_Piercing",
+      "verts": 288,
+      "polys": 288,
+      "tris": 576,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Scene Collection"
+      ]
+    },
+    {
+      "name": "TearLine",
+      "verts": 190,
+      "polys": 136,
+      "tris": 272,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "cc3iid_Tearline_Displace_All_R_v2.2.3_1254:DISPLACE:view=True",
+        "cc3iid_Tearline_Displace_Inner_R_v2.2.3_1253:DISPLACE:view=True",
+        "cc3iid_Tearline_Displace_All_L_v2.2.3_1252:DISPLACE:view=True",
+        "cc3iid_Tearline_Displace_Inner_L_v2.2.3_1251:DISPLACE:view=True",
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Collection"
+      ]
+    },
+    {
+      "name": "EyeOcclusion",
+      "verts": 182,
+      "polys": 144,
+      "tris": 288,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [
+        "cc3iid_Occlusion_Displace_All_R_v2.2.3_1246:DISPLACE:view=True",
+        "cc3iid_Occlusion_Displace_Bottom_R_v2.2.3_1245:DISPLACE:view=True",
+        "cc3iid_Occlusion_Displace_Top_R_v2.2.3_1244:DISPLACE:view=True",
+        "cc3iid_Occlusion_Displace_Outer_R_v2.2.3_1243:DISPLACE:view=True",
+        "cc3iid_Occlusion_Displace_Inner_R_v2.2.3_1242:DISPLACE:view=True",
+        "cc3iid_Occlusion_Displace_All_L_v2.2.3_1241:DISPLACE:view=True",
+        "cc3iid_Occlusion_Displace_Bottom_L_v2.2.3_1240:DISPLACE:view=True",
+        "cc3iid_Occlusion_Displace_Top_L_v2.2.3_1239:DISPLACE:view=True",
+        "cc3iid_Occlusion_Displace_Outer_L_v2.2.3_1238:DISPLACE:view=True",
+        "cc3iid_Occlusion_Displace_Inner_L_v2.2.3_1237:DISPLACE:view=True",
+        "Armature:ARMATURE:view=True"
+      ],
+      "collections": [
+        "Collection"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_eyes",
+      "verts": 76,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_foot_heel_ik.L",
+      "verts": 52,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_foot_heel_ik.R",
+      "verts": 52,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_foot_spin_ik.L",
+      "verts": 52,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_foot_spin_ik.R",
+      "verts": 52,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_foot_tweak.L",
+      "verts": 48,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_foot_tweak.R",
+      "verts": 48,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_forearm_tweak.L",
+      "verts": 48,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_forearm_tweak.L.001",
+      "verts": 48,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_forearm_tweak.R",
+      "verts": 48,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_forearm_tweak.R.001",
+      "verts": 48,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_hand_tweak.L",
+      "verts": 48,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_hand_tweak.R",
+      "verts": 48,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_root",
+      "verts": 48,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_shin_tweak.L",
+      "verts": 48,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    },
+    {
+      "name": "WGT-blender file_rig_shin_tweak.L.001",
+      "verts": 48,
+      "polys": 0,
+      "tris": 0,
+      "hide_viewport": false,
+      "hide_render": false,
+      "modifiers": [],
+      "collections": [
+        "WGTS_blender file_rig"
+      ]
+    }
+  ],
+  "visible_modifier_objects": [
+    {
+      "name": "Hair_30629",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE"
+      ],
+      "verts": 30629
+    },
+    {
+      "name": "FIT_PleatedSkirt_Shrinkwrap",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE",
+        "A8_FIT_Shrinkwrap_to_Body:SHRINKWRAP"
+      ],
+      "verts": 25011
+    },
+    {
+      "name": "FIT_PleatedSkirt_Shrinkwrap_fitTest",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE",
+        "A8_FIT_Shrinkwrap_to_Body:SHRINKWRAP"
+      ],
+      "verts": 25008
+    },
+    {
+      "name": "ACC_EarPiercings_R.002",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE"
+      ],
+      "verts": 17841
+    },
+    {
+      "name": "ACC_EarPiercings_R.005",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE"
+      ],
+      "verts": 17841
+    },
+    {
+      "name": "Body",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE"
+      ],
+      "verts": 14164
+    },
+    {
+      "name": "ACC_EarPiercings_R.001",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE"
+      ],
+      "verts": 11789
+    },
+    {
+      "name": "ACC_EarPiercings_R.003",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE"
+      ],
+      "verts": 11789
+    },
+    {
+      "name": "ACC_Muzzle",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE"
+      ],
+      "verts": 8526
+    },
+    {
+      "name": "ACC_EarPiercings_R.004",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE"
+      ],
+      "verts": 7743
+    },
+    {
+      "name": "ACC_EarPiercings_R.006",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE"
+      ],
+      "verts": 7743
+    },
+    {
+      "name": "FIT_StreetwearTop",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE",
+        "Shrinkwrap:SHRINKWRAP"
+      ],
+      "verts": 4069
+    },
+    {
+      "name": "FIT_Underwear_Support.001",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE",
+        "Shrinkwrap:SHRINKWRAP"
+      ],
+      "verts": 3640
+    },
+    {
+      "name": "ACC_BridgeStud_L",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE"
+      ],
+      "verts": 3010
+    },
+    {
+      "name": "ACC_BridgeStud_R",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE"
+      ],
+      "verts": 3010
+    },
+    {
+      "name": "Teeth",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE"
+      ],
+      "verts": 2642
+    },
+    {
+      "name": "Eye",
+      "hide_viewport": false,
+      "mods": [
+        "cc3iid_Eye_Displace_R_v2.2.3_1231:DISPLACE",
+        "cc3iid_Eye_UV_Warp_R_v2.2.3_1232:UV_WARP",
+        "cc3iid_Eye_Displace_L_v2.2.3_1229:DISPLACE",
+        "cc3iid_Eye_UV_Warp_L_v2.2.3_1230:UV_WARP",
+        "Armature:ARMATURE"
+      ],
+      "verts": 648
+    },
+    {
+      "name": "A8_Choker_Work",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE"
+      ],
+      "verts": 628
+    },
+    {
+      "name": "Scalp_Male",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE"
+      ],
+      "verts": 624
+    },
+    {
+      "name": "top_cloth",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE"
+      ],
+      "verts": 462
+    },
+    {
+      "name": "Tongue",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE"
+      ],
+      "verts": 309
+    },
+    {
+      "name": "Septum_Piercing",
+      "hide_viewport": false,
+      "mods": [
+        "Armature:ARMATURE"
+      ],
+      "verts": 288
+    },
+    {
+      "name": "TearLine",
+      "hide_viewport": false,
+      "mods": [
+        "cc3iid_Tearline_Displace_All_R_v2.2.3_1254:DISPLACE",
+        "cc3iid_Tearline_Displace_Inner_R_v2.2.3_1253:DISPLACE",
+        "cc3iid_Tearline_Displace_All_L_v2.2.3_1252:DISPLACE",
+        "cc3iid_Tearline_Displace_Inner_L_v2.2.3_1251:DISPLACE",
+        "Armature:ARMATURE"
+      ],
+      "verts": 190
+    },
+    {
+      "name": "EyeOcclusion",
+      "hide_viewport": false,
+      "mods": [
+        "cc3iid_Occlusion_Displace_All_R_v2.2.3_1246:DISPLACE",
+        "cc3iid_Occlusion_Displace_Bottom_R_v2.2.3_1245:DISPLACE",
+        "cc3iid_Occlusion_Displace_Top_R_v2.2.3_1244:DISPLACE",
+        "cc3iid_Occlusion_Displace_Outer_R_v2.2.3_1243:DISPLACE",
+        "cc3iid_Occlusion_Displace_Inner_R_v2.2.3_1242:DISPLACE",
+        "cc3iid_Occlusion_Displace_All_L_v2.2.3_1241:DISPLACE",
+        "cc3iid_Occlusion_Displace_Bottom_L_v2.2.3_1240:DISPLACE",
+        "cc3iid_Occlusion_Displace_Top_L_v2.2.3_1239:DISPLACE",
+        "cc3iid_Occlusion_Displace_Outer_L_v2.2.3_1238:DISPLACE",
+        "cc3iid_Occlusion_Displace_Inner_L_v2.2.3_1237:DISPLACE",
+        "Armature:ARMATURE"
+      ],
+      "verts": 182
+    },
+    {
+      "name": "WGT-blender file_rig_palm.L",
+      "hide_viewport": false,
+      "mods": [
+        "subsurf:SUBSURF"
+      ],
+      "verts": 16
+    },
+    {
+      "name": "WGT-blender file_rig_palm.R",
+      "hide_viewport": false,
+      "mods": [
+        "subsurf:SUBSURF"
+      ],
+      "verts": 16
+    },
+    {
+      "name": "WGT-blender file_rig_foot_ik.L",
+      "hide_viewport": false,
+      "mods": [
+        "subsurf:SUBSURF"
+      ],
+      "verts": 8
+    },
+    {
+      "name": "WGT-blender file_rig_foot_ik.R",
+      "hide_viewport": false,
+      "mods": [
+        "subsurf:SUBSURF"
+      ],
+      "verts": 8
+    },
+    {
+      "name": "WGT-blender file_rig_hand_ik.L",
+      "hide_viewport": false,
+      "mods": [
+        "subsurf:SUBSURF"
+      ],
+      "verts": 8
+    },
+    {
+      "name": "WGT-blender file_rig_hand_ik.R",
+      "hide_viewport": false,
+      "mods": [
+        "subsurf:SUBSURF"
+      ],
+      "verts": 8
+    }
+  ],
+  "largest_images": [
+    {
+      "name": "DarkSea.png",
+      "filepath": "//..\\..\\..\\Asset_Addon_Library\\HairCards\\DarkSea.png",
+      "size": [
+        8850,
+        3520
+      ],
+      "channels": 4,
+      "approx_bytes": 124608000
+    },
+    {
+      "name": "Direction_Texture.psd.001",
+      "filepath": "//..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction_Texture.psd",
+      "size": [
+        2048,
+        2048
+      ],
+      "channels": 4,
+      "approx_bytes": 16777216
+    },
+    {
+      "name": "Distort_Wrinkles.psd.001",
+      "filepath": "//..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Basic_wrinkles.psd",
+      "size": [
+        1400,
+        1400
+      ],
+      "channels": 4,
+      "approx_bytes": 7840000
+    },
+    {
+      "name": "Chin.psd.001",
+      "filepath": "//..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Chin.psd",
+      "size": [
+        1178,
+        1130
+      ],
+      "channels": 4,
+      "approx_bytes": 5324560
+    },
+    {
+      "name": "Old_Skin2.psd.001",
+      "filepath": "//..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Old_Skin2.psd",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Scalp1_Transparency_Opacity",
+      "filepath": "//textures\\Scalp1_Transparency_Opacity_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Cornea_L_Diffuse",
+      "filepath": "//textures\\Std_Cornea_L_Diffuse_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Cornea_R_Diffuse",
+      "filepath": "//textures\\Std_Cornea_R_Diffuse_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Eye_L_Diffuse",
+      "filepath": "//textures\\Std_Eye_L_Diffuse_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Eye_R_Diffuse",
+      "filepath": "//textures\\Std_Eye_R_Diffuse_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Eyelash_Normal",
+      "filepath": "//textures\\Std_Eyelash_Normal_1k.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Eyelash_Opacity",
+      "filepath": "//textures\\Std_Eyelash_Opacity_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Eyelash_roughness.jpg",
+      "filepath": "//textures\\Std_Eyelash_roughness_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Lower_Teeth_Normal",
+      "filepath": "//textures\\Std_Lower_Teeth_Normal_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Lower_Teeth_roughness.jpg",
+      "filepath": "//textures\\Std_Lower_Teeth_roughness_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Nails_ao.jpg",
+      "filepath": "//textures\\Std_Nails_ao_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Nails_Normal",
+      "filepath": "//textures\\Std_Nails_Normal_1k.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Nails_roughness.jpg",
+      "filepath": "//textures\\Std_Nails_roughness_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Skin_Arm_ao_1k.jpg",
+      "filepath": "//textures\\Std_Skin_Arm_ao_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Skin_Arm_MicroNMask.jpg",
+      "filepath": "//textures\\Std_Skin_Arm_MicroNMask_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Skin_Arm_Normal",
+      "filepath": "//textures\\Std_Skin_Arm_Normal_1k.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Skin_Arm_roughness.jpg",
+      "filepath": "//textures\\Std_Skin_Arm_roughness_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Skin_Arm_SSSMap.png",
+      "filepath": "//textures\\Std_Skin_Arm_SSSMap_1k.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Skin_Body_ao_1k.jpg",
+      "filepath": "//textures\\Std_Skin_Body_ao_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Skin_Body_Normal",
+      "filepath": "//textures\\Std_Skin_Body_Normal_1k.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Skin_Body_roughness.jpg",
+      "filepath": "//textures\\Std_Skin_Body_roughness_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Skin_Body_SSSMap.png",
+      "filepath": "//textures\\Std_Skin_Body_SSSMap_1k.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Skin_Head_ao_1k.jpg",
+      "filepath": "//textures\\Std_Skin_Head_ao_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Skin_Head_MicroN_1k.png",
+      "filepath": "//textures\\Std_Skin_Head_MicroN_1k.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    },
+    {
+      "name": "Std_Skin_Head_Normal",
+      "filepath": "//textures\\Std_Skin_Head_Normal_1k.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "channels": 4,
+      "approx_bytes": 4194304
+    }
+  ]
+}

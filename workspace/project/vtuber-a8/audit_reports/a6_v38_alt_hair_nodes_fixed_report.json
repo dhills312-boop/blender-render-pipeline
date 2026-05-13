@@ -1,0 +1,111 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v37_paw_material_applied.blend",
+  "output": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v38_alt_hair_nodes_fixed.blend",
+  "hair_fixes": [
+    {
+      "material": "N00_000_Hair_00_HAIR_01.001",
+      "image_node": "Image Texture.005",
+      "targets": [
+        "Principled BSDF"
+      ],
+      "removed": [
+        "Image Texture.Color->Principled BSDF.Base Color"
+      ]
+    },
+    {
+      "material": "N00_000_00_HairBack_00_HAIR.001",
+      "image_node": "Image Texture.003",
+      "targets": [
+        "Principled BSDF"
+      ],
+      "removed": [
+        "Image Texture.Color->Principled BSDF.Base Color"
+      ]
+    }
+  ],
+  "ribbon_fixes": [
+    {
+      "material": "\u7fbd.001",
+      "rgb_node": "RGB",
+      "value": [
+        0.98,
+        0.58,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "material": "\u7fbd.001",
+      "rgb_node": "RGB.001",
+      "value": [
+        0.98,
+        0.58,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "material": "\u7fbd.001",
+      "rgb_node": "RGB.002",
+      "value": [
+        0.98,
+        0.58,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "material": "\u7fbd.001",
+      "rgb_node": "RGB.003",
+      "value": [
+        0.98,
+        0.58,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "material": "\u7fbd.001",
+      "rgb_node": "RGB.004",
+      "value": [
+        0.98,
+        0.58,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "alt_hair_link_summary": [
+    {
+      "material": "N00_000_Hair_00_HAIR_01.001",
+      "links": [
+        "Image Texture.005.Color->Principled BSDF.001.Base Color",
+        "Image Texture.005.Alpha->Principled BSDF.001.Alpha",
+        "Image Texture.005.Color->Principled BSDF.Base Color",
+        "Image Texture.005.Alpha->Principled BSDF.Alpha"
+      ]
+    },
+    {
+      "material": "\u7fbd.001",
+      "links": [
+        "RGB.Color->Group.DiffuseColor"
+      ]
+    },
+    {
+      "material": "N00_000_00_HairBack_00_HAIR.001",
+      "links": [
+        "RGB.Color->Group.DiffuseColor",
+        "Image Texture.003.Color->Group.MainTexture",
+        "Image Texture.003.Color->Group.Emission_Texture",
+        "Image Texture.003.Alpha->Group.MainTextureAlpha",
+        "Image Texture.003.Color->Principled BSDF.Base Color",
+        "Image Texture.003.Alpha->Principled BSDF.Alpha"
+      ]
+    }
+  ],
+  "notes": [
+    "Corrected actual shader/output wiring; not just image-node assignment.",
+    "Main hair and hairback receive WhiteBlackOmbre on active shader paths.",
+    "Ribbon RGB/group path is connected and tuned to soft pink silk."
+  ]
+}

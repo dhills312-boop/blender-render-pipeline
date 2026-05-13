@@ -1,0 +1,96 @@
+{
+  "blend_file": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v16_body_conformed_cleanup.blend",
+  "object": "Body",
+  "mesh_stats": {
+    "vertices": 14164,
+    "edges": 28202,
+    "polygons": 14046,
+    "triangles": 28092
+  },
+  "shape_keys": {
+    "Eye_L_Look_L": 0.0005240222672000527,
+    "Eye_R_Look_L": 0.00013931325520388782,
+    "Eye_L_Look_Down": 9.094287815969437e-05,
+    "Eye_R_Look_Down": 4.0681879909243435e-05,
+    "Jaw_Open": 5.508218237082474e-08,
+    "Head_Turn_Down": 8.772976798354648e-06,
+    "Head_Turn_L": 0.00022130904835648835,
+    "Head_Tilt_R": 0.00016957850311882794,
+    "Body_Sculpt_Conform": 1.0
+  },
+  "body_vertex_count": 8517,
+  "bbox_cm": {
+    "height_z": 137.2096433537081,
+    "width_x": 144.6639895439148,
+    "depth_y": 32.379743456840515,
+    "min_z": -0.3128662006929517,
+    "max_z": 136.89677715301514
+  },
+  "measurements": {
+    "bust": {
+      "z_m": 1.21,
+      "count": 82,
+      "width_cm": 28.77601385116577,
+      "depth_cm": 26.24632939696312,
+      "circumference_cm": 95.74349708499132,
+      "front_y_cm": -15.47662615776062,
+      "back_y_cm": 10.7697032392025
+    },
+    "underbust": {
+      "z_m": 1.08,
+      "count": 50,
+      "width_cm": 21.851792186498642,
+      "depth_cm": 13.80155198276043,
+      "circumference_cm": 57.075677516937,
+      "front_y_cm": -7.85079225897789,
+      "back_y_cm": 5.950759723782539
+    },
+    "waist": {
+      "z_m": 1.02,
+      "count": 67,
+      "width_cm": 24.608957022428513,
+      "depth_cm": 14.429354667663574,
+      "circumference_cm": 63.17691796870481,
+      "front_y_cm": -8.25723186135292,
+      "back_y_cm": 6.172122806310654
+    },
+    "hip": {
+      "z_m": 0.815,
+      "count": 67,
+      "width_cm": 38.18847835063934,
+      "depth_cm": 25.624055415391922,
+      "circumference_cm": 107.47196816551761,
+      "front_y_cm": -10.00286266207695,
+      "back_y_cm": 15.621192753314972
+    },
+    "shoulder": {
+      "z_m": 1.24,
+      "count": 179,
+      "width_cm": 75.72424113750458,
+      "depth_cm": 23.72880056500435,
+      "circumference_cm": 164.65409951866854,
+      "front_y_cm": -12.611788511276245,
+      "back_y_cm": 11.117012053728104
+    }
+  },
+  "ratios": {
+    "bust_to_waist": 1.5154822388204918,
+    "hip_to_waist": 1.7011271144748579
+  },
+  "bra_size_estimate": {
+    "underbust_in": 22.470739179896455,
+    "bust_in": 37.694290190941466,
+    "rounded_band": 24,
+    "cup_delta_in": 13.694290190941466,
+    "rough_us_size": "24N",
+    "common_band_equivalents": {
+      "28": "28J",
+      "30": "30H",
+      "32": "32DDD/F"
+    }
+  },
+  "notes": [
+    "Circumferences use convex hulls of horizontal mesh slices, so they are costume/proportion estimates.",
+    "The avatar is in a T pose; torso-half-width filtering is used to avoid arm contamination."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "blend": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v19_clothing_fit_prep.blend",
+  "source_found": "top_cloth",
+  "inspection_copy": "INSPECT_top_cloth_source_side",
+  "inspection_location": [
+    0.75,
+    1.5646218765041908e-09,
+    1.9269061013460487e-08
+  ],
+  "source_vertex_count": 462,
+  "source_polygon_count": 484,
+  "source_materials": [
+    "Breast_Panels"
+  ],
+  "note": "INSPECT_top_cloth_source_side is a raw visible copy placed beside the avatar."
+}

@@ -1,0 +1,61 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v23_manual_clothing_fit_rough.blend",
+  "output": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v25_top_cleanup_keep_skirt.blend",
+  "top_source": "FIT_StreetwearTop",
+  "top_clean": "CLEAN_StreetwearTop_v25",
+  "top_before": {
+    "verts": 4024,
+    "polys": 7464,
+    "tris": 7464
+  },
+  "top_after": {
+    "verts": 4024,
+    "polys": 7464,
+    "tris": 7464
+  },
+  "top_scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "top_modifiers": [
+    "A8_TOP_CorrectiveSmooth_polish:CORRECTIVE_SMOOTH:view=True",
+    "A8_TOP_WeightedNormals:WEIGHTED_NORMAL:view=True"
+  ],
+  "boundary_loops": [
+    {
+      "verts": 397,
+      "size": [
+        0.3007053732872009,
+        0.24223141372203827,
+        0.3168994188308716
+      ]
+    },
+    {
+      "verts": 20,
+      "size": [
+        0.010633922182023525,
+        0.03438672423362732,
+        0.006298065185546875
+      ]
+    },
+    {
+      "verts": 133,
+      "size": [
+        0.2752763330936432,
+        0.2092796266078949,
+        0.04306674003601074
+      ]
+    }
+  ],
+  "left_unmodified": [
+    "FIT_PleatedSkirt_Shrinkwrap",
+    "FIT_PleatedSkirt_Shrinkwrap_fitTest",
+    "FIT_Underwear_Support.001"
+  ],
+  "notes": [
+    "Only the top was baked and cleaned.",
+    "Skirt and underwear were left as they existed in the rough pass.",
+    "Rough FIT_StreetwearTop is hidden as backup, not deleted."
+  ]
+}

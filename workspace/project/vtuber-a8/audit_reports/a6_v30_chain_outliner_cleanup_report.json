@@ -1,0 +1,415 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v29_full_clothing_contact.blend",
+  "output": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v30_chain_outliner_cleanup.blend",
+  "chain_blend": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\Asset_Addon_Library\\New as of 5_12\\curve_to_chain_generator.blend",
+  "chain_curve": "ACC_BridgeChain_Curve",
+  "chain_collection": "A8_BridgeChain_Links",
+  "chain_material": "Septum_Metal",
+  "chain": {
+    "left_center": [
+      -0.010505715385079384,
+      -0.09512145817279816,
+      1.4946479797363281
+    ],
+    "mid": [
+      1.751445233821869e-05,
+      -0.09937193244695663,
+      1.4834601879119873
+    ],
+    "right_center": [
+      0.010540744289755821,
+      -0.09562239795923233,
+      1.4922722578048706
+    ],
+    "modifier_keys": {
+      "Socket_2": "0.017999999225139618",
+      "Socket_2_use_attribute": "0",
+      "Socket_2_attribute_name": "",
+      "Socket_3": "<bpy_struct, Collection(\"A8_BridgeChain_Links\") at 0x000002ADD5C9D620>",
+      "Socket_4": "<bpy_struct, Material(\"Septum_Metal\") at 0x000002ADE50A65E0>",
+      "Socket_5": "0.009999999776482582",
+      "Socket_5_use_attribute": "0",
+      "Socket_5_attribute_name": "",
+      "Socket_6": "0.03999999910593033",
+      "Socket_6_use_attribute": "0",
+      "Socket_6_attribute_name": "",
+      "Socket_7": "3",
+      "Socket_7_use_attribute": "0",
+      "Socket_7_attribute_name": ""
+    }
+  },
+  "realized_chain_mesh": {
+    "source": "Chain_Link.002",
+    "links": 6,
+    "scale": 0.007499999832361937,
+    "vertices": 7488,
+    "polygons": 7488
+  },
+  "organized_collections": {
+    "A8_ACTIVE_ACCESSORIES": 13,
+    "A8_RIG": 1,
+    "A8_ACTIVE_BODY": 1,
+    "A8_HIDDEN_SOURCE_BACKUPS": 221,
+    "Need to Organize": 6,
+    "A8_ACTIVE_CLOTHING": 6,
+    "A8_ACTIVE_FACE_MOUTH_EYES": 5,
+    "A8_ACTIVE_HAIR": 2
+  },
+  "duplicate_groups": {
+    "ACC_EarPiercings_R": {
+      "objects": [
+        "ACC_EarPiercings_R.001",
+        "ACC_EarPiercings_R.002",
+        "ACC_EarPiercings_R.003",
+        "ACC_EarPiercings_R.004",
+        "ACC_EarPiercings_R.005",
+        "ACC_EarPiercings_R.006"
+      ],
+      "visible": [
+        "ACC_EarPiercings_R.001",
+        "ACC_EarPiercings_R.002",
+        "ACC_EarPiercings_R.003",
+        "ACC_EarPiercings_R.004",
+        "ACC_EarPiercings_R.005",
+        "ACC_EarPiercings_R.006"
+      ]
+    },
+    "Chain_Link": {
+      "objects": [
+        "Chain_Link.001",
+        "Chain_Link.002",
+        "Chain_Link.003",
+        "Chain_Link.004",
+        "Chain_Link.005"
+      ],
+      "visible": [
+        "Chain_Link.002"
+      ]
+    },
+    "WGT-blender file_rig_brow.B.L": {
+      "objects": [
+        "WGT-blender file_rig_brow.B.L",
+        "WGT-blender file_rig_brow.B.L.001",
+        "WGT-blender file_rig_brow.B.L.002",
+        "WGT-blender file_rig_brow.B.L.003",
+        "WGT-blender file_rig_brow.B.L.004"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_brow.B.R": {
+      "objects": [
+        "WGT-blender file_rig_brow.B.R",
+        "WGT-blender file_rig_brow.B.R.001",
+        "WGT-blender file_rig_brow.B.R.002",
+        "WGT-blender file_rig_brow.B.R.003",
+        "WGT-blender file_rig_brow.B.R.004"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_brow.T.L": {
+      "objects": [
+        "WGT-blender file_rig_brow.T.L",
+        "WGT-blender file_rig_brow.T.L.001",
+        "WGT-blender file_rig_brow.T.L.002",
+        "WGT-blender file_rig_brow.T.L.003"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_brow.T.R": {
+      "objects": [
+        "WGT-blender file_rig_brow.T.R",
+        "WGT-blender file_rig_brow.T.R.001",
+        "WGT-blender file_rig_brow.T.R.002",
+        "WGT-blender file_rig_brow.T.R.003"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_chin": {
+      "objects": [
+        "WGT-blender file_rig_chin",
+        "WGT-blender file_rig_chin.001",
+        "WGT-blender file_rig_chin.002"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_ear.L": {
+      "objects": [
+        "WGT-blender file_rig_ear.L",
+        "WGT-blender file_rig_ear.L.002",
+        "WGT-blender file_rig_ear.L.003",
+        "WGT-blender file_rig_ear.L.004"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_ear.R": {
+      "objects": [
+        "WGT-blender file_rig_ear.R",
+        "WGT-blender file_rig_ear.R.002",
+        "WGT-blender file_rig_ear.R.003",
+        "WGT-blender file_rig_ear.R.004"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_f_index.01.L": {
+      "objects": [
+        "WGT-blender file_rig_f_index.01.L",
+        "WGT-blender file_rig_f_index.01.L.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_f_index.01.R": {
+      "objects": [
+        "WGT-blender file_rig_f_index.01.R",
+        "WGT-blender file_rig_f_index.01.R.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_f_middle.01.L": {
+      "objects": [
+        "WGT-blender file_rig_f_middle.01.L",
+        "WGT-blender file_rig_f_middle.01.L.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_f_middle.01.R": {
+      "objects": [
+        "WGT-blender file_rig_f_middle.01.R",
+        "WGT-blender file_rig_f_middle.01.R.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_f_pinky.01.L": {
+      "objects": [
+        "WGT-blender file_rig_f_pinky.01.L",
+        "WGT-blender file_rig_f_pinky.01.L.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_f_pinky.01.R": {
+      "objects": [
+        "WGT-blender file_rig_f_pinky.01.R",
+        "WGT-blender file_rig_f_pinky.01.R.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_f_ring.01.L": {
+      "objects": [
+        "WGT-blender file_rig_f_ring.01.L",
+        "WGT-blender file_rig_f_ring.01.L.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_f_ring.01.R": {
+      "objects": [
+        "WGT-blender file_rig_f_ring.01.R",
+        "WGT-blender file_rig_f_ring.01.R.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_forearm_tweak.L": {
+      "objects": [
+        "WGT-blender file_rig_forearm_tweak.L",
+        "WGT-blender file_rig_forearm_tweak.L.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_forearm_tweak.R": {
+      "objects": [
+        "WGT-blender file_rig_forearm_tweak.R",
+        "WGT-blender file_rig_forearm_tweak.R.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_jaw.L": {
+      "objects": [
+        "WGT-blender file_rig_jaw.L",
+        "WGT-blender file_rig_jaw.L.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_jaw.R": {
+      "objects": [
+        "WGT-blender file_rig_jaw.R",
+        "WGT-blender file_rig_jaw.R.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_lid.B.L": {
+      "objects": [
+        "WGT-blender file_rig_lid.B.L",
+        "WGT-blender file_rig_lid.B.L.001",
+        "WGT-blender file_rig_lid.B.L.002",
+        "WGT-blender file_rig_lid.B.L.003"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_lid.B.R": {
+      "objects": [
+        "WGT-blender file_rig_lid.B.R",
+        "WGT-blender file_rig_lid.B.R.001",
+        "WGT-blender file_rig_lid.B.R.002",
+        "WGT-blender file_rig_lid.B.R.003"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_lid.T.L": {
+      "objects": [
+        "WGT-blender file_rig_lid.T.L",
+        "WGT-blender file_rig_lid.T.L.001",
+        "WGT-blender file_rig_lid.T.L.002",
+        "WGT-blender file_rig_lid.T.L.003"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_lid.T.R": {
+      "objects": [
+        "WGT-blender file_rig_lid.T.R",
+        "WGT-blender file_rig_lid.T.R.001",
+        "WGT-blender file_rig_lid.T.R.002",
+        "WGT-blender file_rig_lid.T.R.003"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_nose": {
+      "objects": [
+        "WGT-blender file_rig_nose",
+        "WGT-blender file_rig_nose.001",
+        "WGT-blender file_rig_nose.002",
+        "WGT-blender file_rig_nose.003",
+        "WGT-blender file_rig_nose.004",
+        "WGT-blender file_rig_nose.005"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_nose.L": {
+      "objects": [
+        "WGT-blender file_rig_nose.L",
+        "WGT-blender file_rig_nose.L.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_nose.R": {
+      "objects": [
+        "WGT-blender file_rig_nose.R",
+        "WGT-blender file_rig_nose.R.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_shin_tweak.L": {
+      "objects": [
+        "WGT-blender file_rig_shin_tweak.L",
+        "WGT-blender file_rig_shin_tweak.L.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_shin_tweak.R": {
+      "objects": [
+        "WGT-blender file_rig_shin_tweak.R",
+        "WGT-blender file_rig_shin_tweak.R.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_spine_fk": {
+      "objects": [
+        "WGT-blender file_rig_spine_fk",
+        "WGT-blender file_rig_spine_fk.001",
+        "WGT-blender file_rig_spine_fk.002",
+        "WGT-blender file_rig_spine_fk.003"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_thigh_tweak.L": {
+      "objects": [
+        "WGT-blender file_rig_thigh_tweak.L",
+        "WGT-blender file_rig_thigh_tweak.L.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_thigh_tweak.R": {
+      "objects": [
+        "WGT-blender file_rig_thigh_tweak.R",
+        "WGT-blender file_rig_thigh_tweak.R.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_thumb.01.L": {
+      "objects": [
+        "WGT-blender file_rig_thumb.01.L",
+        "WGT-blender file_rig_thumb.01.L.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_thumb.01.R": {
+      "objects": [
+        "WGT-blender file_rig_thumb.01.R",
+        "WGT-blender file_rig_thumb.01.R.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_tongue": {
+      "objects": [
+        "WGT-blender file_rig_tongue",
+        "WGT-blender file_rig_tongue.001",
+        "WGT-blender file_rig_tongue.002",
+        "WGT-blender file_rig_tongue.003"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_tweak_spine": {
+      "objects": [
+        "WGT-blender file_rig_tweak_spine",
+        "WGT-blender file_rig_tweak_spine.001",
+        "WGT-blender file_rig_tweak_spine.002",
+        "WGT-blender file_rig_tweak_spine.003",
+        "WGT-blender file_rig_tweak_spine.004",
+        "WGT-blender file_rig_tweak_spine.005"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_upper_arm_tweak.L": {
+      "objects": [
+        "WGT-blender file_rig_upper_arm_tweak.L",
+        "WGT-blender file_rig_upper_arm_tweak.L.001"
+      ],
+      "visible": []
+    },
+    "WGT-blender file_rig_upper_arm_tweak.R": {
+      "objects": [
+        "WGT-blender file_rig_upper_arm_tweak.R",
+        "WGT-blender file_rig_upper_arm_tweak.R.001"
+      ],
+      "visible": []
+    }
+  },
+  "visible_meshes": [
+    "A8_Choker_Work",
+    "ACC_BridgeChain",
+    "ACC_BridgeStud_L",
+    "ACC_BridgeStud_R",
+    "ACC_EarPiercings_R.001",
+    "ACC_EarPiercings_R.002",
+    "ACC_EarPiercings_R.003",
+    "ACC_EarPiercings_R.004",
+    "ACC_EarPiercings_R.005",
+    "ACC_EarPiercings_R.006",
+    "ACC_Muzzle",
+    "Body",
+    "Eye",
+    "EyeOcclusion",
+    "FINAL_PleatedSkirt_Contact",
+    "FINAL_StreetwearTop_Contact",
+    "FINAL_Underwear_Contact",
+    "Hair_30629",
+    "Scalp_Male",
+    "Septum_Piercing",
+    "TearLine",
+    "Teeth",
+    "Tongue"
+  ],
+  "notes": [
+    "Bridge chain keeps the intended curve + Customizable Chain Links modifier workflow as hidden authoring source.",
+    "A realized ACC_BridgeChain mesh is visible for reliable Blender headless rendering.",
+    "Chain source link collection is hidden after the realized chain is built.",
+    "Scene objects were moved into organized A8_* collections."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v18_streetwear_visual_pass.blend",
+  "output": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v19_clothing_fit_prep.blend",
+  "body": "Body",
+  "fit_objects": {
+    "FIT_StreetwearTop_Shrinkwrap": {
+      "contact_vertices": 462,
+      "offset": 0.014
+    },
+    "FIT_PleatedSkirt_Shrinkwrap": {
+      "contact_vertices": 10618,
+      "offset": 0.02
+    },
+    "FIT_Underwear_Support": {
+      "contact_vertices": 10794,
+      "offset": 0.01
+    }
+  },
+  "body_region_groups": {
+    "A8_Fit_Bust": 1910,
+    "A8_Fit_Underbust": 3949,
+    "A8_Fit_Waist": 1902,
+    "A8_Fit_HipsButt": 624
+  },
+  "guide_cages": [
+    "SC_Guide_BustCollision",
+    "SC_Guide_UnderbustCollision",
+    "SC_Guide_WaistCollision",
+    "SC_Guide_HipsButtCollision"
+  ],
+  "hidden_chain_objects": [
+    "ACC_BridgeChain",
+    "ACC_CollarChain",
+    "ACC_HipChain"
+  ],
+  "notes": [
+    "This is a prep checkpoint, not an automatic clothing fix.",
+    "Use Shrinkwrap modifiers and SC_Guide_* cages interactively in Blender.",
+    "Simplicage remains available for cage/collision work once enabled in the UI."
+  ]
+}

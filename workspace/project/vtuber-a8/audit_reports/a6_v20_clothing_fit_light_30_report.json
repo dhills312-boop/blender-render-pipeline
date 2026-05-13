@@ -1,0 +1,143 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v19_clothing_fit_prep.blend",
+  "output": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v20_clothing_fit_light_30.blend",
+  "ratio": 0.7,
+  "targets": {
+    "FIT_PleatedSkirt_Shrinkwrap": {
+      "before_base": {
+        "verts": 35535,
+        "polys": 34693,
+        "tris": 69383
+      },
+      "before_evaluated": {
+        "verts": 35535,
+        "polys": 34693,
+        "tris": 69383
+      },
+      "after_base": {
+        "verts": 25011,
+        "polys": 48568,
+        "tris": 48568
+      },
+      "after_evaluated": {
+        "verts": 25011,
+        "polys": 48568,
+        "tris": 48568
+      },
+      "decimate": {
+        "applied": true,
+        "reason": null,
+        "disabled_cloth": []
+      },
+      "remaining_modifiers": [
+        "Armature:ARMATURE",
+        "A8_FIT_Shrinkwrap_to_Body:SHRINKWRAP",
+        "A8_FIT_CorrectiveSmooth_preview:CORRECTIVE_SMOOTH"
+      ]
+    },
+    "FIT_PleatedSkirt_Shrinkwrap_fitTest": {
+      "before_base": {
+        "verts": 35535,
+        "polys": 34693,
+        "tris": 69383
+      },
+      "before_evaluated": {
+        "verts": 35535,
+        "polys": 34693,
+        "tris": 69383
+      },
+      "after_base": {
+        "verts": 25008,
+        "polys": 48568,
+        "tris": 48568
+      },
+      "after_evaluated": {
+        "verts": 25008,
+        "polys": 48568,
+        "tris": 48568
+      },
+      "decimate": {
+        "applied": true,
+        "reason": null,
+        "disabled_cloth": []
+      },
+      "remaining_modifiers": [
+        "Armature:ARMATURE",
+        "A8_FIT_Shrinkwrap_to_Body:SHRINKWRAP",
+        "A8_FIT_CorrectiveSmooth_preview:CORRECTIVE_SMOOTH"
+      ]
+    },
+    "FIT_StreetwearTop": {
+      "before_base": {
+        "verts": 5698,
+        "polys": 5430,
+        "tris": 10792
+      },
+      "before_evaluated": {
+        "verts": 5698,
+        "polys": 5430,
+        "tris": 10792
+      },
+      "after_base": {
+        "verts": 4069,
+        "polys": 7554,
+        "tris": 7554
+      },
+      "after_evaluated": {
+        "verts": 4069,
+        "polys": 7554,
+        "tris": 7554
+      },
+      "decimate": {
+        "applied": true,
+        "reason": null,
+        "disabled_cloth": [
+          "Cloth"
+        ]
+      },
+      "remaining_modifiers": [
+        "Armature:ARMATURE",
+        "Shrinkwrap:SHRINKWRAP",
+        "Cloth:CLOTH"
+      ]
+    },
+    "FIT_Underwear_Support.001": {
+      "before_base": {
+        "verts": 5140,
+        "polys": 5001,
+        "tris": 9972
+      },
+      "before_evaluated": {
+        "verts": 5140,
+        "polys": 5001,
+        "tris": 9972
+      },
+      "after_base": {
+        "verts": 3640,
+        "polys": 6980,
+        "tris": 6980
+      },
+      "after_evaluated": {
+        "verts": 3640,
+        "polys": 6980,
+        "tris": 6980
+      },
+      "decimate": {
+        "applied": true,
+        "reason": null,
+        "disabled_cloth": []
+      },
+      "remaining_modifiers": [
+        "Armature:ARMATURE",
+        "A8_FIT_CorrectiveSmooth_preview:CORRECTIVE_SMOOTH",
+        "Shrinkwrap:SHRINKWRAP"
+      ]
+    }
+  },
+  "skipped": {},
+  "notes": [
+    "This pass is for editing comfort, not final optimization.",
+    "Only named FIT clothing meshes are targeted.",
+    "v19 remains intact as the source checkpoint."
+  ]
+}

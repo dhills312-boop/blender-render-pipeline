@@ -1,0 +1,98 @@
+{
+  "source": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v38_alt_hair_nodes_fixed.blend",
+  "saved": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v39_alt_hair_ribbon_wiring.blend",
+  "alt_hair_object": "ALT_Hair",
+  "slot_summary": [
+    {
+      "slot": 0,
+      "material": "N00_000_Hair_00_HAIR_01.001",
+      "faces": 8922
+    },
+    {
+      "slot": 1,
+      "material": "\u7fbd.001",
+      "faces": 0
+    },
+    {
+      "slot": 2,
+      "material": "N00_000_00_FaceMouth_00_FACE.001",
+      "faces": 0
+    },
+    {
+      "slot": 3,
+      "material": "N00_000_00_EyeIris_00_EYE.001",
+      "faces": 0
+    },
+    {
+      "slot": 4,
+      "material": "N00_000_00_EyeHighlight_00_EYE.001",
+      "faces": 0
+    },
+    {
+      "slot": 5,
+      "material": "N00_000_00_Face_00_SKIN.001",
+      "faces": 239
+    },
+    {
+      "slot": 6,
+      "material": "N00_000_00_EyeWhite_00_EYE.001",
+      "faces": 0
+    },
+    {
+      "slot": 7,
+      "material": "N00_000_00_FaceBrow_00_FACE.001",
+      "faces": 0
+    },
+    {
+      "slot": 8,
+      "material": "N00_000_00_FaceEyelash_00_FACE.001",
+      "faces": 0
+    },
+    {
+      "slot": 9,
+      "material": "N00_000_00_FaceEyeline_00_FACE.001",
+      "faces": 0
+    },
+    {
+      "slot": 10,
+      "material": "N00_000_00_Body_00_SKIN.001",
+      "faces": 141
+    },
+    {
+      "slot": 11,
+      "material": "N00_002_03_Tops_01_CLOTH.001",
+      "faces": 0
+    },
+    {
+      "slot": 12,
+      "material": "N00_001_01_Shoes_01_CLOTH.001",
+      "faces": 0
+    },
+    {
+      "slot": 13,
+      "material": "N00_000_00_HairBack_00_HAIR.001",
+      "faces": 1347
+    },
+    {
+      "slot": 14,
+      "material": "Accessory_CatEar_01_CLOTH.001",
+      "faces": 533
+    },
+    {
+      "slot": 15,
+      "material": "N00_000_Hair_00_HAIR_02.001",
+      "faces": 640
+    }
+  ],
+  "visible_ribbon_slot": 15,
+  "visible_ribbon_material": "N00_000_Hair_00_HAIR_02.001",
+  "base_texture_node": "Image Texture",
+  "base_texture_image": "_18.001",
+  "emission_texture_node": "Image Texture.003",
+  "emission_texture_image": "_19.001",
+  "unused_feather_material_faces": 0,
+  "notes": [
+    "The visible ribbon/streak geometry is inside ALT_Hair, not a separate object.",
+    "Material \u7fbd.001 exists but has zero assigned faces in ALT_Hair, so wiring it would not affect the visible model."
+  ]
+}

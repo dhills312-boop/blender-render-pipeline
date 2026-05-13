@@ -1,0 +1,53 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v20_clothing_fit_light_30.blend",
+  "output": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v21_clothing_edit_frozen.blend",
+  "frozen_objects": {
+    "EDIT_FIT_PleatedSkirt_Shrinkwrap_Frozen": {
+      "source": "FIT_PleatedSkirt_Shrinkwrap",
+      "stats": {
+        "verts": 25011,
+        "polys": 48568,
+        "tris": 48568
+      },
+      "modifiers": []
+    },
+    "EDIT_FIT_PleatedSkirt_Shrinkwrap_fitTest_Frozen": {
+      "source": "FIT_PleatedSkirt_Shrinkwrap_fitTest",
+      "stats": {
+        "verts": 25008,
+        "polys": 48568,
+        "tris": 48568
+      },
+      "modifiers": []
+    },
+    "EDIT_FIT_StreetwearTop_Frozen": {
+      "source": "FIT_StreetwearTop",
+      "stats": {
+        "verts": 4069,
+        "polys": 7554,
+        "tris": 7554
+      },
+      "modifiers": []
+    },
+    "EDIT_FIT_Underwear_Support.001_Frozen": {
+      "source": "FIT_Underwear_Support.001",
+      "stats": {
+        "verts": 3640,
+        "polys": 6980,
+        "tris": 6980
+      },
+      "modifiers": []
+    }
+  },
+  "hidden_live_objects": [
+    "FIT_PleatedSkirt_Shrinkwrap",
+    "FIT_PleatedSkirt_Shrinkwrap_fitTest",
+    "FIT_StreetwearTop",
+    "FIT_Underwear_Support.001"
+  ],
+  "notes": [
+    "Frozen EDIT meshes have no modifiers and are intended for manual sculpt/proportional-edit work.",
+    "Live FIT meshes are hidden in A8_Live_Clothing_Backup.",
+    "Return to v20 if you need live Shrinkwrap/Cloth again."
+  ]
+}

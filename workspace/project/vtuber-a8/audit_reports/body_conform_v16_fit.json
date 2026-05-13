@@ -1,0 +1,42 @@
+{
+  "blend_file": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v16_body_conformed_cleanup.blend",
+  "body": "Body",
+  "sculpt": "Body_Sculpt",
+  "include_materials": [
+    "Skin_Arm",
+    "Skin_Body",
+    "Skin_Leg"
+  ],
+  "sampled_vertices": 8517,
+  "skipped_vertices": 5647,
+  "distance_cm": {
+    "mean": 0.23083150166857427,
+    "p50": 0.09308109575717202,
+    "p90": 0.6182752474404904,
+    "p99": 2.8860721615305476,
+    "max": 4.630291226221898
+  },
+  "over_1cm": 498,
+  "over_2cm": 181,
+  "over_4cm": 22,
+  "by_material_cm": {
+    "Skin_Arm": {
+      "count": 4280,
+      "mean": 0.09902509154451833,
+      "p90": 0.17039322323312675,
+      "max": 0.18443473631394577
+    },
+    "Skin_Body": {
+      "count": 2009,
+      "mean": 0.5638054919566293,
+      "p90": 1.6296927839574802,
+      "max": 4.630291226221898
+    },
+    "Skin_Leg": {
+      "count": 2330,
+      "mean": 0.19773162513599626,
+      "p90": 0.7309475782672316,
+      "max": 4.2983888267751675
+    }
+  }
+}

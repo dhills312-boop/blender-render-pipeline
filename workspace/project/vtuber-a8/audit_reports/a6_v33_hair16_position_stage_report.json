@@ -1,0 +1,27 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v32_hair16_ombre_alt.blend",
+  "output": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v33_hair16_position_stage.blend",
+  "visible_objects": [
+    "ALT_PocolovHair16_SRC_PocolovHair16_Hair_16",
+    "Body"
+  ],
+  "active_object": "ALT_PocolovHair16_SRC_PocolovHair16_Hair_16",
+  "alignment": {
+    "target": "Hair_30629",
+    "delta": [
+      0.014131,
+      -0.023121,
+      0.337825
+    ],
+    "new_location": [
+      0.022318,
+      -0.044742,
+      0.67565
+    ]
+  },
+  "notes": [
+    "Positioning stage only: Body and Hair-16 ombre alt are visible.",
+    "Hair-16 object is selected and active for immediate move/scale/rotate edits.",
+    "Do not treat this as a full visual pass; use it to place the alternate hair cleanly."
+  ]
+}

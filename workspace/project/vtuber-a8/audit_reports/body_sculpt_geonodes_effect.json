@@ -1,0 +1,57 @@
+{
+  "blend_file": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v13_anatomy_p1.blend",
+  "object": "Body_Sculpt",
+  "modifier_summary": [
+    {
+      "name": "GeometryNodes",
+      "type": "NODES",
+      "show_viewport": true,
+      "show_render": true,
+      "show_in_editmode": true,
+      "show_on_cage": false,
+      "node_group": "Geometry Nodes"
+    }
+  ],
+  "original_vertex_count": 225184,
+  "evaluated_vertex_count": 225184,
+  "moved_vertex_count": 0,
+  "max_delta_m": 0.0,
+  "max_delta_cm": 0.0,
+  "avg_moved_delta_cm": 0.0,
+  "min_x_delta_cm": 0.0,
+  "max_x_delta_cm": 0.0,
+  "original_bounds": {
+    "min": [
+      -0.7254186272621155,
+      -0.1649170070886612,
+      -5.9008201787946746e-05
+    ],
+    "max": [
+      0.7217892408370972,
+      0.1594347208738327,
+      1.6284693479537964
+    ],
+    "size": [
+      1.4472078680992126,
+      0.3243517279624939,
+      1.6285283561555843
+    ]
+  },
+  "evaluated_bounds": {
+    "min": [
+      -0.7254186272621155,
+      -0.1649170070886612,
+      -5.9008201787946746e-05
+    ],
+    "max": [
+      0.7217892408370972,
+      0.1594347208738327,
+      1.6284693479537964
+    ],
+    "size": [
+      1.4472078680992126,
+      0.3243517279624939,
+      1.6285283561555843
+    ]
+  }
+}

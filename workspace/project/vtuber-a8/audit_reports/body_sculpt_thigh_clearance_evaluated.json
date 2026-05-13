@@ -1,0 +1,177 @@
+{
+  "blend_file": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v13_anatomy_p1.blend",
+  "object": "Body_Sculpt",
+  "evaluated": true,
+  "modifier_summary": [
+    {
+      "name": "GeometryNodes",
+      "type": "NODES",
+      "show_viewport": true,
+      "show_render": true
+    }
+  ],
+  "sampled_vertices": 18171,
+  "slice_count": 22,
+  "min_gap_cm": 0.042192405089735985,
+  "p10_gap_cm": 1.0872517246752977,
+  "median_gap_cm": 1.2202540878206491,
+  "tight_slice_count": 22,
+  "touching_slice_count": 2,
+  "recommendation": "inspect_or_increase_clearance",
+  "slices": [
+    {
+      "z_mid": 0.4325,
+      "gap_m": 0.012965935748070478,
+      "gap_cm": 1.2965935748070478,
+      "left_samples": 510,
+      "right_samples": 510
+    },
+    {
+      "z_mid": 0.4575,
+      "gap_m": 0.010872517246752977,
+      "gap_cm": 1.0872517246752977,
+      "left_samples": 435,
+      "right_samples": 437
+    },
+    {
+      "z_mid": 0.4825,
+      "gap_m": 0.01209326647222042,
+      "gap_cm": 1.209326647222042,
+      "left_samples": 354,
+      "right_samples": 353
+    },
+    {
+      "z_mid": 0.5075,
+      "gap_m": 0.012247119098901749,
+      "gap_cm": 1.2247119098901749,
+      "left_samples": 324,
+      "right_samples": 315
+    },
+    {
+      "z_mid": 0.5325,
+      "gap_m": 0.012182505801320076,
+      "gap_cm": 1.2182505801320076,
+      "left_samples": 280,
+      "right_samples": 275
+    },
+    {
+      "z_mid": 0.5575,
+      "gap_m": 0.012460227590054274,
+      "gap_cm": 1.2460227590054274,
+      "left_samples": 260,
+      "right_samples": 269
+    },
+    {
+      "z_mid": 0.5825,
+      "gap_m": 0.01218089833855629,
+      "gap_cm": 1.218089833855629,
+      "left_samples": 246,
+      "right_samples": 248
+    },
+    {
+      "z_mid": 0.6074999999999999,
+      "gap_m": 0.013149234931915998,
+      "gap_cm": 1.3149234931915998,
+      "left_samples": 228,
+      "right_samples": 220
+    },
+    {
+      "z_mid": 0.6325000000000001,
+      "gap_m": 0.01301640784367919,
+      "gap_cm": 1.301640784367919,
+      "left_samples": 243,
+      "right_samples": 242
+    },
+    {
+      "z_mid": 0.6575,
+      "gap_m": 0.013819816056638956,
+      "gap_cm": 1.3819816056638956,
+      "left_samples": 246,
+      "right_samples": 247
+    },
+    {
+      "z_mid": 0.6825,
+      "gap_m": 0.013822538312524557,
+      "gap_cm": 1.3822538312524557,
+      "left_samples": 259,
+      "right_samples": 266
+    },
+    {
+      "z_mid": 0.7075,
+      "gap_m": 0.012195867486298084,
+      "gap_cm": 1.2195867486298084,
+      "left_samples": 365,
+      "right_samples": 356
+    },
+    {
+      "z_mid": 0.7324999999999999,
+      "gap_m": 0.012116953730583191,
+      "gap_cm": 1.211695373058319,
+      "left_samples": 446,
+      "right_samples": 466
+    },
+    {
+      "z_mid": 0.7575000000000001,
+      "gap_m": 0.012221515644341707,
+      "gap_cm": 1.2221515644341707,
+      "left_samples": 569,
+      "right_samples": 571
+    },
+    {
+      "z_mid": 0.7825,
+      "gap_m": 0.01201809011399746,
+      "gap_cm": 1.201809011399746,
+      "left_samples": 655,
+      "right_samples": 663
+    },
+    {
+      "z_mid": 0.8075,
+      "gap_m": 0.012286593671888113,
+      "gap_cm": 1.2286593671888113,
+      "left_samples": 500,
+      "right_samples": 513
+    },
+    {
+      "z_mid": 0.8325,
+      "gap_m": 0.012202540878206491,
+      "gap_cm": 1.2202540878206491,
+      "left_samples": 480,
+      "right_samples": 492
+    },
+    {
+      "z_mid": 0.8574999999999999,
+      "gap_m": 0.012483076192438602,
+      "gap_cm": 1.2483076192438602,
+      "left_samples": 540,
+      "right_samples": 556
+    },
+    {
+      "z_mid": 0.8825000000000001,
+      "gap_m": 0.012126120273023844,
+      "gap_cm": 1.2126120273023844,
+      "left_samples": 606,
+      "right_samples": 612
+    },
+    {
+      "z_mid": 0.9075,
+      "gap_m": 0.012211781926453114,
+      "gap_cm": 1.2211781926453114,
+      "left_samples": 688,
+      "right_samples": 714
+    },
+    {
+      "z_mid": 0.9325000000000001,
+      "gap_m": 0.0016957954794634134,
+      "gap_cm": 0.16957954794634134,
+      "left_samples": 684,
+      "right_samples": 694
+    },
+    {
+      "z_mid": 0.9575,
+      "gap_m": 0.00042192405089735985,
+      "gap_cm": 0.042192405089735985,
+      "left_samples": 119,
+      "right_samples": 115
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "blend_file": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v17_non_skin_shader_cleanup.blend",
+  "material": "Tongue",
+  "original_images": [
+    "Std_Tongue_ao.jpg",
+    "Std_Tongue_roughness.jpg",
+    "Std_Tongue_Normal"
+  ],
+  "new_base_color": [
+    0.78,
+    0.4,
+    0.46,
+    1.0
+  ],
+  "notes": "Tongue rebuilt as flat Principled with no image textures to eliminate color contamination."
+}

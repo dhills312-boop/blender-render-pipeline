@@ -1,0 +1,26 @@
+{
+  "blend_file": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v17_non_skin_shader_cleanup.blend",
+  "object": "Septum_Piercing",
+  "material": "Septum_Metal",
+  "armature": "blender file_Rigify",
+  "bone": "DEF-nose",
+  "location_world": [
+    -0.000598,
+    -0.097227,
+    1.488586
+  ],
+  "rotation_euler": [
+    1.570796,
+    0.0,
+    0.0
+  ],
+  "major_radius_m": 0.0085,
+  "minor_radius_m": 0.0011,
+  "offsets_m": {
+    "y": -0.0035,
+    "z": -0.028
+  },
+  "verts": 288,
+  "tris": 576,
+  "notes": "Simple metallic septum ring added as a separate skinned accessory for easy future adjustment."
+}

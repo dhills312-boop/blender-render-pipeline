@@ -1,0 +1,105 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v23_manual_clothing_fit_rough.blend",
+  "output": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v24_manual_clothing_cleanup.blend",
+  "cleaned": {
+    "CLEAN_StreetwearTop": {
+      "source": "FIT_StreetwearTop",
+      "before": {
+        "verts": 4024,
+        "polys": 7464,
+        "tris": 7464
+      },
+      "after": {
+        "verts": 4024,
+        "polys": 7464,
+        "tris": 7464
+      },
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "modifiers": [
+        "A8_CLEAN_CorrectiveSmooth_light:CORRECTIVE_SMOOTH:view=True",
+        "A8_CLEAN_WeightedNormals:WEIGHTED_NORMAL:view=True"
+      ],
+      "settings": {
+        "clean_name": "CLEAN_StreetwearTop",
+        "smooth_iterations": 5,
+        "smooth_factor": 0.22,
+        "corrective_factor": 0.18,
+        "corrective_iterations": 3
+      }
+    },
+    "CLEAN_PleatedSkirt": {
+      "source": "FIT_PleatedSkirt_Shrinkwrap",
+      "before": {
+        "verts": 25011,
+        "polys": 48568,
+        "tris": 48568
+      },
+      "after": {
+        "verts": 25011,
+        "polys": 48568,
+        "tris": 48568
+      },
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "modifiers": [
+        "A8_CLEAN_CorrectiveSmooth_light:CORRECTIVE_SMOOTH:view=True",
+        "A8_CLEAN_WeightedNormals:WEIGHTED_NORMAL:view=True"
+      ],
+      "settings": {
+        "clean_name": "CLEAN_PleatedSkirt",
+        "smooth_iterations": 2,
+        "smooth_factor": 0.08,
+        "corrective_factor": 0.08,
+        "corrective_iterations": 2
+      }
+    },
+    "CLEAN_UnderwearSupport": {
+      "source": "FIT_Underwear_Support.001",
+      "before": {
+        "verts": 3640,
+        "polys": 6980,
+        "tris": 6980
+      },
+      "after": {
+        "verts": 3640,
+        "polys": 6980,
+        "tris": 6980
+      },
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "modifiers": [
+        "A8_CLEAN_CorrectiveSmooth_light:CORRECTIVE_SMOOTH:view=True",
+        "A8_CLEAN_WeightedNormals:WEIGHTED_NORMAL:view=True"
+      ],
+      "settings": {
+        "clean_name": "CLEAN_UnderwearSupport",
+        "smooth_iterations": 3,
+        "smooth_factor": 0.12,
+        "corrective_factor": 0.1,
+        "corrective_iterations": 2
+      }
+    }
+  },
+  "missing": [],
+  "hidden_fit_objects": [
+    "FIT_PleatedSkirt_Shrinkwrap",
+    "FIT_PleatedSkirt_Shrinkwrap_fitTest",
+    "FIT_StreetwearTop",
+    "FIT_Underwear_Support.001"
+  ],
+  "notes": [
+    "This is a visual cleanup checkpoint from the manual rough clothing fit.",
+    "CLEAN_* meshes are baked from the evaluated FIT_* state.",
+    "Live FIT_* objects are hidden as backup, not deleted."
+  ]
+}

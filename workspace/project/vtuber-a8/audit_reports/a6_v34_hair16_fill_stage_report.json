@@ -1,0 +1,52 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v33_hair16_position_stage.blend",
+  "output": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v34_hair16_fill_stage.blend",
+  "source_hair_for_fillers": "ALT_PocolovHair16_SRC_PocolovHair16_Hair_16.001",
+  "generated": [
+    "ACC_Hair16ScalpFill",
+    "ACC_Hair16Filler_Bang_01",
+    "ACC_Hair16Filler_Bang_02",
+    "ACC_Hair16Filler_Bang_03",
+    "ACC_Hair16Filler_Bang_04",
+    "ACC_Hair16Filler_Bang_05",
+    "ACC_Hair16Filler_Bang_06",
+    "ACC_Hair16Filler_Bang_07",
+    "ACC_Hair16Filler_Bang_08",
+    "ACC_Hair16Filler_L_Side_01",
+    "ACC_Hair16Filler_L_Side_02",
+    "ACC_Hair16Filler_L_Side_03",
+    "ACC_Hair16Filler_L_Side_04",
+    "ACC_Hair16Filler_L_Side_05",
+    "ACC_Hair16Filler_L_Side_06",
+    "ACC_Hair16Filler_L_Side_07",
+    "ACC_Hair16Filler_R_Side_01",
+    "ACC_Hair16Filler_R_Side_02",
+    "ACC_Hair16Filler_R_Side_03",
+    "ACC_Hair16Filler_R_Side_04",
+    "ACC_Hair16Filler_R_Side_05",
+    "ACC_Hair16Filler_R_Side_06",
+    "ACC_Hair16Filler_R_Side_07"
+  ],
+  "source_transform": {
+    "location": [
+      -0.104485,
+      0.103155,
+      -0.075034
+    ],
+    "rotation": [
+      0.061512,
+      0.063968,
+      0.003937
+    ],
+    "scale": [
+      1.396781,
+      1.462004,
+      1.25124
+    ]
+  },
+  "notes": [
+    "Filler objects are separate ACC_* curves/meshes and can be deleted without touching Hair-16.",
+    "Scalp fill is present but hidden by default; toggle it only if bare scalp is still distracting.",
+    "Filler strands are thin independent curves, not duplicate alpha cards."
+  ]
+}

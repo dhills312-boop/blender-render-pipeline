@@ -1,0 +1,67 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v20_clothing_fit_light_30.blend",
+  "output": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v22_clothing_workroom.blend",
+  "visible": [
+    "Body",
+    "FIT_PleatedSkirt_Shrinkwrap",
+    "FIT_PleatedSkirt_Shrinkwrap_fitTest",
+    "FIT_StreetwearTop",
+    "FIT_Underwear_Support.001"
+  ],
+  "hidden_count": 253,
+  "visible_mesh_stats": {
+    "Body": {
+      "verts": 14164,
+      "polys": 14046,
+      "tris": 28092,
+      "mods": [
+        "Armature:ARMATURE:view=True"
+      ]
+    },
+    "FIT_PleatedSkirt_Shrinkwrap": {
+      "verts": 25011,
+      "polys": 48568,
+      "tris": 48568,
+      "mods": [
+        "Armature:ARMATURE:view=True",
+        "A8_FIT_Shrinkwrap_to_Body:SHRINKWRAP:view=True",
+        "A8_FIT_CorrectiveSmooth_preview:CORRECTIVE_SMOOTH:view=False"
+      ]
+    },
+    "FIT_PleatedSkirt_Shrinkwrap_fitTest": {
+      "verts": 25008,
+      "polys": 48568,
+      "tris": 48568,
+      "mods": [
+        "Armature:ARMATURE:view=True",
+        "A8_FIT_Shrinkwrap_to_Body:SHRINKWRAP:view=True",
+        "A8_FIT_CorrectiveSmooth_preview:CORRECTIVE_SMOOTH:view=False"
+      ]
+    },
+    "FIT_StreetwearTop": {
+      "verts": 4069,
+      "polys": 7554,
+      "tris": 7554,
+      "mods": [
+        "Armature:ARMATURE:view=True",
+        "Shrinkwrap:SHRINKWRAP:view=True",
+        "Cloth:CLOTH:view=False"
+      ]
+    },
+    "FIT_Underwear_Support.001": {
+      "verts": 3640,
+      "polys": 6980,
+      "tris": 6980,
+      "mods": [
+        "Armature:ARMATURE:view=True",
+        "A8_FIT_CorrectiveSmooth_preview:CORRECTIVE_SMOOTH:view=False",
+        "Shrinkwrap:SHRINKWRAP:view=True"
+      ]
+    }
+  },
+  "notes": [
+    "This is a lightweight clothing workroom, not a final avatar file.",
+    "Hair, piercings, muzzle, face accessories, and most small meshes are hidden.",
+    "Use this file for skirt/top fitting if the full v20 file stalls."
+  ]
+}

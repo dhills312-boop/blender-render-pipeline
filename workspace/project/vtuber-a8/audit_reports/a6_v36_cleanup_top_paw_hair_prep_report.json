@@ -1,0 +1,158 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v35_scalp_fill_brow_slits.blend",
+  "output": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v36_cleanup_top_paw_hair_prep.blend",
+  "top_smoothing": {
+    "object": "ALT_StreetwearTop_Smoothed",
+    "vertices": 3752,
+    "polygons": 2956,
+    "modifiers": [
+      "Cloth",
+      "Shrinkwrap",
+      "A8_Top_SoftSmooth",
+      "A8_Top_GentleSurfaceRelax"
+    ]
+  },
+  "need_to_organize_hidden_removed_count": 109,
+  "need_to_organize_hidden_removed_sample": [
+    {
+      "name": "WGT-blender file_rig_brow.B.L",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_brow.B.L.001",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_brow.B.L.002",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_brow.B.L.003",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_brow.B.L.004",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_brow.B.R",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_brow.B.R.001",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_brow.B.R.002",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_brow.B.R.003",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_brow.B.R.004",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_brow.T.L",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_brow.T.L.001",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_brow.T.L.002",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_brow.T.L.003",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_brow.T.R",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_brow.T.R.001",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_brow.T.R.002",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_brow.T.R.003",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_chin",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_chin.001",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_chin.002",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_ear.L",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_ear.L.002",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_ear.L.003",
+      "type": "MESH"
+    },
+    {
+      "name": "WGT-blender file_rig_ear.L.004",
+      "type": "MESH"
+    }
+  ],
+  "paw_texture": {
+    "texture": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Paw_1k_Color.png",
+    "material": "A8_CollarPaw_1k_Texture",
+    "objects": []
+  },
+  "hair_ombre_connections": {
+    "changed": [
+      {
+        "material": "N00_000_00_HairBack_00_HAIR",
+        "nodes": [
+          "Image Texture.003"
+        ]
+      },
+      {
+        "material": "N00_000_00_HairBack_00_HAIR.001",
+        "nodes": [
+          "Image Texture.003"
+        ]
+      }
+    ],
+    "skipped": [
+      "A8_Underwear_Black",
+      "Accessory_CatEar_01_CLOTH",
+      "Accessory_CatEar_01_CLOTH.001",
+      "Tearline_L",
+      "Tearline_R",
+      "\u7fbd",
+      "\u7fbd.001"
+    ]
+  },
+  "ribbon_materials_tuned": [
+    "\u7fbd",
+    "\u7fbd.001"
+  ],
+  "fur_asset_note": "Hair_And_Fur_EEVEE_v01.blend is Blender 5-era and was inspected only; no node groups imported in this 4.5 pass.",
+  "notes": [
+    "This pass intentionally does not reshape cat ears to puppy ears yet.",
+    "WhiteBlackOmbre was assigned only to main hair materials with empty/black placeholder texture nodes.",
+    "Ear/streak/ribbon materials were skipped for ombre replacement."
+  ]
+}

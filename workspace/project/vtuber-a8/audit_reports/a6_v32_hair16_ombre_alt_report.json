@@ -1,0 +1,27 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v31_bows_alt_assets.blend",
+  "output": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v32_hair16_ombre_alt.blend",
+  "texture": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\WhiteBlackOmbre.png",
+  "image_size": [
+    8850,
+    3520
+  ],
+  "material": "A8_Hair16_WhiteBlackOmbre",
+  "source_material_copied": "Material",
+  "replaced_image_nodes": [
+    "Image Texture"
+  ],
+  "assigned_objects": [
+    "ALT_PocolovHair16_SRC_PocolovHair16_Hair_16"
+  ],
+  "all_alt_hair_objects": [
+    "ALT_PocolovHair16_SRC_PocolovHair16_Hair_16",
+    "ALT_PocolovHair16_SRC_PocolovHair16_Head"
+  ],
+  "notes": [
+    "Applied WhiteBlackOmbre.png only to the hidden Hair-16 alternate.",
+    "Hair-16 ombre material is a copy of the visible hair DarkSea material; only the image texture was swapped.",
+    "Current accepted visible hair was not changed.",
+    "Hair-16 alternate remains hidden by default; unhide ALT_PocolovHair16_Source to inspect."
+  ]
+}

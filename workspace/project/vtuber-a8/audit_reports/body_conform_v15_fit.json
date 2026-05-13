@@ -1,0 +1,42 @@
+{
+  "blend_file": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v15_body_conformed.blend",
+  "body": "Body",
+  "sculpt": "Body_Sculpt",
+  "include_materials": [
+    "Skin_Arm",
+    "Skin_Body",
+    "Skin_Leg"
+  ],
+  "sampled_vertices": 8517,
+  "skipped_vertices": 5647,
+  "distance_cm": {
+    "mean": 0.12143994694736172,
+    "p50": 0.07800384871674101,
+    "p90": 0.1754527410123232,
+    "p99": 1.2825754699497287,
+    "max": 3.065112383377385
+  },
+  "over_1cm": 161,
+  "over_2cm": 14,
+  "over_4cm": 0,
+  "by_material_cm": {
+    "Skin_Arm": {
+      "count": 4280,
+      "mean": 0.09902509154451833,
+      "p90": 0.17039322323312675,
+      "max": 0.18443473631394577
+    },
+    "Skin_Body": {
+      "count": 2009,
+      "mean": 0.14312720834165096,
+      "p90": 0.1790238418964358,
+      "max": 2.3901211977475185
+    },
+    "Skin_Leg": {
+      "count": 2330,
+      "mean": 0.15060638705812232,
+      "p90": 0.6178491017215677,
+      "max": 3.065112383377385
+    }
+  }
+}

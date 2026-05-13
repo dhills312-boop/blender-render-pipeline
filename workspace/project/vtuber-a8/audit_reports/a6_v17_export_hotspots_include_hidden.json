@@ -1,0 +1,549 @@
+{
+  "blend_file": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v17_non_skin_shader_cleanup.blend",
+  "include_hidden": true,
+  "object_count": 11,
+  "skinned_mesh_count": 10,
+  "total_tris": 517986,
+  "top_objects": [
+    {
+      "name": "Body_Sculpt",
+      "tris": 449472,
+      "verts": 225184,
+      "materials": [
+        "Skin_Head",
+        "Skin_Body",
+        "Skin_Arm",
+        "Skin_Leg",
+        "Nails",
+        "Eyelash"
+      ],
+      "material_slots": 6,
+      "uv_maps": [
+        "Channel0"
+      ],
+      "shape_key_count": 0,
+      "skinned": false,
+      "modifiers": [
+        "NODES"
+      ]
+    },
+    {
+      "name": "Hair_30629",
+      "tris": 29948,
+      "verts": 30629,
+      "materials": [
+        "Material"
+      ],
+      "material_slots": 1,
+      "uv_maps": [
+        "Channel0"
+      ],
+      "shape_key_count": 0,
+      "skinned": true,
+      "modifiers": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "name": "Body",
+      "tris": 28092,
+      "verts": 14164,
+      "materials": [
+        "Skin_Head",
+        "Skin_Body",
+        "Skin_Arm",
+        "Skin_Leg",
+        "Nails",
+        "Eyelash"
+      ],
+      "material_slots": 6,
+      "uv_maps": [
+        "Channel0"
+      ],
+      "shape_key_count": 150,
+      "skinned": true,
+      "modifiers": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "name": "Teeth",
+      "tris": 4842,
+      "verts": 2642,
+      "materials": [
+        "Upper_Teeth",
+        "Lower_Teeth"
+      ],
+      "material_slots": 2,
+      "uv_maps": [
+        "Channel0"
+      ],
+      "shape_key_count": 2,
+      "skinned": true,
+      "modifiers": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "name": "Eye",
+      "tris": 1280,
+      "verts": 648,
+      "materials": [
+        "Eye_R",
+        "Cornea_R",
+        "Eye_L",
+        "Cornea_L"
+      ],
+      "material_slots": 4,
+      "uv_maps": [
+        "Channel0"
+      ],
+      "shape_key_count": 2,
+      "skinned": true,
+      "modifiers": [
+        "DISPLACE",
+        "UV_WARP",
+        "DISPLACE",
+        "UV_WARP",
+        "ARMATURE"
+      ]
+    },
+    {
+      "name": "Scalp_Male",
+      "tris": 1148,
+      "verts": 624,
+      "materials": [
+        "Scalp1_Transparency"
+      ],
+      "material_slots": 1,
+      "uv_maps": [
+        "Channel0"
+      ],
+      "shape_key_count": 0,
+      "skinned": true,
+      "modifiers": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "name": "bottome",
+      "tris": 1084,
+      "verts": 524,
+      "materials": [
+        "Waista_"
+      ],
+      "material_slots": 1,
+      "uv_maps": [
+        "Channel0"
+      ],
+      "shape_key_count": 0,
+      "skinned": true,
+      "modifiers": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "name": "top_cloth",
+      "tris": 968,
+      "verts": 462,
+      "materials": [
+        "Breast_Panels"
+      ],
+      "material_slots": 1,
+      "uv_maps": [
+        "Channel0"
+      ],
+      "shape_key_count": 0,
+      "skinned": true,
+      "modifiers": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "name": "Tongue",
+      "tris": 592,
+      "verts": 309,
+      "materials": [
+        "Tongue"
+      ],
+      "material_slots": 1,
+      "uv_maps": [
+        "Channel0"
+      ],
+      "shape_key_count": 38,
+      "skinned": true,
+      "modifiers": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "name": "EyeOcclusion",
+      "tris": 288,
+      "verts": 182,
+      "materials": [
+        "Eye_Occlusion_R",
+        "Eye_Occlusion_L"
+      ],
+      "material_slots": 2,
+      "uv_maps": [
+        "Channel0",
+        "Channel1"
+      ],
+      "shape_key_count": 223,
+      "skinned": true,
+      "modifiers": [
+        "DISPLACE",
+        "DISPLACE",
+        "DISPLACE",
+        "DISPLACE",
+        "DISPLACE",
+        "DISPLACE",
+        "DISPLACE",
+        "DISPLACE",
+        "DISPLACE",
+        "DISPLACE",
+        "ARMATURE"
+      ]
+    },
+    {
+      "name": "TearLine",
+      "tris": 272,
+      "verts": 190,
+      "materials": [
+        "Tearline_R",
+        "Tearline_L"
+      ],
+      "material_slots": 2,
+      "uv_maps": [
+        "Channel0"
+      ],
+      "shape_key_count": 221,
+      "skinned": true,
+      "modifiers": [
+        "DISPLACE",
+        "DISPLACE",
+        "DISPLACE",
+        "DISPLACE",
+        "ARMATURE"
+      ]
+    }
+  ],
+  "materials_by_estimated_tris": [
+    {
+      "material": "Skin_Head",
+      "estimated_tris": 79594,
+      "objects": [
+        "Body",
+        "Body_Sculpt"
+      ]
+    },
+    {
+      "material": "Skin_Body",
+      "estimated_tris": 79594,
+      "objects": [
+        "Body",
+        "Body_Sculpt"
+      ]
+    },
+    {
+      "material": "Skin_Arm",
+      "estimated_tris": 79594,
+      "objects": [
+        "Body",
+        "Body_Sculpt"
+      ]
+    },
+    {
+      "material": "Skin_Leg",
+      "estimated_tris": 79594,
+      "objects": [
+        "Body",
+        "Body_Sculpt"
+      ]
+    },
+    {
+      "material": "Nails",
+      "estimated_tris": 79594,
+      "objects": [
+        "Body",
+        "Body_Sculpt"
+      ]
+    },
+    {
+      "material": "Eyelash",
+      "estimated_tris": 79594,
+      "objects": [
+        "Body",
+        "Body_Sculpt"
+      ]
+    },
+    {
+      "material": "Material",
+      "estimated_tris": 29948,
+      "objects": [
+        "Hair_30629"
+      ]
+    },
+    {
+      "material": "Upper_Teeth",
+      "estimated_tris": 2421,
+      "objects": [
+        "Teeth"
+      ]
+    },
+    {
+      "material": "Lower_Teeth",
+      "estimated_tris": 2421,
+      "objects": [
+        "Teeth"
+      ]
+    },
+    {
+      "material": "Scalp1_Transparency",
+      "estimated_tris": 1148,
+      "objects": [
+        "Scalp_Male"
+      ]
+    },
+    {
+      "material": "Waista_",
+      "estimated_tris": 1084,
+      "objects": [
+        "bottome"
+      ]
+    },
+    {
+      "material": "Breast_Panels",
+      "estimated_tris": 968,
+      "objects": [
+        "top_cloth"
+      ]
+    },
+    {
+      "material": "Tongue",
+      "estimated_tris": 592,
+      "objects": [
+        "Tongue"
+      ]
+    },
+    {
+      "material": "Eye_R",
+      "estimated_tris": 320,
+      "objects": [
+        "Eye"
+      ]
+    },
+    {
+      "material": "Cornea_R",
+      "estimated_tris": 320,
+      "objects": [
+        "Eye"
+      ]
+    },
+    {
+      "material": "Eye_L",
+      "estimated_tris": 320,
+      "objects": [
+        "Eye"
+      ]
+    },
+    {
+      "material": "Cornea_L",
+      "estimated_tris": 320,
+      "objects": [
+        "Eye"
+      ]
+    },
+    {
+      "material": "Eye_Occlusion_R",
+      "estimated_tris": 144,
+      "objects": [
+        "EyeOcclusion"
+      ]
+    },
+    {
+      "material": "Eye_Occlusion_L",
+      "estimated_tris": 144,
+      "objects": [
+        "EyeOcclusion"
+      ]
+    },
+    {
+      "material": "Tearline_R",
+      "estimated_tris": 136,
+      "objects": [
+        "TearLine"
+      ]
+    },
+    {
+      "material": "Tearline_L",
+      "estimated_tris": 136,
+      "objects": [
+        "TearLine"
+      ]
+    }
+  ],
+  "textures_by_estimated_mb": [
+    {
+      "name": "DarkSea.png",
+      "size": [
+        8850,
+        3520
+      ],
+      "estimated_mb": 118.835
+    },
+    {
+      "name": "Scalp1_Transparency_Opacity",
+      "size": [
+        1024,
+        1024
+      ],
+      "estimated_mb": 4.0
+    },
+    {
+      "name": "Std_Cornea_L_Diffuse",
+      "size": [
+        1024,
+        1024
+      ],
+      "estimated_mb": 4.0
+    },
+    {
+      "name": "Std_Cornea_R_Diffuse",
+      "size": [
+        1024,
+        1024
+      ],
+      "estimated_mb": 4.0
+    },
+    {
+      "name": "Std_Eye_L_Diffuse",
+      "size": [
+        1024,
+        1024
+      ],
+      "estimated_mb": 4.0
+    },
+    {
+      "name": "Std_Eye_R_Diffuse",
+      "size": [
+        1024,
+        1024
+      ],
+      "estimated_mb": 4.0
+    },
+    {
+      "name": "Std_Eyelash_Normal",
+      "size": [
+        1024,
+        1024
+      ],
+      "estimated_mb": 4.0
+    },
+    {
+      "name": "Std_Eyelash_Opacity",
+      "size": [
+        1024,
+        1024
+      ],
+      "estimated_mb": 4.0
+    },
+    {
+      "name": "Std_Eyelash_roughness.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "estimated_mb": 4.0
+    },
+    {
+      "name": "Std_Lower_Teeth_Normal",
+      "size": [
+        1024,
+        1024
+      ],
+      "estimated_mb": 4.0
+    },
+    {
+      "name": "Std_Lower_Teeth_roughness.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "estimated_mb": 4.0
+    },
+    {
+      "name": "Std_Nails_Normal",
+      "size": [
+        1024,
+        1024
+      ],
+      "estimated_mb": 4.0
+    },
+    {
+      "name": "Std_Nails_ao.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "estimated_mb": 4.0
+    },
+    {
+      "name": "Std_Nails_roughness.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "estimated_mb": 4.0
+    },
+    {
+      "name": "Std_Skin_Arm_MicroNMask.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "estimated_mb": 4.0
+    },
+    {
+      "name": "Std_Skin_Arm_Normal",
+      "size": [
+        1024,
+        1024
+      ],
+      "estimated_mb": 4.0
+    },
+    {
+      "name": "Std_Skin_Arm_SSSMap.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "estimated_mb": 4.0
+    },
+    {
+      "name": "Std_Skin_Arm_ao_1k.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "estimated_mb": 4.0
+    },
+    {
+      "name": "Std_Skin_Arm_roughness.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "estimated_mb": 4.0
+    },
+    {
+      "name": "Std_Skin_Body_Normal",
+      "size": [
+        1024,
+        1024
+      ],
+      "estimated_mb": 4.0
+    }
+  ],
+  "total_texture_estimated_mb": 259.257
+}

@@ -1,0 +1,58 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Body Sculpt Thigh Geometry Nodes</title>
+  <style>
+    body {
+      margin: 0;
+      background: #111318;
+      color: #f2f4f8;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+    main {
+      max-width: 1560px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    h1 {
+      font-size: 24px;
+      margin: 0 0 8px;
+    }
+    p {
+      color: #cbd1dc;
+      margin: 0 0 18px;
+      line-height: 1.45;
+    }
+    .frame {
+      overflow: auto;
+      border: 1px solid #343a46;
+      border-radius: 8px;
+      background: #17191d;
+    }
+    img {
+      display: block;
+      max-width: none;
+    }
+    code {
+      color: #ffd48a;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Body_Sculpt Inner Thigh Geometry Nodes</h1>
+    <p>
+      Corrected Blender 4.5 wiring reference for Body_Sculpt, whose object scale is 0.01. Use local-coordinate thresholds: Z 45-94, abs(X) under 8, abs(Y) under 16, and offset 0.9 for about 0.9 cm per side. The important fixes are:
+      live coordinate/math values go into <code>Compare A</code>, numeric
+      thresholds stay in <code>Compare B</code>, and the final Boolean AND
+      output goes to <code>Set Position.Selection</code>.
+    </p>
+    <div class="frame">
+      <img src="./body_sculpt_thigh_geometry_nodes.svg" alt="Geometry Nodes diagram for Body_Sculpt thigh clearance">
+    </div>
+  </main>
+</body>
+</html>
+

@@ -1,0 +1,12 @@
+{
+  "blend_file": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v17_non_skin_shader_cleanup.blend",
+  "material": "Upper_Teeth",
+  "removed_diffuse_images": [],
+  "new_base_color": [
+    0.93,
+    0.91,
+    0.88,
+    1.0
+  ],
+  "notes": "Upper teeth diffuse image was a corrupted face-like texture; replaced with flat ivory base."
+}

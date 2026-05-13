@@ -1,0 +1,161 @@
+{
+  "input": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v17_non_skin_shader_cleanup.blend",
+  "output": "workspace\\project\\vtuber-a8\\a6_v17_non_skin_shader_cleanup.blend",
+  "targets": [
+    "Eye_L",
+    "Eye_R",
+    "Cornea_L",
+    "Cornea_R",
+    "Tearline_L",
+    "Tearline_R",
+    "Tongue",
+    "Upper_Teeth",
+    "Lower_Teeth"
+  ],
+  "results": [
+    {
+      "material": "Eye_L",
+      "status": "rebuilt",
+      "original": {
+        "blend_method": "HASHED",
+        "surface_render_method": "DITHERED",
+        "shadow_method": null,
+        "role_images": {
+          "AO": "Std_Cornea_R_ao.jpg",
+          "DIFFUSE": "Std_Eye_L_Diffuse",
+          "EYEBLEND": "Std_Cornea_R_BCBMap.jpg",
+          "METALLIC": "Std_Cornea_R_metallic.jpg",
+          "SCLERA": "Std_Cornea_R_Sclera.png",
+          "SCLERANORMAL": "Std_Lower_Teeth_MicroN.png"
+        }
+      }
+    },
+    {
+      "material": "Eye_R",
+      "status": "rebuilt",
+      "original": {
+        "blend_method": "HASHED",
+        "surface_render_method": "DITHERED",
+        "shadow_method": null,
+        "role_images": {
+          "AO": "Std_Cornea_R_ao.jpg",
+          "DIFFUSE": "Std_Eye_R_Diffuse",
+          "EYEBLEND": "Std_Cornea_R_BCBMap.jpg",
+          "METALLIC": "Std_Cornea_R_metallic.jpg",
+          "SCLERA": "Std_Cornea_R_Sclera.png",
+          "SCLERANORMAL": "Std_Lower_Teeth_MicroN.png"
+        }
+      }
+    },
+    {
+      "material": "Cornea_L",
+      "status": "rebuilt",
+      "original": {
+        "blend_method": "HASHED",
+        "surface_render_method": "DITHERED",
+        "shadow_method": null,
+        "role_images": {
+          "AO": "Std_Cornea_R_ao.jpg",
+          "DIFFUSE": "Std_Cornea_L_Diffuse",
+          "EYEBLEND": "Std_Cornea_R_BCBMap.jpg",
+          "METALLIC": "Std_Cornea_R_metallic.jpg",
+          "SCLERA": "Std_Cornea_R_Sclera.png",
+          "SCLERANORMAL": "Std_Lower_Teeth_MicroN.png"
+        }
+      }
+    },
+    {
+      "material": "Cornea_R",
+      "status": "rebuilt",
+      "original": {
+        "blend_method": "HASHED",
+        "surface_render_method": "DITHERED",
+        "shadow_method": null,
+        "role_images": {
+          "AO": "Std_Cornea_R_ao.jpg",
+          "DIFFUSE": "Std_Cornea_R_Diffuse",
+          "EYEBLEND": "Std_Cornea_R_BCBMap.jpg",
+          "METALLIC": "Std_Cornea_R_metallic.jpg",
+          "SCLERA": "Std_Cornea_R_Sclera.png",
+          "SCLERANORMAL": "Std_Lower_Teeth_MicroN.png"
+        }
+      }
+    },
+    {
+      "material": "Tearline_L",
+      "status": "rebuilt",
+      "original": {
+        "blend_method": "BLEND",
+        "surface_render_method": "BLENDED",
+        "shadow_method": null,
+        "role_images": {}
+      }
+    },
+    {
+      "material": "Tearline_R",
+      "status": "rebuilt",
+      "original": {
+        "blend_method": "BLEND",
+        "surface_render_method": "BLENDED",
+        "shadow_method": null,
+        "role_images": {}
+      }
+    },
+    {
+      "material": "Tongue",
+      "status": "rebuilt",
+      "original": {
+        "blend_method": "HASHED",
+        "surface_render_method": "DITHERED",
+        "shadow_method": null,
+        "role_images": {
+          "AO": "Std_Tongue_ao.jpg",
+          "DIFFUSE": "Std_Tongue_Diffuse",
+          "GRADIENTAO": "Std_Tongue_GradAO.jpg",
+          "METALLIC": "Std_Tongue_metallic.jpg",
+          "MICRONORMAL": "Std_Tongue_MicroN.png",
+          "NORMAL": "Std_Tongue_Normal",
+          "ROUGHNESS": "Std_Tongue_roughness.jpg"
+        }
+      }
+    },
+    {
+      "material": "Upper_Teeth",
+      "status": "rebuilt",
+      "original": {
+        "blend_method": "HASHED",
+        "surface_render_method": "DITHERED",
+        "shadow_method": null,
+        "role_images": {
+          "AO": "Std_Upper_Teeth_ao.jpg",
+          "DIFFUSE": "Std_Upper_Teeth_Diffuse",
+          "GRADIENTAO": "Std_Tongue_GradAO.jpg",
+          "GUMSMASK": "Std_Lower_Teeth_GumsMask.jpg",
+          "METALLIC": "Std_Upper_Teeth_metallic.jpg",
+          "MICRONORMAL": "Std_Lower_Teeth_MicroN.png",
+          "NORMAL": "Std_Upper_Teeth_Normal",
+          "ROUGHNESS": "Std_Upper_Teeth_roughness.jpg"
+        }
+      }
+    },
+    {
+      "material": "Lower_Teeth",
+      "status": "rebuilt",
+      "original": {
+        "blend_method": "HASHED",
+        "surface_render_method": "DITHERED",
+        "shadow_method": null,
+        "role_images": {
+          "AO": "Std_Lower_Teeth_ao.jpg",
+          "DIFFUSE": "Std_Lower_Teeth_Diffuse",
+          "GRADIENTAO": "Std_Tongue_GradAO.jpg",
+          "GUMSMASK": "Std_Lower_Teeth_GumsMask.jpg",
+          "METALLIC": "Std_Upper_Teeth_metallic.jpg",
+          "MICRONORMAL": "Std_Lower_Teeth_MicroN.png",
+          "NORMAL": "Std_Lower_Teeth_Normal",
+          "ROUGHNESS": "Std_Lower_Teeth_roughness.jpg"
+        }
+      }
+    }
+  ]
+}

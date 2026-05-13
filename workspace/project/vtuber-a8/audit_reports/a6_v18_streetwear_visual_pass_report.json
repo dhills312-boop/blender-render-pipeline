@@ -1,0 +1,57 @@
+{
+  "blend_file": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v17_non_skin_shader_cleanup.blend",
+  "out_blend": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v18_streetwear_visual_pass.blend",
+  "armature": "blender file_Rigify",
+  "created_objects": [
+    "OUT_StreetwearTop",
+    "OUT_PleatedSkirt",
+    "OUT_Underwear",
+    "ACC_Collar",
+    "ACC_PawCharm",
+    "ACC_Muzzle",
+    "ACC_EarPiercings_L",
+    "ACC_EarPiercings_R",
+    "ACC_BridgeStud_L",
+    "ACC_BridgeStud_R",
+    "ACC_BridgeChain",
+    "ACC_CollarChain",
+    "ACC_HipChain"
+  ],
+  "hidden_backup_objects": [
+    "top_cloth",
+    "bottome"
+  ],
+  "collections": [
+    "OUTFIT_Main",
+    "ACC_Face",
+    "ACC_Neck",
+    "A8_Backup_Hidden"
+  ],
+  "fang_vertices_adjusted": 4,
+  "bindings": {
+    "collar": "DEF-spine.006",
+    "paw": "DEF-spine.006",
+    "muzzle": [
+      "DEF-nose.004",
+      "DEF-spine.006"
+    ],
+    "bridge_studs": [
+      "DEF-nose.001",
+      "DEF-spine.006"
+    ],
+    "bridge_chain": [
+      "DEF-nose.001",
+      "DEF-spine.006"
+    ],
+    "ear_piercings": [
+      "DEF-ear.L",
+      "DEF-ear.R"
+    ],
+    "hip_chain": "DEF-spine.003"
+  },
+  "notes": [
+    "Real ear piercings reuse the Piercing06 jewelry cluster and intentionally do not import the elf ear geometry.",
+    "Old placeholder clothing was hidden, not deleted.",
+    "This is a visual pass checkpoint; final per-piece fitting may still need interactive polish."
+  ]
+}

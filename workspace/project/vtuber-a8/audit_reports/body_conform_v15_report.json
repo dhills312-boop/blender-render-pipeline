@@ -1,0 +1,29 @@
+{
+  "blend_file": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v14_body_sculpt_thigh_clearance.blend",
+  "body": "Body",
+  "sculpt": "Body_Sculpt",
+  "shape_key": "Body_Sculpt_Conform",
+  "shape_key_value": 1.0,
+  "include_materials": [
+    "Skin_Arm",
+    "Skin_Body",
+    "Skin_Leg"
+  ],
+  "max_distance": 0.18,
+  "strength": 1.0,
+  "body_vertices": 14164,
+  "body_tris": 28092,
+  "sculpt_vertices": 225184,
+  "changed_vertices": 8517,
+  "skipped_by_material": 5647,
+  "skipped_by_distance": 0,
+  "distance_stats": {
+    "mean": 0.004653778754526684,
+    "p50": 0.0005615670136072086,
+    "p90": 0.017829440085165595,
+    "p99": 0.03727699570347251,
+    "max": 0.04968441513383662
+  },
+  "sculpt_hidden_for_preview": true,
+  "saved_blend": "workspace\\project\\vtuber-a8\\a6_v15_body_conformed.blend"
+}

@@ -1,0 +1,170 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v26_clothing_cleanup_pruned.blend",
+  "output": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v29_full_clothing_contact.blend",
+  "source_to_final": {
+    "CLEAN_StreetwearTop_v25": "FINAL_StreetwearTop_Contact",
+    "FIT_PleatedSkirt_Shrinkwrap": "FINAL_PleatedSkirt_Contact",
+    "FIT_Underwear_Support.001": "FINAL_UnderwearSupport_Contact"
+  },
+  "target_gap": 0.003,
+  "max_search": 0.045,
+  "max_push": 0.028,
+  "contact": {
+    "FINAL_StreetwearTop_Contact": {
+      "source_stats": {
+        "verts": 4024,
+        "polys": 7464,
+        "tris": 7464
+      },
+      "contact_repair": {
+        "verts": 4024,
+        "passes": [
+          {
+            "moved_vertices": 64,
+            "mean_move": 0.001761326535879347,
+            "max_move": 0.004713391755401972
+          },
+          {
+            "moved_vertices": 59,
+            "mean_move": 0.0001212711793533977,
+            "max_move": 0.0019379866410672549
+          },
+          {
+            "moved_vertices": 31,
+            "mean_move": 0.00021334002537508746,
+            "max_move": 0.002032295290817274
+          },
+          {
+            "moved_vertices": 23,
+            "mean_move": 0.0002375271468427341,
+            "max_move": 0.0013764967882962083
+          }
+        ],
+        "total_moved_events": 177,
+        "max_move_seen": 0.004713391755401972,
+        "after_min_signed_gap": 0.0019219269752284163,
+        "after_vertices_under_target": 21,
+        "after_checked_vertices": 3329
+      },
+      "final_stats": {
+        "verts": 4024,
+        "polys": 7464,
+        "tris": 7464
+      }
+    },
+    "FINAL_PleatedSkirt_Contact": {
+      "source_stats": {
+        "verts": 25011,
+        "polys": 48568,
+        "tris": 48568
+      },
+      "contact_repair": {
+        "verts": 25011,
+        "passes": [
+          {
+            "moved_vertices": 1449,
+            "mean_move": 0.008610079320050845,
+            "max_move": 0.015400000000000002
+          },
+          {
+            "moved_vertices": 1423,
+            "mean_move": 0.0011440236748856312,
+            "max_move": 0.011155274088494479
+          },
+          {
+            "moved_vertices": 1248,
+            "mean_move": 3.6029989057065954e-05,
+            "max_move": 0.005876040525734425
+          },
+          {
+            "moved_vertices": 977,
+            "mean_move": 8.845259573447981e-06,
+            "max_move": 0.0014557862553629093
+          }
+        ],
+        "total_moved_events": 5097,
+        "max_move_seen": 0.015400000000000002,
+        "after_min_signed_gap": 0.002314578799996525,
+        "after_vertices_under_target": 799,
+        "after_checked_vertices": 10432
+      },
+      "final_stats": {
+        "verts": 25011,
+        "polys": 48568,
+        "tris": 48568
+      }
+    },
+    "FINAL_UnderwearSupport_Contact": {
+      "source_stats": {
+        "verts": 3640,
+        "polys": 6980,
+        "tris": 6980
+      },
+      "contact_repair": {
+        "verts": 3640,
+        "passes": [
+          {
+            "moved_vertices": 979,
+            "mean_move": 0.015002133096373774,
+            "max_move": 0.028
+          },
+          {
+            "moved_vertices": 956,
+            "mean_move": 0.0009026318243609092,
+            "max_move": 0.01141807690449059
+          },
+          {
+            "moved_vertices": 769,
+            "mean_move": 1.1918471330914023e-05,
+            "max_move": 0.0010761924934995478
+          },
+          {
+            "moved_vertices": 505,
+            "mean_move": 1.3126505590203231e-05,
+            "max_move": 0.0010369428436688395
+          }
+        ],
+        "total_moved_events": 3209,
+        "max_move_seen": 0.028,
+        "after_min_signed_gap": 0.0020036831938341493,
+        "after_vertices_under_target": 377,
+        "after_checked_vertices": 2576
+      },
+      "final_stats": {
+        "verts": 3640,
+        "polys": 6980,
+        "tris": 6980
+      }
+    }
+  },
+  "visible_mesh_count": 22,
+  "visible_meshes": [
+    "A8_Choker_Work",
+    "ACC_BridgeStud_L",
+    "ACC_BridgeStud_R",
+    "ACC_EarPiercings_R.001",
+    "ACC_EarPiercings_R.002",
+    "ACC_EarPiercings_R.003",
+    "ACC_EarPiercings_R.004",
+    "ACC_EarPiercings_R.005",
+    "ACC_EarPiercings_R.006",
+    "ACC_Muzzle",
+    "Body",
+    "Eye",
+    "EyeOcclusion",
+    "FINAL_PleatedSkirt_Contact",
+    "FINAL_StreetwearTop_Contact",
+    "FINAL_UnderwearSupport_Contact",
+    "Hair_30629",
+    "Scalp_Male",
+    "Septum_Piercing",
+    "TearLine",
+    "Teeth",
+    "Tongue"
+  ],
+  "notes": [
+    "Uses v25/v26 accepted clothing sources.",
+    "Skirt/underwear are copied from base rough-pass mesh state, not live shrinkwrap bake.",
+    "Closest-point body contact repair moves clothing vertices outward only when under the target gap."
+  ]
+}

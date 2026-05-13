@@ -1,0 +1,1686 @@
+{
+  "blend_file": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v13_anatomy_p1.blend",
+  "object": "Body_Sculpt",
+  "geometry_node_modifier_count": 1,
+  "groups": [
+    {
+      "modifier": "GeometryNodes",
+      "modifier_show_viewport": true,
+      "modifier_show_render": true,
+      "name": "Geometry Nodes",
+      "node_count": 17,
+      "link_count": 20,
+      "all_links": [
+        {
+          "from_node": "Group Input",
+          "from_type": "NodeGroupInput",
+          "from_socket": "Geometry",
+          "to_node": "Set Position",
+          "to_type": "GeometryNodeSetPosition",
+          "to_socket": "Geometry"
+        },
+        {
+          "from_node": "Set Position",
+          "from_type": "GeometryNodeSetPosition",
+          "from_socket": "Geometry",
+          "to_node": "Group Output",
+          "to_type": "NodeGroupOutput",
+          "to_socket": "Geometry"
+        },
+        {
+          "from_node": "Separate XYZ",
+          "from_type": "ShaderNodeSeparateXYZ",
+          "from_socket": "X",
+          "to_node": "Math",
+          "to_type": "ShaderNodeMath",
+          "to_socket": "Value"
+        },
+        {
+          "from_node": "Math.001",
+          "from_type": "ShaderNodeMath",
+          "from_socket": "Value",
+          "to_node": "Combine XYZ",
+          "to_type": "ShaderNodeCombineXYZ",
+          "to_socket": "X"
+        },
+        {
+          "from_node": "Position",
+          "from_type": "GeometryNodeInputPosition",
+          "from_socket": "Position",
+          "to_node": "Separate XYZ",
+          "to_type": "ShaderNodeSeparateXYZ",
+          "to_socket": "Vector"
+        },
+        {
+          "from_node": "Combine XYZ",
+          "from_type": "ShaderNodeCombineXYZ",
+          "from_socket": "Vector",
+          "to_node": "Set Position",
+          "to_type": "GeometryNodeSetPosition",
+          "to_socket": "Offset"
+        },
+        {
+          "from_node": "Separate XYZ",
+          "from_type": "ShaderNodeSeparateXYZ",
+          "from_socket": "Y",
+          "to_node": "Math.003",
+          "to_type": "ShaderNodeMath",
+          "to_socket": "Value"
+        },
+        {
+          "from_node": "Compare.002",
+          "from_type": "FunctionNodeCompare",
+          "from_socket": "Result",
+          "to_node": "Boolean Math.001",
+          "to_type": "FunctionNodeBooleanMath",
+          "to_socket": "Boolean"
+        },
+        {
+          "from_node": "Boolean Math.001",
+          "from_type": "FunctionNodeBooleanMath",
+          "from_socket": "Boolean",
+          "to_node": "Boolean Math",
+          "to_type": "FunctionNodeBooleanMath",
+          "to_socket": "Boolean"
+        },
+        {
+          "from_node": "Separate XYZ",
+          "from_type": "ShaderNodeSeparateXYZ",
+          "from_socket": "X",
+          "to_node": "Math.002",
+          "to_type": "ShaderNodeMath",
+          "to_socket": "Value"
+        },
+        {
+          "from_node": "Math.002",
+          "from_type": "ShaderNodeMath",
+          "from_socket": "Value",
+          "to_node": "Compare.002",
+          "to_type": "FunctionNodeCompare",
+          "to_socket": "A"
+        },
+        {
+          "from_node": "Separate XYZ",
+          "from_type": "ShaderNodeSeparateXYZ",
+          "from_socket": "Z",
+          "to_node": "Compare",
+          "to_type": "FunctionNodeCompare",
+          "to_socket": "A"
+        },
+        {
+          "from_node": "Separate XYZ",
+          "from_type": "ShaderNodeSeparateXYZ",
+          "from_socket": "Z",
+          "to_node": "Compare.001",
+          "to_type": "FunctionNodeCompare",
+          "to_socket": "A"
+        },
+        {
+          "from_node": "Compare",
+          "from_type": "FunctionNodeCompare",
+          "from_socket": "Result",
+          "to_node": "Boolean Math.002",
+          "to_type": "FunctionNodeBooleanMath",
+          "to_socket": "Boolean"
+        },
+        {
+          "from_node": "Compare.001",
+          "from_type": "FunctionNodeCompare",
+          "from_socket": "Result",
+          "to_node": "Boolean Math.002",
+          "to_type": "FunctionNodeBooleanMath",
+          "to_socket": "Boolean"
+        },
+        {
+          "from_node": "Boolean Math.002",
+          "from_type": "FunctionNodeBooleanMath",
+          "from_socket": "Boolean",
+          "to_node": "Boolean Math.001",
+          "to_type": "FunctionNodeBooleanMath",
+          "to_socket": "Boolean"
+        },
+        {
+          "from_node": "Compare.003",
+          "from_type": "FunctionNodeCompare",
+          "from_socket": "Result",
+          "to_node": "Boolean Math",
+          "to_type": "FunctionNodeBooleanMath",
+          "to_socket": "Boolean"
+        },
+        {
+          "from_node": "Boolean Math",
+          "from_type": "FunctionNodeBooleanMath",
+          "from_socket": "Boolean",
+          "to_node": "Set Position",
+          "to_type": "GeometryNodeSetPosition",
+          "to_socket": "Selection"
+        },
+        {
+          "from_node": "Math.003",
+          "from_type": "ShaderNodeMath",
+          "from_socket": "Value",
+          "to_node": "Compare.003",
+          "to_type": "FunctionNodeCompare",
+          "to_socket": "A"
+        },
+        {
+          "from_node": "Math",
+          "from_type": "ShaderNodeMath",
+          "from_socket": "Value",
+          "to_node": "Math.001",
+          "to_type": "ShaderNodeMath",
+          "to_socket": "Value"
+        }
+      ],
+      "set_position_nodes": [
+        {
+          "name": "Set Position",
+          "mute": false,
+          "selection_linked": true,
+          "position_linked": false,
+          "offset_linked": true,
+          "selection_upstream": [
+            {
+              "name": "Boolean Math",
+              "type": "FunctionNodeBooleanMath",
+              "label": "",
+              "mute": false,
+              "operation": "AND",
+              "data_type": null,
+              "mode": null,
+              "inputs": [
+                {
+                  "name": "Boolean",
+                  "default": false,
+                  "links": [
+                    {
+                      "from_node": "Boolean Math.001",
+                      "from_type": "FunctionNodeBooleanMath",
+                      "from_socket": "Boolean",
+                      "to_node": "Boolean Math",
+                      "to_type": "FunctionNodeBooleanMath",
+                      "to_socket": "Boolean"
+                    }
+                  ]
+                },
+                {
+                  "name": "Boolean",
+                  "default": false,
+                  "links": [
+                    {
+                      "from_node": "Compare.003",
+                      "from_type": "FunctionNodeCompare",
+                      "from_socket": "Result",
+                      "to_node": "Boolean Math",
+                      "to_type": "FunctionNodeBooleanMath",
+                      "to_socket": "Boolean"
+                    }
+                  ]
+                }
+              ],
+              "outputs": [
+                "Boolean"
+              ]
+            },
+            {
+              "name": "Boolean Math.001",
+              "type": "FunctionNodeBooleanMath",
+              "label": "",
+              "mute": false,
+              "operation": "AND",
+              "data_type": null,
+              "mode": null,
+              "inputs": [
+                {
+                  "name": "Boolean",
+                  "default": false,
+                  "links": [
+                    {
+                      "from_node": "Boolean Math.002",
+                      "from_type": "FunctionNodeBooleanMath",
+                      "from_socket": "Boolean",
+                      "to_node": "Boolean Math.001",
+                      "to_type": "FunctionNodeBooleanMath",
+                      "to_socket": "Boolean"
+                    }
+                  ]
+                },
+                {
+                  "name": "Boolean",
+                  "default": false,
+                  "links": [
+                    {
+                      "from_node": "Compare.002",
+                      "from_type": "FunctionNodeCompare",
+                      "from_socket": "Result",
+                      "to_node": "Boolean Math.001",
+                      "to_type": "FunctionNodeBooleanMath",
+                      "to_socket": "Boolean"
+                    }
+                  ]
+                }
+              ],
+              "outputs": [
+                "Boolean"
+              ]
+            },
+            {
+              "name": "Compare.003",
+              "type": "FunctionNodeCompare",
+              "label": "",
+              "mute": false,
+              "operation": "LESS_THAN",
+              "data_type": "FLOAT",
+              "mode": "ELEMENT",
+              "inputs": [
+                {
+                  "name": "A",
+                  "default": 0.0,
+                  "links": [
+                    {
+                      "from_node": "Math.003",
+                      "from_type": "ShaderNodeMath",
+                      "from_socket": "Value",
+                      "to_node": "Compare.003",
+                      "to_type": "FunctionNodeCompare",
+                      "to_socket": "A"
+                    }
+                  ]
+                },
+                {
+                  "name": "B",
+                  "default": 0.1599999964237213,
+                  "links": []
+                },
+                {
+                  "name": "A",
+                  "default": 0,
+                  "links": []
+                },
+                {
+                  "name": "B",
+                  "default": 0,
+                  "links": []
+                },
+                {
+                  "name": "A",
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                {
+                  "name": "B",
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                {
+                  "name": "A",
+                  "default": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                  ],
+                  "links": []
+                },
+                {
+                  "name": "B",
+                  "default": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                  ],
+                  "links": []
+                },
+                {
+                  "name": "A",
+                  "default": [],
+                  "links": []
+                },
+                {
+                  "name": "B",
+                  "default": [],
+                  "links": []
+                },
+                {
+                  "name": "C",
+                  "default": 0.8999999761581421,
+                  "links": []
+                },
+                {
+                  "name": "Angle",
+                  "default": 0.08726649731397629,
+                  "links": []
+                },
+                {
+                  "name": "Epsilon",
+                  "default": 0.0010000000474974513,
+                  "links": []
+                }
+              ],
+              "outputs": [
+                "Result"
+              ]
+            },
+            {
+              "name": "Boolean Math.002",
+              "type": "FunctionNodeBooleanMath",
+              "label": "",
+              "mute": false,
+              "operation": "AND",
+              "data_type": null,
+              "mode": null,
+              "inputs": [
+                {
+                  "name": "Boolean",
+                  "default": false,
+                  "links": [
+                    {
+                      "from_node": "Compare",
+                      "from_type": "FunctionNodeCompare",
+                      "from_socket": "Result",
+                      "to_node": "Boolean Math.002",
+                      "to_type": "FunctionNodeBooleanMath",
+                      "to_socket": "Boolean"
+                    }
+                  ]
+                },
+                {
+                  "name": "Boolean",
+                  "default": false,
+                  "links": [
+                    {
+                      "from_node": "Compare.001",
+                      "from_type": "FunctionNodeCompare",
+                      "from_socket": "Result",
+                      "to_node": "Boolean Math.002",
+                      "to_type": "FunctionNodeBooleanMath",
+                      "to_socket": "Boolean"
+                    }
+                  ]
+                }
+              ],
+              "outputs": [
+                "Boolean"
+              ]
+            },
+            {
+              "name": "Compare.002",
+              "type": "FunctionNodeCompare",
+              "label": "",
+              "mute": false,
+              "operation": "LESS_THAN",
+              "data_type": "FLOAT",
+              "mode": "ELEMENT",
+              "inputs": [
+                {
+                  "name": "A",
+                  "default": 0.0,
+                  "links": [
+                    {
+                      "from_node": "Math.002",
+                      "from_type": "ShaderNodeMath",
+                      "from_socket": "Value",
+                      "to_node": "Compare.002",
+                      "to_type": "FunctionNodeCompare",
+                      "to_socket": "A"
+                    }
+                  ]
+                },
+                {
+                  "name": "B",
+                  "default": 0.07999999821186066,
+                  "links": []
+                },
+                {
+                  "name": "A",
+                  "default": 0,
+                  "links": []
+                },
+                {
+                  "name": "B",
+                  "default": 0,
+                  "links": []
+                },
+                {
+                  "name": "A",
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                {
+                  "name": "B",
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                {
+                  "name": "A",
+                  "default": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                  ],
+                  "links": []
+                },
+                {
+                  "name": "B",
+                  "default": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                  ],
+                  "links": []
+                },
+                {
+                  "name": "A",
+                  "default": [],
+                  "links": []
+                },
+                {
+                  "name": "B",
+                  "default": [],
+                  "links": []
+                },
+                {
+                  "name": "C",
+                  "default": 0.8999999761581421,
+                  "links": []
+                },
+                {
+                  "name": "Angle",
+                  "default": 0.08726649731397629,
+                  "links": []
+                },
+                {
+                  "name": "Epsilon",
+                  "default": 0.0010000000474974513,
+                  "links": []
+                }
+              ],
+              "outputs": [
+                "Result"
+              ]
+            },
+            {
+              "name": "Math.003",
+              "type": "ShaderNodeMath",
+              "label": "",
+              "mute": false,
+              "operation": "ABSOLUTE",
+              "data_type": null,
+              "mode": null,
+              "inputs": [
+                {
+                  "name": "Value",
+                  "default": 0.5,
+                  "links": [
+                    {
+                      "from_node": "Separate XYZ",
+                      "from_type": "ShaderNodeSeparateXYZ",
+                      "from_socket": "Y",
+                      "to_node": "Math.003",
+                      "to_type": "ShaderNodeMath",
+                      "to_socket": "Value"
+                    }
+                  ]
+                },
+                {
+                  "name": "Value",
+                  "default": 0.5,
+                  "links": []
+                },
+                {
+                  "name": "Value",
+                  "default": 0.5,
+                  "links": []
+                }
+              ],
+              "outputs": [
+                "Value"
+              ]
+            },
+            {
+              "name": "Compare",
+              "type": "FunctionNodeCompare",
+              "label": "",
+              "mute": false,
+              "operation": "GREATER_THAN",
+              "data_type": "FLOAT",
+              "mode": "ELEMENT",
+              "inputs": [
+                {
+                  "name": "A",
+                  "default": 0.0,
+                  "links": [
+                    {
+                      "from_node": "Separate XYZ",
+                      "from_type": "ShaderNodeSeparateXYZ",
+                      "from_socket": "Z",
+                      "to_node": "Compare",
+                      "to_type": "FunctionNodeCompare",
+                      "to_socket": "A"
+                    }
+                  ]
+                },
+                {
+                  "name": "B",
+                  "default": 0.44999998807907104,
+                  "links": []
+                },
+                {
+                  "name": "A",
+                  "default": 0,
+                  "links": []
+                },
+                {
+                  "name": "B",
+                  "default": 0,
+                  "links": []
+                },
+                {
+                  "name": "A",
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                {
+                  "name": "B",
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                {
+                  "name": "A",
+                  "default": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                  ],
+                  "links": []
+                },
+                {
+                  "name": "B",
+                  "default": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                  ],
+                  "links": []
+                },
+                {
+                  "name": "A",
+                  "default": [],
+                  "links": []
+                },
+                {
+                  "name": "B",
+                  "default": [],
+                  "links": []
+                },
+                {
+                  "name": "C",
+                  "default": 0.8999999761581421,
+                  "links": []
+                },
+                {
+                  "name": "Angle",
+                  "default": 0.08726649731397629,
+                  "links": []
+                },
+                {
+                  "name": "Epsilon",
+                  "default": 0.0010000000474974513,
+                  "links": []
+                }
+              ],
+              "outputs": [
+                "Result"
+              ]
+            },
+            {
+              "name": "Compare.001",
+              "type": "FunctionNodeCompare",
+              "label": "",
+              "mute": false,
+              "operation": "LESS_THAN",
+              "data_type": "FLOAT",
+              "mode": "ELEMENT",
+              "inputs": [
+                {
+                  "name": "A",
+                  "default": 0.0,
+                  "links": [
+                    {
+                      "from_node": "Separate XYZ",
+                      "from_type": "ShaderNodeSeparateXYZ",
+                      "from_socket": "Z",
+                      "to_node": "Compare.001",
+                      "to_type": "FunctionNodeCompare",
+                      "to_socket": "A"
+                    }
+                  ]
+                },
+                {
+                  "name": "B",
+                  "default": 0.9399999976158142,
+                  "links": []
+                },
+                {
+                  "name": "A",
+                  "default": 0,
+                  "links": []
+                },
+                {
+                  "name": "B",
+                  "default": 0,
+                  "links": []
+                },
+                {
+                  "name": "A",
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                {
+                  "name": "B",
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                {
+                  "name": "A",
+                  "default": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                  ],
+                  "links": []
+                },
+                {
+                  "name": "B",
+                  "default": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                  ],
+                  "links": []
+                },
+                {
+                  "name": "A",
+                  "default": [],
+                  "links": []
+                },
+                {
+                  "name": "B",
+                  "default": [],
+                  "links": []
+                },
+                {
+                  "name": "C",
+                  "default": 0.8999999761581421,
+                  "links": []
+                },
+                {
+                  "name": "Angle",
+                  "default": 0.08726649731397629,
+                  "links": []
+                },
+                {
+                  "name": "Epsilon",
+                  "default": 0.0010000000474974513,
+                  "links": []
+                }
+              ],
+              "outputs": [
+                "Result"
+              ]
+            },
+            {
+              "name": "Math.002",
+              "type": "ShaderNodeMath",
+              "label": "",
+              "mute": false,
+              "operation": "ABSOLUTE",
+              "data_type": null,
+              "mode": null,
+              "inputs": [
+                {
+                  "name": "Value",
+                  "default": 0.5,
+                  "links": [
+                    {
+                      "from_node": "Separate XYZ",
+                      "from_type": "ShaderNodeSeparateXYZ",
+                      "from_socket": "X",
+                      "to_node": "Math.002",
+                      "to_type": "ShaderNodeMath",
+                      "to_socket": "Value"
+                    }
+                  ]
+                },
+                {
+                  "name": "Value",
+                  "default": 0.5,
+                  "links": []
+                },
+                {
+                  "name": "Value",
+                  "default": 0.5,
+                  "links": []
+                }
+              ],
+              "outputs": [
+                "Value"
+              ]
+            },
+            {
+              "name": "Separate XYZ",
+              "type": "ShaderNodeSeparateXYZ",
+              "label": "",
+              "mute": false,
+              "operation": null,
+              "data_type": null,
+              "mode": null,
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": [
+                    {
+                      "from_node": "Position",
+                      "from_type": "GeometryNodeInputPosition",
+                      "from_socket": "Position",
+                      "to_node": "Separate XYZ",
+                      "to_type": "ShaderNodeSeparateXYZ",
+                      "to_socket": "Vector"
+                    }
+                  ]
+                }
+              ],
+              "outputs": [
+                "X",
+                "Y",
+                "Z"
+              ]
+            },
+            {
+              "name": "Position",
+              "type": "GeometryNodeInputPosition",
+              "label": "",
+              "mute": false,
+              "operation": null,
+              "data_type": null,
+              "mode": null,
+              "inputs": [],
+              "outputs": [
+                "Position"
+              ]
+            }
+          ],
+          "offset_upstream": [
+            {
+              "name": "Combine XYZ",
+              "type": "ShaderNodeCombineXYZ",
+              "label": "",
+              "mute": false,
+              "operation": null,
+              "data_type": null,
+              "mode": null,
+              "inputs": [
+                {
+                  "name": "X",
+                  "default": 0.0,
+                  "links": [
+                    {
+                      "from_node": "Math.001",
+                      "from_type": "ShaderNodeMath",
+                      "from_socket": "Value",
+                      "to_node": "Combine XYZ",
+                      "to_type": "ShaderNodeCombineXYZ",
+                      "to_socket": "X"
+                    }
+                  ]
+                },
+                {
+                  "name": "Y",
+                  "default": 0.0,
+                  "links": []
+                },
+                {
+                  "name": "Z",
+                  "default": 0.0,
+                  "links": []
+                }
+              ],
+              "outputs": [
+                "Vector"
+              ]
+            },
+            {
+              "name": "Math.001",
+              "type": "ShaderNodeMath",
+              "label": "",
+              "mute": false,
+              "operation": "MULTIPLY",
+              "data_type": null,
+              "mode": null,
+              "inputs": [
+                {
+                  "name": "Value",
+                  "default": 0.006000000052154064,
+                  "links": [
+                    {
+                      "from_node": "Math",
+                      "from_type": "ShaderNodeMath",
+                      "from_socket": "Value",
+                      "to_node": "Math.001",
+                      "to_type": "ShaderNodeMath",
+                      "to_socket": "Value"
+                    }
+                  ]
+                },
+                {
+                  "name": "Value",
+                  "default": 0.5,
+                  "links": []
+                },
+                {
+                  "name": "Value",
+                  "default": 0.5,
+                  "links": []
+                }
+              ],
+              "outputs": [
+                "Value"
+              ]
+            },
+            {
+              "name": "Math",
+              "type": "ShaderNodeMath",
+              "label": "",
+              "mute": false,
+              "operation": "SIGN",
+              "data_type": null,
+              "mode": null,
+              "inputs": [
+                {
+                  "name": "Value",
+                  "default": 0.5,
+                  "links": [
+                    {
+                      "from_node": "Separate XYZ",
+                      "from_type": "ShaderNodeSeparateXYZ",
+                      "from_socket": "X",
+                      "to_node": "Math",
+                      "to_type": "ShaderNodeMath",
+                      "to_socket": "Value"
+                    }
+                  ]
+                },
+                {
+                  "name": "Value",
+                  "default": 0.5,
+                  "links": []
+                },
+                {
+                  "name": "Value",
+                  "default": 0.5,
+                  "links": []
+                }
+              ],
+              "outputs": [
+                "Value"
+              ]
+            },
+            {
+              "name": "Separate XYZ",
+              "type": "ShaderNodeSeparateXYZ",
+              "label": "",
+              "mute": false,
+              "operation": null,
+              "data_type": null,
+              "mode": null,
+              "inputs": [
+                {
+                  "name": "Vector",
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": [
+                    {
+                      "from_node": "Position",
+                      "from_type": "GeometryNodeInputPosition",
+                      "from_socket": "Position",
+                      "to_node": "Separate XYZ",
+                      "to_type": "ShaderNodeSeparateXYZ",
+                      "to_socket": "Vector"
+                    }
+                  ]
+                }
+              ],
+              "outputs": [
+                "X",
+                "Y",
+                "Z"
+              ]
+            },
+            {
+              "name": "Position",
+              "type": "GeometryNodeInputPosition",
+              "label": "",
+              "mute": false,
+              "operation": null,
+              "data_type": null,
+              "mode": null,
+              "inputs": [],
+              "outputs": [
+                "Position"
+              ]
+            }
+          ],
+          "position_upstream": []
+        }
+      ],
+      "compare_nodes": [
+        {
+          "name": "Compare",
+          "mute": false,
+          "operation": "GREATER_THAN",
+          "data_type": "FLOAT",
+          "mode": "ELEMENT",
+          "inputs": [
+            {
+              "name": "A",
+              "default": 0.0,
+              "linked": true,
+              "links": [
+                {
+                  "from_node": "Separate XYZ",
+                  "from_type": "ShaderNodeSeparateXYZ",
+                  "from_socket": "Z",
+                  "to_node": "Compare",
+                  "to_type": "FunctionNodeCompare",
+                  "to_socket": "A"
+                }
+              ]
+            },
+            {
+              "name": "B",
+              "default": 0.44999998807907104,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "A",
+              "default": 0,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "B",
+              "default": 0,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "A",
+              "default": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "B",
+              "default": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "A",
+              "default": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "B",
+              "default": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "A",
+              "default": [],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "B",
+              "default": [],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "C",
+              "default": 0.8999999761581421,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "Angle",
+              "default": 0.08726649731397629,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "Epsilon",
+              "default": 0.0010000000474974513,
+              "linked": false,
+              "links": []
+            }
+          ]
+        },
+        {
+          "name": "Compare.001",
+          "mute": false,
+          "operation": "LESS_THAN",
+          "data_type": "FLOAT",
+          "mode": "ELEMENT",
+          "inputs": [
+            {
+              "name": "A",
+              "default": 0.0,
+              "linked": true,
+              "links": [
+                {
+                  "from_node": "Separate XYZ",
+                  "from_type": "ShaderNodeSeparateXYZ",
+                  "from_socket": "Z",
+                  "to_node": "Compare.001",
+                  "to_type": "FunctionNodeCompare",
+                  "to_socket": "A"
+                }
+              ]
+            },
+            {
+              "name": "B",
+              "default": 0.9399999976158142,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "A",
+              "default": 0,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "B",
+              "default": 0,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "A",
+              "default": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "B",
+              "default": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "A",
+              "default": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "B",
+              "default": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "A",
+              "default": [],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "B",
+              "default": [],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "C",
+              "default": 0.8999999761581421,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "Angle",
+              "default": 0.08726649731397629,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "Epsilon",
+              "default": 0.0010000000474974513,
+              "linked": false,
+              "links": []
+            }
+          ]
+        },
+        {
+          "name": "Compare.002",
+          "mute": false,
+          "operation": "LESS_THAN",
+          "data_type": "FLOAT",
+          "mode": "ELEMENT",
+          "inputs": [
+            {
+              "name": "A",
+              "default": 0.0,
+              "linked": true,
+              "links": [
+                {
+                  "from_node": "Math.002",
+                  "from_type": "ShaderNodeMath",
+                  "from_socket": "Value",
+                  "to_node": "Compare.002",
+                  "to_type": "FunctionNodeCompare",
+                  "to_socket": "A"
+                }
+              ]
+            },
+            {
+              "name": "B",
+              "default": 0.07999999821186066,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "A",
+              "default": 0,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "B",
+              "default": 0,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "A",
+              "default": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "B",
+              "default": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "A",
+              "default": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "B",
+              "default": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "A",
+              "default": [],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "B",
+              "default": [],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "C",
+              "default": 0.8999999761581421,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "Angle",
+              "default": 0.08726649731397629,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "Epsilon",
+              "default": 0.0010000000474974513,
+              "linked": false,
+              "links": []
+            }
+          ]
+        },
+        {
+          "name": "Compare.003",
+          "mute": false,
+          "operation": "LESS_THAN",
+          "data_type": "FLOAT",
+          "mode": "ELEMENT",
+          "inputs": [
+            {
+              "name": "A",
+              "default": 0.0,
+              "linked": true,
+              "links": [
+                {
+                  "from_node": "Math.003",
+                  "from_type": "ShaderNodeMath",
+                  "from_socket": "Value",
+                  "to_node": "Compare.003",
+                  "to_type": "FunctionNodeCompare",
+                  "to_socket": "A"
+                }
+              ]
+            },
+            {
+              "name": "B",
+              "default": 0.1599999964237213,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "A",
+              "default": 0,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "B",
+              "default": 0,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "A",
+              "default": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "B",
+              "default": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "A",
+              "default": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "B",
+              "default": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "A",
+              "default": [],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "B",
+              "default": [],
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "C",
+              "default": 0.8999999761581421,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "Angle",
+              "default": 0.08726649731397629,
+              "linked": false,
+              "links": []
+            },
+            {
+              "name": "Epsilon",
+              "default": 0.0010000000474974513,
+              "linked": false,
+              "links": []
+            }
+          ]
+        }
+      ],
+      "boolean_nodes": [
+        {
+          "name": "Boolean Math",
+          "mute": false,
+          "operation": "AND",
+          "inputs": [
+            {
+              "name": "Boolean",
+              "default": false,
+              "linked": true,
+              "links": [
+                {
+                  "from_node": "Boolean Math.001",
+                  "from_type": "FunctionNodeBooleanMath",
+                  "from_socket": "Boolean",
+                  "to_node": "Boolean Math",
+                  "to_type": "FunctionNodeBooleanMath",
+                  "to_socket": "Boolean"
+                }
+              ]
+            },
+            {
+              "name": "Boolean",
+              "default": false,
+              "linked": true,
+              "links": [
+                {
+                  "from_node": "Compare.003",
+                  "from_type": "FunctionNodeCompare",
+                  "from_socket": "Result",
+                  "to_node": "Boolean Math",
+                  "to_type": "FunctionNodeBooleanMath",
+                  "to_socket": "Boolean"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Boolean Math.001",
+          "mute": false,
+          "operation": "AND",
+          "inputs": [
+            {
+              "name": "Boolean",
+              "default": false,
+              "linked": true,
+              "links": [
+                {
+                  "from_node": "Boolean Math.002",
+                  "from_type": "FunctionNodeBooleanMath",
+                  "from_socket": "Boolean",
+                  "to_node": "Boolean Math.001",
+                  "to_type": "FunctionNodeBooleanMath",
+                  "to_socket": "Boolean"
+                }
+              ]
+            },
+            {
+              "name": "Boolean",
+              "default": false,
+              "linked": true,
+              "links": [
+                {
+                  "from_node": "Compare.002",
+                  "from_type": "FunctionNodeCompare",
+                  "from_socket": "Result",
+                  "to_node": "Boolean Math.001",
+                  "to_type": "FunctionNodeBooleanMath",
+                  "to_socket": "Boolean"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Boolean Math.002",
+          "mute": false,
+          "operation": "AND",
+          "inputs": [
+            {
+              "name": "Boolean",
+              "default": false,
+              "linked": true,
+              "links": [
+                {
+                  "from_node": "Compare",
+                  "from_type": "FunctionNodeCompare",
+                  "from_socket": "Result",
+                  "to_node": "Boolean Math.002",
+                  "to_type": "FunctionNodeBooleanMath",
+                  "to_socket": "Boolean"
+                }
+              ]
+            },
+            {
+              "name": "Boolean",
+              "default": false,
+              "linked": true,
+              "links": [
+                {
+                  "from_node": "Compare.001",
+                  "from_type": "FunctionNodeCompare",
+                  "from_socket": "Result",
+                  "to_node": "Boolean Math.002",
+                  "to_type": "FunctionNodeBooleanMath",
+                  "to_socket": "Boolean"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "math_nodes": [
+        {
+          "name": "Math",
+          "mute": false,
+          "operation": "SIGN",
+          "inputs": [
+            {
+              "name": "Value",
+              "default": 0.5,
+              "linked": true
+            },
+            {
+              "name": "Value",
+              "default": 0.5,
+              "linked": false
+            },
+            {
+              "name": "Value",
+              "default": 0.5,
+              "linked": false
+            }
+          ]
+        },
+        {
+          "name": "Math.001",
+          "mute": false,
+          "operation": "MULTIPLY",
+          "inputs": [
+            {
+              "name": "Value",
+              "default": 0.006000000052154064,
+              "linked": true
+            },
+            {
+              "name": "Value",
+              "default": 0.5,
+              "linked": false
+            },
+            {
+              "name": "Value",
+              "default": 0.5,
+              "linked": false
+            }
+          ]
+        },
+        {
+          "name": "Math.002",
+          "mute": false,
+          "operation": "ABSOLUTE",
+          "inputs": [
+            {
+              "name": "Value",
+              "default": 0.5,
+              "linked": true
+            },
+            {
+              "name": "Value",
+              "default": 0.5,
+              "linked": false
+            },
+            {
+              "name": "Value",
+              "default": 0.5,
+              "linked": false
+            }
+          ]
+        },
+        {
+          "name": "Math.003",
+          "mute": false,
+          "operation": "ABSOLUTE",
+          "inputs": [
+            {
+              "name": "Value",
+              "default": 0.5,
+              "linked": true
+            },
+            {
+              "name": "Value",
+              "default": 0.5,
+              "linked": false
+            },
+            {
+              "name": "Value",
+              "default": 0.5,
+              "linked": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

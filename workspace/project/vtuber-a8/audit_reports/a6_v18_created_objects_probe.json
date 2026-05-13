@@ -1,0 +1,158 @@
+{
+  "OUT_StreetwearTop": {
+    "dims": [
+      0.2253,
+      0.1429,
+      0.39
+    ],
+    "vgroups": 159,
+    "verts": 5401,
+    "collections": [
+      "OUTFIT_Main"
+    ]
+  },
+  "OUT_PleatedSkirt": {
+    "dims": [
+      0.3828,
+      0.2969,
+      0.3392
+    ],
+    "vgroups": 159,
+    "verts": 35535,
+    "collections": [
+      "OUTFIT_Main"
+    ]
+  },
+  "OUT_Underwear": {
+    "dims": [
+      0.1384,
+      0.1076,
+      0.2684
+    ],
+    "vgroups": 159,
+    "verts": 10794,
+    "collections": [
+      "OUTFIT_Main"
+    ]
+  },
+  "ACC_Collar": {
+    "dims": [
+      0.0889,
+      0.0903,
+      0.0283
+    ],
+    "vgroups": 4,
+    "verts": 144,
+    "collections": [
+      "ACC_Neck"
+    ]
+  },
+  "ACC_PawCharm": {
+    "dims": [
+      0.034,
+      0.0316,
+      0.0067
+    ],
+    "vgroups": 1,
+    "verts": 6340,
+    "collections": [
+      "ACC_Neck"
+    ]
+  },
+  "ACC_Muzzle": {
+    "dims": [
+      0.036,
+      0.0649,
+      0.0483
+    ],
+    "vgroups": 2,
+    "verts": 9012,
+    "collections": [
+      "ACC_Face"
+    ]
+  },
+  "ACC_EarPiercings_L": {
+    "dims": [
+      0.033,
+      0.0134,
+      0.06
+    ],
+    "vgroups": 1,
+    "verts": 37419,
+    "collections": [
+      "ACC_Face"
+    ]
+  },
+  "ACC_EarPiercings_R": {
+    "dims": [
+      0.033,
+      0.0134,
+      0.06
+    ],
+    "vgroups": 1,
+    "verts": 37419,
+    "collections": [
+      "ACC_Face"
+    ]
+  },
+  "ACC_BridgeStud_L": {
+    "dims": [
+      0.005,
+      0.0077,
+      0.0045
+    ],
+    "vgroups": 3,
+    "verts": 3010,
+    "collections": [
+      "ACC_Face"
+    ]
+  },
+  "ACC_BridgeStud_R": {
+    "dims": [
+      0.005,
+      0.0077,
+      0.0045
+    ],
+    "vgroups": 3,
+    "verts": 3010,
+    "collections": [
+      "ACC_Face"
+    ]
+  },
+  "ACC_BridgeChain": {
+    "dims": [
+      0.041,
+      0.0069,
+      0.0101
+    ],
+    "vgroups": 2,
+    "verts": 1560,
+    "collections": [
+      "ACC_Face"
+    ]
+  },
+  "ACC_CollarChain": {
+    "dims": [
+      0.0527,
+      0.0303,
+      0.0489
+    ],
+    "vgroups": 1,
+    "verts": 2184,
+    "collections": [
+      "ACC_Neck"
+    ]
+  },
+  "ACC_HipChain": {
+    "dims": [
+      0.3624,
+      0.0457,
+      0.088
+    ],
+    "vgroups": 1,
+    "verts": 2496,
+    "collections": [
+      "ACC_Neck"
+    ]
+  }
+}

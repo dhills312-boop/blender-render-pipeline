@@ -1,0 +1,26 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v33_hair16_position_stage.blend",
+  "output": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v35_scalp_fill_brow_slits.blend",
+  "generated_scalp_fillers": [
+    "ACC_ScalpFillCard_Top_L_01",
+    "ACC_ScalpFillCard_Top_L_02",
+    "ACC_ScalpFillCard_Top_C_01",
+    "ACC_ScalpFillCard_Top_C_02",
+    "ACC_ScalpFillCard_Top_R_01",
+    "ACC_ScalpFillCard_Fringe_L_01",
+    "ACC_ScalpFillCard_Fringe_C_01",
+    "ACC_ScalpFillCard_Fringe_R_01",
+    "ACC_ScalpFillCard_Crown_Back_L",
+    "ACC_ScalpFillCard_Crown_Back_R"
+  ],
+  "generated_right_brow": [
+    "ACC_RightEyebrow_DarkGuide",
+    "ACC_RightEyebrowSlit_01",
+    "ACC_RightEyebrowSlit_02"
+  ],
+  "notes": [
+    "Built from v33, not the failed v34 filler.",
+    "Scalp filler cards are localized to the upper skull/fringe shell.",
+    "Right eyebrow slits are separate ACC objects and can be repositioned/deleted."
+  ]
+}

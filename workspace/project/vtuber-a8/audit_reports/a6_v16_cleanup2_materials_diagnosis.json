@@ -1,0 +1,2553 @@
+{
+  "blend_file": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v16_body_conformed_cleanup2.blend",
+  "materials": [
+    {
+      "name": "Breast_Panels",
+      "use_nodes": true,
+      "node_count": 6,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_pbr_shader_BSDF)_v2.2.3_1256"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1038",
+          "image": {
+            "name": "Breast_Panels_Diffuse",
+            "filepath": "//textures\\Breast_Panels_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Breast_Panels_Diffuse_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1255",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1257",
+          "image": {
+            "name": "Default_Material_Transparency_metallic.png",
+            "filepath": "//textures\\Default_Material_Transparency_metallic_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_metallic_1k.png",
+            "size": [
+              64,
+              64
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1255",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1258",
+          "image": {
+            "name": "Waista__roughness.png",
+            "filepath": "//textures\\Waista__roughness_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Waista__roughness_1k.png",
+            "size": [
+              64,
+              64
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1255",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Cornea_L",
+      "use_nodes": true,
+      "node_count": 12,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_cornea_shader_BSDF)_v2.2.3_1220"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1029",
+          "image": {
+            "name": "Std_Cornea_L_Diffuse",
+            "filepath": "//textures\\Std_Cornea_L_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_L_Diffuse_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1219",
+              "to_node_type": "GROUP",
+              "to_socket": "Cornea Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SCLERA)_v2.2.3_1221",
+          "image": {
+            "name": "Std_Cornea_R_Sclera.png",
+            "filepath": "//textures\\Std_Cornea_R_Sclera_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_Sclera_1k.png",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1219",
+              "to_node_type": "GROUP",
+              "to_socket": "Sclera Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(EYEBLEND)_v2.2.3_1224",
+          "image": {
+            "name": "Std_Cornea_R_BCBMap.jpg",
+            "filepath": "//textures\\Std_Cornea_R_BCBMap_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_BCBMap_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1219",
+              "to_node_type": "GROUP",
+              "to_socket": "Color Blend Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1225",
+          "image": {
+            "name": "Std_Cornea_R_metallic.jpg",
+            "filepath": "//textures\\Std_Cornea_R_metallic_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_metallic_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1219",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(AO)_v2.2.3_1226",
+          "image": {
+            "name": "Std_Cornea_R_ao.jpg",
+            "filepath": "//textures\\Std_Cornea_R_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_ao_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1219",
+              "to_node_type": "GROUP",
+              "to_socket": "AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SCLERANORMAL)_v2.2.3_1227",
+          "image": {
+            "name": "Std_Lower_Teeth_MicroN.png",
+            "filepath": "//textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1219",
+              "to_node_type": "GROUP",
+              "to_socket": "Sclera Normal Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Cornea_R",
+      "use_nodes": true,
+      "node_count": 12,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_cornea_shader_BSDF)_v2.2.3_1200"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1026",
+          "image": {
+            "name": "Std_Cornea_R_Diffuse",
+            "filepath": "//textures\\Std_Cornea_R_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_Diffuse_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1199",
+              "to_node_type": "GROUP",
+              "to_socket": "Cornea Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SCLERA)_v2.2.3_1201",
+          "image": {
+            "name": "Std_Cornea_R_Sclera.png",
+            "filepath": "//textures\\Std_Cornea_R_Sclera_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_Sclera_1k.png",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1199",
+              "to_node_type": "GROUP",
+              "to_socket": "Sclera Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(EYEBLEND)_v2.2.3_1204",
+          "image": {
+            "name": "Std_Cornea_R_BCBMap.jpg",
+            "filepath": "//textures\\Std_Cornea_R_BCBMap_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_BCBMap_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1199",
+              "to_node_type": "GROUP",
+              "to_socket": "Color Blend Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1205",
+          "image": {
+            "name": "Std_Cornea_R_metallic.jpg",
+            "filepath": "//textures\\Std_Cornea_R_metallic_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_metallic_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1199",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(AO)_v2.2.3_1206",
+          "image": {
+            "name": "Std_Cornea_R_ao.jpg",
+            "filepath": "//textures\\Std_Cornea_R_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_ao_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1199",
+              "to_node_type": "GROUP",
+              "to_socket": "AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SCLERANORMAL)_v2.2.3_1207",
+          "image": {
+            "name": "Std_Lower_Teeth_MicroN.png",
+            "filepath": "//textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_cornea_shader)_v2.2.3_1199",
+              "to_node_type": "GROUP",
+              "to_socket": "Sclera Normal Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Default_Material_Transparency",
+      "use_nodes": true,
+      "node_count": 7,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_hair_shader_BSDF)_v2.2.3_1091"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1006",
+          "image": {
+            "name": "Std_Upper_Teeth_Diffuse",
+            "filepath": "//textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_hair_shader)_v2.2.3_1090",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ALPHA)_v2.2.3_1007",
+          "image": {
+            "name": "Default_Material_Transparency_Opacity",
+            "filepath": "//textures\\Default_Material_Transparency_Opacity_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_Opacity_1k.jpg",
+            "size": [
+              1024,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_hair_shader)_v2.2.3_1090",
+              "to_node_type": "GROUP",
+              "to_socket": "Alpha Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1092",
+          "image": {
+            "name": "Default_Material_Transparency_metallic.png",
+            "filepath": "//textures\\Default_Material_Transparency_metallic_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_metallic_1k.png",
+            "size": [
+              64,
+              64
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_hair_shader)_v2.2.3_1090",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1093",
+          "image": {
+            "name": "Default_Material_Transparency_roughness.png",
+            "filepath": "//textures\\Default_Material_Transparency_roughness_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_roughness_1k.png",
+            "size": [
+              64,
+              64
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_hair_shader)_v2.2.3_1090",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": false
+    },
+    {
+      "name": "Dots Stroke",
+      "use_nodes": false,
+      "is_used_in_scene": false
+    },
+    {
+      "name": "Dots Stroke.001",
+      "use_nodes": false,
+      "is_used_in_scene": false
+    },
+    {
+      "name": "Eye_L",
+      "use_nodes": true,
+      "node_count": 12,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_eye_shader_BSDF)_v2.2.3_1210"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1027",
+          "image": {
+            "name": "Std_Eye_L_Diffuse",
+            "filepath": "//textures\\Std_Eye_L_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_L_Diffuse_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1209",
+              "to_node_type": "GROUP",
+              "to_socket": "Cornea Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SCLERA)_v2.2.3_1211",
+          "image": {
+            "name": "Std_Cornea_R_Sclera.png",
+            "filepath": "//textures\\Std_Cornea_R_Sclera_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_Sclera_1k.png",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1209",
+              "to_node_type": "GROUP",
+              "to_socket": "Sclera Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(EYEBLEND)_v2.2.3_1214",
+          "image": {
+            "name": "Std_Cornea_R_BCBMap.jpg",
+            "filepath": "//textures\\Std_Cornea_R_BCBMap_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_BCBMap_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1209",
+              "to_node_type": "GROUP",
+              "to_socket": "Color Blend Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1215",
+          "image": {
+            "name": "Std_Cornea_R_metallic.jpg",
+            "filepath": "//textures\\Std_Cornea_R_metallic_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_metallic_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1209",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(AO)_v2.2.3_1216",
+          "image": {
+            "name": "Std_Cornea_R_ao.jpg",
+            "filepath": "//textures\\Std_Cornea_R_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_ao_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1209",
+              "to_node_type": "GROUP",
+              "to_socket": "AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SCLERANORMAL)_v2.2.3_1217",
+          "image": {
+            "name": "Std_Lower_Teeth_MicroN.png",
+            "filepath": "//textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1209",
+              "to_node_type": "GROUP",
+              "to_socket": "Sclera Normal Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Eye_Occlusion_L",
+      "use_nodes": true,
+      "node_count": 3,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_eye_occlusion_shader_BSDF)_v2.2.3_1236"
+      },
+      "tex_image_nodes": [],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Eye_Occlusion_R",
+      "use_nodes": true,
+      "node_count": 3,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_eye_occlusion_shader_BSDF)_v2.2.3_1234"
+      },
+      "tex_image_nodes": [],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Eye_R",
+      "use_nodes": true,
+      "node_count": 12,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_eye_shader_BSDF)_v2.2.3_1190"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1024",
+          "image": {
+            "name": "Std_Eye_R_Diffuse",
+            "filepath": "//textures\\Std_Eye_R_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_R_Diffuse_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1189",
+              "to_node_type": "GROUP",
+              "to_socket": "Cornea Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SCLERA)_v2.2.3_1191",
+          "image": {
+            "name": "Std_Cornea_R_Sclera.png",
+            "filepath": "//textures\\Std_Cornea_R_Sclera_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_Sclera_1k.png",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1189",
+              "to_node_type": "GROUP",
+              "to_socket": "Sclera Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(EYEBLEND)_v2.2.3_1194",
+          "image": {
+            "name": "Std_Cornea_R_BCBMap.jpg",
+            "filepath": "//textures\\Std_Cornea_R_BCBMap_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_BCBMap_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1189",
+              "to_node_type": "GROUP",
+              "to_socket": "Color Blend Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1195",
+          "image": {
+            "name": "Std_Cornea_R_metallic.jpg",
+            "filepath": "//textures\\Std_Cornea_R_metallic_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_metallic_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1189",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(AO)_v2.2.3_1196",
+          "image": {
+            "name": "Std_Cornea_R_ao.jpg",
+            "filepath": "//textures\\Std_Cornea_R_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_ao_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1189",
+              "to_node_type": "GROUP",
+              "to_socket": "AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(SCLERANORMAL)_v2.2.3_1197",
+          "image": {
+            "name": "Std_Lower_Teeth_MicroN.png",
+            "filepath": "//textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_eye_shader)_v2.2.3_1189",
+              "to_node_type": "GROUP",
+              "to_socket": "Sclera Normal Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Eyelash",
+      "use_nodes": true,
+      "node_count": 9,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_pbr_shader_BSDF)_v2.2.3_1186"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1021",
+          "image": {
+            "name": "Std_Eyelash_Diffuse",
+            "filepath": "//textures\\Std_Eyelash_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_Diffuse_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1185",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(NORMAL)_v2.2.3_1022",
+          "image": {
+            "name": "Std_Eyelash_Normal",
+            "filepath": "//textures\\Std_Eyelash_Normal_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_Normal_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1185",
+              "to_node_type": "GROUP",
+              "to_socket": "Normal Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ALPHA)_v2.2.3_1023",
+          "image": {
+            "name": "Std_Eyelash_Opacity",
+            "filepath": "//textures\\Std_Eyelash_Opacity_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_Opacity_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1185",
+              "to_node_type": "GROUP",
+              "to_socket": "Alpha Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(AO)_v2.2.3_1187",
+          "image": {
+            "name": "Std_Skin_Arm_MicroNMask.jpg",
+            "filepath": "//textures\\Std_Skin_Arm_MicroNMask_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_MicroNMask_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1185",
+              "to_node_type": "GROUP",
+              "to_socket": "AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1188",
+          "image": {
+            "name": "Std_Eyelash_roughness.jpg",
+            "filepath": "//textures\\Std_Eyelash_roughness_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_roughness_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1185",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Lower_Teeth",
+      "use_nodes": true,
+      "node_count": 12,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_teeth_shader_BSDF)_v2.2.3_1074"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1002",
+          "image": {
+            "name": "Std_Lower_Teeth_Diffuse",
+            "filepath": "//textures\\Std_Lower_Teeth_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_Diffuse_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1073",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(NORMAL)_v2.2.3_1003",
+          "image": {
+            "name": "Std_Lower_Teeth_Normal",
+            "filepath": "//textures\\Std_Lower_Teeth_Normal_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_Normal_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1073",
+              "to_node_type": "GROUP",
+              "to_socket": "Normal Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(GUMSMASK)_v2.2.3_1075",
+          "image": {
+            "name": "Std_Lower_Teeth_GumsMask.jpg",
+            "filepath": "//textures\\Std_Lower_Teeth_GumsMask_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_GumsMask_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1073",
+              "to_node_type": "GROUP",
+              "to_socket": "Gums Mask"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(GRADIENTAO)_v2.2.3_1076",
+          "image": {
+            "name": "Std_Tongue_GradAO.jpg",
+            "filepath": "//textures\\Std_Tongue_GradAO_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_GradAO_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1073",
+              "to_node_type": "GROUP",
+              "to_socket": "Gradient AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(AO)_v2.2.3_1077",
+          "image": {
+            "name": "Std_Lower_Teeth_ao.jpg",
+            "filepath": "//textures\\Std_Lower_Teeth_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_ao_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1073",
+              "to_node_type": "GROUP",
+              "to_socket": "AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1078",
+          "image": {
+            "name": "Std_Upper_Teeth_metallic.jpg",
+            "filepath": "//textures\\Std_Upper_Teeth_metallic_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_metallic_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1073",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1079",
+          "image": {
+            "name": "Std_Lower_Teeth_roughness.jpg",
+            "filepath": "//textures\\Std_Lower_Teeth_roughness_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_roughness_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1073",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(MICRONORMAL)_v2.2.3_1080",
+          "image": {
+            "name": "Std_Lower_Teeth_MicroN.png",
+            "filepath": "//textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1073",
+              "to_node_type": "GROUP",
+              "to_socket": "Micro Normal Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Material",
+      "use_nodes": true,
+      "node_count": 5,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "Principled BSDF"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "Image Texture",
+          "image": {
+            "name": "DarkSea.png",
+            "filepath": "//..\\..\\..\\Asset_Addon_Library\\HairCards\\DarkSea.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\..\\..\\..\\Asset_Addon_Library\\HairCards\\DarkSea.png",
+            "size": [
+              8850,
+              3520
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_node_type": "BSDF_PRINCIPLED",
+              "to_socket": "Base Color"
+            },
+            {
+              "from_socket": "Alpha",
+              "to_node": "Principled BSDF",
+              "to_node_type": "BSDF_PRINCIPLED",
+              "to_socket": "Alpha"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Nails",
+      "use_nodes": true,
+      "node_count": 8,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "Principled BSDF"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "Image Texture",
+          "image": {
+            "name": "Std_Nails_ao.jpg",
+            "filepath": "//textures\\Std_Nails_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_ao_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Mix (Legacy)",
+              "to_node_type": "MIX_RGB",
+              "to_socket": "Color2"
+            }
+          ]
+        },
+        {
+          "node_name": "Image Texture.001",
+          "image": {
+            "name": "Std_Nails_roughness.jpg",
+            "filepath": "//textures\\Std_Nails_roughness_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_roughness_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_node_type": "BSDF_PRINCIPLED",
+              "to_socket": "Roughness"
+            }
+          ]
+        },
+        {
+          "node_name": "Image Texture.002",
+          "image": {
+            "name": "Std_Nails_Normal",
+            "filepath": "//textures\\Std_Nails_Normal_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_Normal_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Normal Map",
+              "to_node_type": "NORMAL_MAP",
+              "to_socket": "Color"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Scalp1_Transparency",
+      "use_nodes": true,
+      "node_count": 7,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_pbr_shader_BSDF)_v2.2.3_1095"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1008",
+          "image": {
+            "name": "Std_Skin_Head_Diffuse",
+            "filepath": "//textures\\Std_Skin_Head_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Diffuse_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1094",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ALPHA)_v2.2.3_1009",
+          "image": {
+            "name": "Scalp1_Transparency_Opacity",
+            "filepath": "//textures\\Scalp1_Transparency_Opacity_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Scalp1_Transparency_Opacity_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1094",
+              "to_node_type": "GROUP",
+              "to_socket": "Alpha Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1096",
+          "image": {
+            "name": "Scalp1_Transparency_metallic.png",
+            "filepath": "//textures\\Scalp1_Transparency_metallic_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Scalp1_Transparency_metallic_1k.png",
+            "size": [
+              64,
+              64
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1094",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1097",
+          "image": {
+            "name": "Std_Skin_Head_Roughness Pack",
+            "filepath": "//textures\\Std_Skin_Head_Roughness_Pack_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Roughness_Pack_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1094",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Skin_Arm",
+      "use_nodes": true,
+      "node_count": 9,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "Principled BSDF"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "Image Texture",
+          "image": {
+            "name": "Std_Skin_Arm_roughness.jpg",
+            "filepath": "//textures\\Std_Skin_Arm_roughness_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_roughness_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_node_type": "BSDF_PRINCIPLED",
+              "to_socket": "Roughness"
+            }
+          ]
+        },
+        {
+          "node_name": "Image Texture.001",
+          "image": {
+            "name": "Std_Skin_Arm_Normal",
+            "filepath": "//textures\\Std_Skin_Arm_Normal_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_Normal_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Normal Map",
+              "to_node_type": "NORMAL_MAP",
+              "to_socket": "Color"
+            }
+          ]
+        },
+        {
+          "node_name": "Image Texture.002",
+          "image": {
+            "name": "Std_Skin_Arm_SSSMap.png",
+            "filepath": "//textures\\Std_Skin_Arm_SSSMap_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_SSSMap_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_node_type": "BSDF_PRINCIPLED",
+              "to_socket": "Subsurface Weight"
+            }
+          ]
+        },
+        {
+          "node_name": "Image Texture.003",
+          "image": {
+            "name": "Std_Skin_Arm_ao_1k.jpg",
+            "filepath": "//textures\\Std_Skin_Arm_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_ao_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Mix (Legacy)",
+              "to_node_type": "MIX_RGB",
+              "to_socket": "Color2"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Skin_Body",
+      "use_nodes": true,
+      "node_count": 12,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "Principled BSDF"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "Image Texture",
+          "image": {
+            "name": "Torso_Decals",
+            "filepath": "//textures\\Torso_Decals_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Torso_Decals_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Mix (Legacy)",
+              "to_node_type": "MIX_RGB",
+              "to_socket": "Color2"
+            }
+          ]
+        },
+        {
+          "node_name": "Image Texture.001",
+          "image": {
+            "name": "Std_Skin_Body_roughness.jpg",
+            "filepath": "//textures\\Std_Skin_Body_roughness_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_roughness_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_node_type": "BSDF_PRINCIPLED",
+              "to_socket": "Roughness"
+            }
+          ]
+        },
+        {
+          "node_name": "Image Texture.002",
+          "image": {
+            "name": "Std_Skin_Body_Normal",
+            "filepath": "//textures\\Std_Skin_Body_Normal_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_Normal_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Normal Map",
+              "to_node_type": "NORMAL_MAP",
+              "to_socket": "Color"
+            }
+          ]
+        },
+        {
+          "node_name": "Image Texture.003",
+          "image": {
+            "name": "Std_Skin_Body_SSSMap.png",
+            "filepath": "//textures\\Std_Skin_Body_SSSMap_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_SSSMap_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_node_type": "BSDF_PRINCIPLED",
+              "to_socket": "Subsurface Weight"
+            }
+          ]
+        },
+        {
+          "node_name": "Image Texture.004",
+          "image": {
+            "name": "Std_Skin_Body_ao_1k.jpg",
+            "filepath": "//textures\\Std_Skin_Body_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_ao_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Mix (Legacy).001",
+              "to_node_type": "MIX_RGB",
+              "to_socket": "Color2"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Skin_Head",
+      "use_nodes": true,
+      "node_count": 12,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "Principled BSDF"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "Image Texture.001",
+          "image": {
+            "name": "Std_Skin_Head_Roughness Pack",
+            "filepath": "//textures\\Std_Skin_Head_Roughness_Pack_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Roughness_Pack_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_node_type": "BSDF_PRINCIPLED",
+              "to_socket": "Roughness"
+            }
+          ]
+        },
+        {
+          "node_name": "Image Texture.002",
+          "image": {
+            "name": "Std_Skin_Head_Normal",
+            "filepath": "//textures\\Std_Skin_Head_Normal_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Normal_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Normal Map",
+              "to_node_type": "NORMAL_MAP",
+              "to_socket": "Color"
+            }
+          ]
+        },
+        {
+          "node_name": "Image Texture.003",
+          "image": {
+            "name": "Std_Skin_Head_SSSMap.jpg",
+            "filepath": "//textures\\Std_Skin_Head_SSSMap_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_SSSMap_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_node_type": "BSDF_PRINCIPLED",
+              "to_socket": "Subsurface Weight"
+            }
+          ]
+        },
+        {
+          "node_name": "Image Texture",
+          "image": {
+            "name": "Std_Skin_Head_ao_1k.jpg",
+            "filepath": "//textures\\Std_Skin_Head_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_ao_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Mix (Legacy)",
+              "to_node_type": "MIX_RGB",
+              "to_socket": "Color2"
+            }
+          ]
+        },
+        {
+          "node_name": "Image Texture.004",
+          "image": {
+            "name": "Std_Skin_Head_MicroN_1k.png",
+            "filepath": "//textures\\Std_Skin_Head_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Normal Map.001",
+              "to_node_type": "NORMAL_MAP",
+              "to_socket": "Color"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Skin_Leg",
+      "use_nodes": true,
+      "node_count": 9,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "Principled BSDF"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "Image Texture",
+          "image": {
+            "name": "Std_Skin_Leg_roughness.jpg",
+            "filepath": "//textures\\Std_Skin_Leg_roughness_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_roughness_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_node_type": "BSDF_PRINCIPLED",
+              "to_socket": "Roughness"
+            }
+          ]
+        },
+        {
+          "node_name": "Image Texture.001",
+          "image": {
+            "name": "Std_Skin_Leg_Normal",
+            "filepath": "//textures\\Std_Skin_Leg_Normal_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_Normal_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Normal Map",
+              "to_node_type": "NORMAL_MAP",
+              "to_socket": "Color"
+            }
+          ]
+        },
+        {
+          "node_name": "Image Texture.002",
+          "image": {
+            "name": "Std_Skin_Leg_SSSMap.png",
+            "filepath": "//textures\\Std_Skin_Leg_SSSMap_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_SSSMap_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Principled BSDF",
+              "to_node_type": "BSDF_PRINCIPLED",
+              "to_socket": "Subsurface Weight"
+            }
+          ]
+        },
+        {
+          "node_name": "Image Texture.003",
+          "image": {
+            "name": "Std_Skin_Leg_ao_1k.jpg",
+            "filepath": "//textures\\Std_Skin_Leg_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_ao_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "Mix (Legacy)",
+              "to_node_type": "MIX_RGB",
+              "to_socket": "Color2"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Tearline_L",
+      "use_nodes": true,
+      "node_count": 3,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_tearline_shader_BSDF)_v2.2.3_1250"
+      },
+      "tex_image_nodes": [],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Tearline_R",
+      "use_nodes": true,
+      "node_count": 3,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_tearline_shader_BSDF)_v2.2.3_1248"
+      },
+      "tex_image_nodes": [],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Tongue",
+      "use_nodes": true,
+      "node_count": 11,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_tongue_shader_BSDF)_v2.2.3_1083"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1004",
+          "image": {
+            "name": "Std_Tongue_Diffuse",
+            "filepath": "//textures\\Std_Tongue_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_Diffuse_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_tongue_shader)_v2.2.3_1082",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(NORMAL)_v2.2.3_1005",
+          "image": {
+            "name": "Std_Tongue_Normal",
+            "filepath": "//textures\\Std_Tongue_Normal_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_Normal_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_tongue_shader)_v2.2.3_1082",
+              "to_node_type": "GROUP",
+              "to_socket": "Normal Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(GRADIENTAO)_v2.2.3_1084",
+          "image": {
+            "name": "Std_Tongue_GradAO.jpg",
+            "filepath": "//textures\\Std_Tongue_GradAO_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_GradAO_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_tongue_shader)_v2.2.3_1082",
+              "to_node_type": "GROUP",
+              "to_socket": "Gradient AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(AO)_v2.2.3_1085",
+          "image": {
+            "name": "Std_Tongue_ao.jpg",
+            "filepath": "//textures\\Std_Tongue_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_ao_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_tongue_shader)_v2.2.3_1082",
+              "to_node_type": "GROUP",
+              "to_socket": "AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1086",
+          "image": {
+            "name": "Std_Tongue_metallic.jpg",
+            "filepath": "//textures\\Std_Tongue_metallic_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_metallic_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_tongue_shader)_v2.2.3_1082",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1087",
+          "image": {
+            "name": "Std_Tongue_roughness.jpg",
+            "filepath": "//textures\\Std_Tongue_roughness_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_roughness_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_tongue_shader)_v2.2.3_1082",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(MICRONORMAL)_v2.2.3_1088",
+          "image": {
+            "name": "Std_Tongue_MicroN.png",
+            "filepath": "//textures\\Std_Tongue_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_tongue_shader)_v2.2.3_1082",
+              "to_node_type": "GROUP",
+              "to_socket": "Micro Normal Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Upper_Teeth",
+      "use_nodes": true,
+      "node_count": 12,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_teeth_shader_BSDF)_v2.2.3_1064"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1000",
+          "image": {
+            "name": "Std_Upper_Teeth_Diffuse",
+            "filepath": "//textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+            "size": [
+              128,
+              128
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1063",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(NORMAL)_v2.2.3_1001",
+          "image": {
+            "name": "Std_Upper_Teeth_Normal",
+            "filepath": "//textures\\Std_Upper_Teeth_Normal_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_Normal_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1063",
+              "to_node_type": "GROUP",
+              "to_socket": "Normal Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(GUMSMASK)_v2.2.3_1065",
+          "image": {
+            "name": "Std_Lower_Teeth_GumsMask.jpg",
+            "filepath": "//textures\\Std_Lower_Teeth_GumsMask_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_GumsMask_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1063",
+              "to_node_type": "GROUP",
+              "to_socket": "Gums Mask"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(GRADIENTAO)_v2.2.3_1066",
+          "image": {
+            "name": "Std_Tongue_GradAO.jpg",
+            "filepath": "//textures\\Std_Tongue_GradAO_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_GradAO_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1063",
+              "to_node_type": "GROUP",
+              "to_socket": "Gradient AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(AO)_v2.2.3_1067",
+          "image": {
+            "name": "Std_Upper_Teeth_ao.jpg",
+            "filepath": "//textures\\Std_Upper_Teeth_ao_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_ao_1k.jpg",
+            "size": [
+              512,
+              512
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1063",
+              "to_node_type": "GROUP",
+              "to_socket": "AO Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1068",
+          "image": {
+            "name": "Std_Upper_Teeth_metallic.jpg",
+            "filepath": "//textures\\Std_Upper_Teeth_metallic_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_metallic_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1063",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1069",
+          "image": {
+            "name": "Std_Upper_Teeth_roughness.jpg",
+            "filepath": "//textures\\Std_Upper_Teeth_roughness_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_roughness_1k.jpg",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1063",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(MICRONORMAL)_v2.2.3_1070",
+          "image": {
+            "name": "Std_Lower_Teeth_MicroN.png",
+            "filepath": "//textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_MicroN_1k.png",
+            "size": [
+              1024,
+              1024
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_teeth_shader)_v2.2.3_1063",
+              "to_node_type": "GROUP",
+              "to_socket": "Micro Normal Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    },
+    {
+      "name": "Waista_",
+      "use_nodes": true,
+      "node_count": 6,
+      "surface_trace": {
+        "output": "Material Output",
+        "surface_connected": true,
+        "surface_driver_node_type": "BSDF_PRINCIPLED",
+        "surface_driver_node_name": "cc3iid_(rl_pbr_shader_BSDF)_v2.2.3_1099"
+      },
+      "tex_image_nodes": [
+        {
+          "node_name": "cc3iid_(DIFFUSE)_v2.2.3_1010",
+          "image": {
+            "name": "Waista__Diffuse",
+            "filepath": "//textures\\Waista__Diffuse_1k.jpg",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Waista__Diffuse_1k.jpg",
+            "size": [
+              1,
+              1
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1098",
+              "to_node_type": "GROUP",
+              "to_socket": "Diffuse Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(METALLIC)_v2.2.3_1100",
+          "image": {
+            "name": "Default_Material_Transparency_metallic.png",
+            "filepath": "//textures\\Default_Material_Transparency_metallic_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_metallic_1k.png",
+            "size": [
+              64,
+              64
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1098",
+              "to_node_type": "GROUP",
+              "to_socket": "Metallic Map"
+            }
+          ]
+        },
+        {
+          "node_name": "cc3iid_(ROUGHNESS)_v2.2.3_1101",
+          "image": {
+            "name": "Waista__roughness.png",
+            "filepath": "//textures\\Waista__roughness_1k.png",
+            "abs_filepath": "C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\565e6c755dbd37a\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Waista__roughness_1k.png",
+            "size": [
+              64,
+              64
+            ],
+            "channels": 4,
+            "is_packed": false,
+            "on_disk": true,
+            "has_pixels": true,
+            "source": "FILE"
+          },
+          "outgoing_links": [
+            {
+              "from_socket": "Color",
+              "to_node": "cc3iid_(rl_pbr_shader)_v2.2.3_1098",
+              "to_node_type": "GROUP",
+              "to_socket": "Roughness Map"
+            }
+          ]
+        }
+      ],
+      "health_flags": [],
+      "is_used_in_scene": true
+    }
+  ],
+  "summary": {
+    "total_materials": 24,
+    "used_in_scene": 21,
+    "flagged_count": 0,
+    "flagged_names": []
+  }
+}

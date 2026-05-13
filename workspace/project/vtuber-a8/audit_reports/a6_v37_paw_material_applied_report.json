@@ -1,0 +1,20 @@
+{
+  "input": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v36_cleanup_top_paw_hair_prep.blend",
+  "output": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v37_paw_material_applied.blend",
+  "texture": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Paw_1k_Color.png",
+  "image_size": [
+    1024,
+    1024
+  ],
+  "material": "Paw_Painted",
+  "assigned_slots": [
+    {
+      "object": "A8_Choker_Work",
+      "slot": 1
+    }
+  ],
+  "notes": [
+    "Applied Paw_1k_Color.png to existing Paw_Painted material.",
+    "A8_Choker_Work already had a Paw_Painted material slot, so no floating decal plane was added."
+  ]
+}
