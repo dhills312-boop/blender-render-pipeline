@@ -138,12 +138,14 @@ def make_plane(name, center, u_axis, v_axis, width, height, mat, collection, uv_
     mesh = bpy.data.meshes.new(f"{name}_Mesh")
     mesh.from_pydata([tuple(vtx) for vtx in verts], [], [(0, 1, 2, 3)])
     mesh.update()
+    uv = mesh.uv_layers.new(name="UVMap")
     if uv_box:
-        uv = mesh.uv_layers.new(name="UVMap")
         x0, y0, x1, y1 = uv_box
         uv_values = [(x0, y1), (x1, y1), (x1, y0), (x0, y0)]
-        for loop, value in zip(mesh.polygons[0].loop_indices, uv_values):
-            uv.data[loop].uv = value
+    else:
+        uv_values = [(0, 0), (1, 0), (1, 1), (0, 1)]
+    for loop, value in zip(mesh.polygons[0].loop_indices, uv_values):
+        uv.data[loop].uv = value
     obj = bpy.data.objects.new(name, mesh)
     obj.data.materials.append(mat)
     collection.objects.link(obj)
@@ -179,11 +181,11 @@ created = []
 created.append(
     make_plane(
         "DECAL_Athena_TankTop_Front",
-        (0.0, -0.206, 1.205),
+        (0.0, -0.206, 0.995),
         (1, 0, 0),
         (0, 0, 1),
-        0.19,
-        0.19,
+        0.165,
+        0.165,
         athena_mat,
         decals_col,
         parent=top,

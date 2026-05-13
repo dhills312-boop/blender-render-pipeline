@@ -1,0 +1,24 @@
+{
+  "source": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v42_relinked_texture_paths.blend",
+  "saved": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v43_tail_visible_render_state.blend",
+  "tail_before": {
+    "hide_viewport": false,
+    "hide_render": false,
+    "hide_get": false,
+    "visible_get": true,
+    "materials": [
+      "A8_Realistic_PuppyFur_EEVEE"
+    ]
+  },
+  "tail_after": {
+    "hide_viewport": false,
+    "hide_render": false,
+    "hide_get": false,
+    "visible_get": true,
+    "materials": [
+      "A8_Realistic_PuppyFur_EEVEE"
+    ]
+  },
+  "collections_touched": [],
+  "note": "Forces Tail and its containing collection path visible/renderable for pod material review renders."
+}

@@ -1,0 +1,1540 @@
+{
+  "source": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v41_decals_fur_prep.blend",
+  "saved": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v42_relinked_texture_paths.blend",
+  "texture_root": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures",
+  "fixed_or_normalized": 71,
+  "already_ok": 0,
+  "still_missing": 60,
+  "missing_images": [
+    {
+      "image": "_15.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\_15.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\_15.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "_16.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\_16.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\_16.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "_17.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\_17.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\_17.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Acne.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Acne.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Acne.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Acne.psd.002",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Acne.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Acne.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Basic_Pore_Spread.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Basic_Pore_Spread.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Basic_Pore_Spread.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Basic_Pore_Spread.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Basic_Pore_Spread.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Basic_Pore_Spread.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Basic_Pores.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Basic_Pores.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Basic_Pores.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Basic_Pores.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Basic_Pores.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Basic_Pores.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Basic_Skin.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Basic_Skin.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Basic_Skin.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Basic_Skin.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Basic_Skin.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Basic_Skin.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Bump_1.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Bump_1.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Bump_1.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Bump_1.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Bump_1.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Bump_1.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Bumps2.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Bumps2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Bumps2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Bumps2.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Bumps2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Bumps2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Chin.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Chin.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Chin.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Chin.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Chin.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Chin.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "d7870cr-f2985570-d759-453f-8196-7ef3d4700a3e.png",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\New as of 5_12\\bird-cage-choker\\source\\Misc\\Stored Jan 7\\Rex Diff Base OPT3\\Assets\\Props\\d7870cr-f2985570-d759-453f-8196-7ef3d4700a3e.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\New as of 5_12\\bird-cage-choker\\source\\Misc\\Stored Jan 7\\Rex Diff Base OPT3\\Assets\\Props\\d7870cr-f2985570-d759-453f-8196-7ef3d4700a3e.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Direction2.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Direction2.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Direction_Etch.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction_Etch.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction_Etch.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Direction_Etch.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction_Etch.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction_Etch.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Direction_Texture.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction_Texture.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction_Texture.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Direction_Texture.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction_Texture.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction_Texture.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Distort_Wrinkles.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Basic_wrinkles.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Basic_wrinkles.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Distort_Wrinkles.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Basic_wrinkles.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Basic_wrinkles.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "EarTail_Base_color.png.002",
+      "before": "C:\\Users\\loxfa\\Documents\\Adobe\\Adobe Substance 3D Painter\\export\\EarTail_Base_color.png",
+      "after": "C:\\Users\\loxfa\\Documents\\Adobe\\Adobe Substance 3D Painter\\export\\EarTail_Base_color.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "General_Direction.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\General_Direction.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\General_Direction.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "General_Direction.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\General_Direction.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\General_Direction.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "goosebump2.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\goosebump2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\goosebump2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "goosebump2.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\goosebump2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\goosebump2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Large_Pores.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Large_Pores.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Large_Pores.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Large_Pores.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Large_Pores.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Large_Pores.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Lips_Lines.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Lips_Lines.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Lips_Lines.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Lips_Lines.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Lips_Lines.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Lips_Lines.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "MatcapWarp_01.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\MatcapWarp_01.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\MatcapWarp_01.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "MatcapWarp_02.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\MatcapWarp_02.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\MatcapWarp_02.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Micro_1.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Micros\\Micro_2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Micros\\Micro_2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Micro_1.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Micros\\Micro_2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Micros\\Micro_2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Micro_3.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Micros\\Micro_3.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Micros\\Micro_3.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Micro_3.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Micros\\Micro_3.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Micros\\Micro_3.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "N00_000_Hair_00_nml_01.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\N00_000_Hair_00_nml_01.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\N00_000_Hair_00_nml_01.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Old_Lines.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Old_Lines.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Old_Lines.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Old_Lines.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Old_Lines.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Old_Lines.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Old_Skin2.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Old_Skin2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Old_Skin2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Old_Skin2.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Old_Skin2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Old_Skin2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Paw_4k_Color.png",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\New as of 5_12\\cute-paw-3\\source\\Paw\\Paw\\Textures\\Paw_4k_Color.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\New as of 5_12\\cute-paw-3\\source\\Paw\\Paw\\Textures\\Paw_4k_Color.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Pores.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Pores3.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Pores3.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Pores.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Pores3.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Pores3.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Red.png",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\HairCards\\Red.png",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\HairCards\\Red.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Rough.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Rough.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Rough.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Rough.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Rough.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Rough.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Rough_2.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Rough_2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Rough_2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Rough_2.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Rough_2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Rough_2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Shader_NoneBlack.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\Shader_NoneBlack.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\Shader_NoneBlack.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Shader_NoneNormal.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\Shader_NoneNormal.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\Shader_NoneNormal.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Wrinkle_1.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Wrinkle_1.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Wrinkle_1.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Wrinkle_1.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Wrinkle_1.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Wrinkle_1.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Wrinkles_2.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Dynamics_wrinkle.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Dynamics_wrinkle.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Wrinkles_2.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Dynamics_wrinkle.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Dynamics_wrinkle.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    }
+  ],
+  "all_images": [
+    {
+      "image": "_15.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\_15.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\_15.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "_16.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\_16.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\_16.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "_17.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\_17.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\_17.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Acne.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Acne.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Acne.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Acne.psd.002",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Acne.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Acne.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "athena_decal.PNG",
+      "before": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\decals\\athena_decal.PNG",
+      "after": "//textures\\decals\\athena_decal.PNG",
+      "exists_before": true,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\decals\\athena_decal.PNG",
+      "status": "relinked"
+    },
+    {
+      "image": "Basic_Pore_Spread.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Basic_Pore_Spread.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Basic_Pore_Spread.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Basic_Pore_Spread.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Basic_Pore_Spread.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Basic_Pore_Spread.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Basic_Pores.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Basic_Pores.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Basic_Pores.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Basic_Pores.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Basic_Pores.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Basic_Pores.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Basic_Skin.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Basic_Skin.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Basic_Skin.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Basic_Skin.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Basic_Skin.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Basic_Skin.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Breast_Panels_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Breast_Panels_Diffuse_1k.jpg",
+      "after": "//textures\\Breast_Panels_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Breast_Panels_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Bump_1.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Bump_1.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Bump_1.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Bump_1.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Bump_1.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Bump_1.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Bumps2.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Bumps2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Bumps2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Bumps2.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Bumps2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Bumps2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Chin.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Chin.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Chin.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Chin.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Chin.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\Chin.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "d7870cr-f2985570-d759-453f-8196-7ef3d4700a3e.png",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\New as of 5_12\\bird-cage-choker\\source\\Misc\\Stored Jan 7\\Rex Diff Base OPT3\\Assets\\Props\\d7870cr-f2985570-d759-453f-8196-7ef3d4700a3e.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\New as of 5_12\\bird-cage-choker\\source\\Misc\\Stored Jan 7\\Rex Diff Base OPT3\\Assets\\Props\\d7870cr-f2985570-d759-453f-8196-7ef3d4700a3e.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Default_Material_Transparency_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Default_Material_Transparency_Diffuse_1k.jpg",
+      "after": "//textures\\Default_Material_Transparency_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Default_Material_Transparency_metallic.png",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Default_Material_Transparency_metallic_1k.png",
+      "after": "//textures\\Default_Material_Transparency_metallic_1k.png",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_metallic_1k.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Default_Material_Transparency_Opacity",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Default_Material_Transparency_Opacity_1k.jpg",
+      "after": "//textures\\Default_Material_Transparency_Opacity_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_Opacity_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Default_Material_Transparency_roughness.png",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Default_Material_Transparency_roughness_1k.png",
+      "after": "//textures\\Default_Material_Transparency_roughness_1k.png",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Default_Material_Transparency_roughness_1k.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Direction2.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Direction2.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Direction_Etch.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction_Etch.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction_Etch.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Direction_Etch.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction_Etch.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction_Etch.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Direction_Texture.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction_Texture.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction_Texture.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Direction_Texture.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction_Texture.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Direction_Texture.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Distort_Wrinkles.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Basic_wrinkles.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Basic_wrinkles.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Distort_Wrinkles.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Basic_wrinkles.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Basic_wrinkles.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "EarTail_Base_color.png.002",
+      "before": "C:\\Users\\loxfa\\Documents\\Adobe\\Adobe Substance 3D Painter\\export\\EarTail_Base_color.png",
+      "after": "C:\\Users\\loxfa\\Documents\\Adobe\\Adobe Substance 3D Painter\\export\\EarTail_Base_color.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "General_Direction.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\General_Direction.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\General_Direction.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "General_Direction.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\General_Direction.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\General_Direction.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "goosebump2.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\goosebump2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\goosebump2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "goosebump2.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\goosebump2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Bumps\\goosebump2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Large_Pores.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Large_Pores.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Large_Pores.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Large_Pores.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Large_Pores.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Large_Pores.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Lips_Lines.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Lips_Lines.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Lips_Lines.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Lips_Lines.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Lips_Lines.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Lips_Lines.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "MatcapWarp_01.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\MatcapWarp_01.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\MatcapWarp_01.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "MatcapWarp_02.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\MatcapWarp_02.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\MatcapWarp_02.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Micro_1.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Micros\\Micro_2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Micros\\Micro_2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Micro_1.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Micros\\Micro_2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Micros\\Micro_2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Micro_3.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Micros\\Micro_3.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Micros\\Micro_3.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Micro_3.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Micros\\Micro_3.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Micros\\Micro_3.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "N00_000_Hair_00_nml_01.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\N00_000_Hair_00_nml_01.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\N00_000_Hair_00_nml_01.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Old_Lines.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Old_Lines.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Old_Lines.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Old_Lines.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Old_Lines.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Old_Lines.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Old_Skin2.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Old_Skin2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Old_Skin2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Old_Skin2.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Old_Skin2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Directions\\Old_Skin2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Paw_4k_Color.png",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\New as of 5_12\\cute-paw-3\\source\\Paw\\Paw\\Textures\\Paw_4k_Color.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\New as of 5_12\\cute-paw-3\\source\\Paw\\Paw\\Textures\\Paw_4k_Color.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "pompompurrin.png",
+      "before": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\decals\\pompompurrin.png",
+      "after": "//textures\\decals\\pompompurrin.png",
+      "exists_before": true,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\decals\\pompompurrin.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Pores.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Pores3.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Pores3.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Pores.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Pores3.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Pores\\Pores3.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Red.png",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\HairCards\\Red.png",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\HairCards\\Red.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Rough.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Rough.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Rough.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Rough.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Rough.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Rough.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Rough_2.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Rough_2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Rough_2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Rough_2.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Rough_2.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\Alphas\\Rough_2.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Scalp1_Transparency_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Scalp1_Transparency_Diffuse_1k.jpg",
+      "after": "//textures\\Scalp1_Transparency_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Scalp1_Transparency_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Scalp1_Transparency_metallic.png",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Scalp1_Transparency_metallic_1k.png",
+      "after": "//textures\\Scalp1_Transparency_metallic_1k.png",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Scalp1_Transparency_metallic_1k.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Scalp1_Transparency_Opacity",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Scalp1_Transparency_Opacity_1k.jpg",
+      "after": "//textures\\Scalp1_Transparency_Opacity_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Scalp1_Transparency_Opacity_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Shader_NoneBlack.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\Shader_NoneBlack.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\Shader_NoneBlack.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Shader_NoneNormal.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\Shader_NoneNormal.png",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\a8\\3887623222499800276.vrm.textures\\Shader_NoneNormal.png",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Std_Cornea_L_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Cornea_L_Diffuse_1k.jpg",
+      "after": "//textures\\Std_Cornea_L_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_L_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Cornea_R_ao.jpg",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Cornea_R_ao_1k.jpg",
+      "after": "//textures\\Std_Cornea_R_ao_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_ao_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Cornea_R_BCBMap.jpg",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Cornea_R_BCBMap_1k.jpg",
+      "after": "//textures\\Std_Cornea_R_BCBMap_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_BCBMap_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Cornea_R_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Cornea_R_Diffuse_1k.jpg",
+      "after": "//textures\\Std_Cornea_R_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Cornea_R_Sclera.png",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Cornea_R_Sclera_1k.png",
+      "after": "//textures\\Std_Cornea_R_Sclera_1k.png",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Cornea_R_Sclera_1k.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Eye_L_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Eye_L_Diffuse_1k.jpg",
+      "after": "//textures\\Std_Eye_L_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_L_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Eye_L_Normal",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Eye_L_Normal_1k.png",
+      "after": "//textures\\Std_Eye_L_Normal_1k.png",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_L_Normal_1k.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Eye_Occlusion_L_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Eye_Occlusion_L_Diffuse_1k.jpg",
+      "after": "//textures\\Std_Eye_Occlusion_L_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_Occlusion_L_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Eye_Occlusion_R_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Eye_Occlusion_R_Diffuse_1k.jpg",
+      "after": "//textures\\Std_Eye_Occlusion_R_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_Occlusion_R_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Eye_Occlusion_R_Opacity",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Eye_Occlusion_R_Opacity_1k.jpg",
+      "after": "//textures\\Std_Eye_Occlusion_R_Opacity_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_Occlusion_R_Opacity_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Eye_R_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Eye_R_Diffuse_1k.jpg",
+      "after": "//textures\\Std_Eye_R_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_R_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Eye_R_Normal",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Eye_R_Normal_1k.png",
+      "after": "//textures\\Std_Eye_R_Normal_1k.png",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Eye_R_Normal_1k.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Eyelash_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Eyelash_Diffuse_1k.jpg",
+      "after": "//textures\\Std_Eyelash_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Eyelash_Normal",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Eyelash_Normal_1k.png",
+      "after": "//textures\\Std_Eyelash_Normal_1k.png",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_Normal_1k.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Eyelash_Opacity",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Eyelash_Opacity_1k.jpg",
+      "after": "//textures\\Std_Eyelash_Opacity_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_Opacity_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Eyelash_roughness.jpg",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Eyelash_roughness_1k.jpg",
+      "after": "//textures\\Std_Eyelash_roughness_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Eyelash_roughness_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Lower_Teeth_ao.jpg",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Lower_Teeth_ao_1k.jpg",
+      "after": "//textures\\Std_Lower_Teeth_ao_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_ao_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Lower_Teeth_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Lower_Teeth_Diffuse_1k.jpg",
+      "after": "//textures\\Std_Lower_Teeth_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Lower_Teeth_Normal",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Lower_Teeth_Normal_1k.jpg",
+      "after": "//textures\\Std_Lower_Teeth_Normal_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_Normal_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Lower_Teeth_roughness.jpg",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Lower_Teeth_roughness_1k.jpg",
+      "after": "//textures\\Std_Lower_Teeth_roughness_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Lower_Teeth_roughness_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Nails_ao.jpg",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Nails_ao_1k.jpg",
+      "after": "//textures\\Std_Nails_ao_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_ao_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Nails_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Nails_Diffuse_1k.jpg",
+      "after": "//textures\\Std_Nails_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Nails_Normal",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Nails_Normal_1k.png",
+      "after": "//textures\\Std_Nails_Normal_1k.png",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_Normal_1k.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Nails_roughness.jpg",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Nails_roughness_1k.jpg",
+      "after": "//textures\\Std_Nails_roughness_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Nails_roughness_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Arm_ao_1k.jpg",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Arm_ao_1k.jpg",
+      "after": "//textures\\Std_Skin_Arm_ao_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_ao_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Arm_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Arm_Diffuse_1k.jpg",
+      "after": "//textures\\Std_Skin_Arm_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Arm_MicroNMask.jpg",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Arm_MicroNMask_1k.jpg",
+      "after": "//textures\\Std_Skin_Arm_MicroNMask_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_MicroNMask_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Arm_Normal",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Arm_Normal_1k.png",
+      "after": "//textures\\Std_Skin_Arm_Normal_1k.png",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_Normal_1k.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Arm_roughness.jpg",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Arm_roughness_1k.jpg",
+      "after": "//textures\\Std_Skin_Arm_roughness_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_roughness_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Arm_SSSMap.png",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Arm_SSSMap_1k.png",
+      "after": "//textures\\Std_Skin_Arm_SSSMap_1k.png",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Arm_SSSMap_1k.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Body_ao_1k.jpg",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Body_ao_1k.jpg",
+      "after": "//textures\\Std_Skin_Body_ao_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_ao_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Body_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Body_Diffuse_1k.jpg",
+      "after": "//textures\\Std_Skin_Body_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Body_Normal",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Body_Normal_1k.png",
+      "after": "//textures\\Std_Skin_Body_Normal_1k.png",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_Normal_1k.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Body_roughness.jpg",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Body_roughness_1k.jpg",
+      "after": "//textures\\Std_Skin_Body_roughness_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_roughness_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Body_SSSMap.png",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Body_SSSMap_1k.png",
+      "after": "//textures\\Std_Skin_Body_SSSMap_1k.png",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Body_SSSMap_1k.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Head_ao_1k.jpg",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Head_ao_1k.jpg",
+      "after": "//textures\\Std_Skin_Head_ao_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_ao_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Head_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Head_Diffuse_1k.jpg",
+      "after": "//textures\\Std_Skin_Head_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Head_MicroN_1k.png",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Head_MicroN_1k.png",
+      "after": "//textures\\Std_Skin_Head_MicroN_1k.png",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_MicroN_1k.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Head_Normal",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Head_Normal_1k.png",
+      "after": "//textures\\Std_Skin_Head_Normal_1k.png",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Normal_1k.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Head_Roughness Pack",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Head_Roughness_Pack_1k.png",
+      "after": "//textures\\Std_Skin_Head_Roughness_Pack_1k.png",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_Roughness_Pack_1k.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Head_SSSMap.jpg",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Head_SSSMap_1k.jpg",
+      "after": "//textures\\Std_Skin_Head_SSSMap_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Head_SSSMap_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Leg_ao_1k.jpg",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Leg_ao_1k.jpg",
+      "after": "//textures\\Std_Skin_Leg_ao_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_ao_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Leg_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Leg_Diffuse_1k.jpg",
+      "after": "//textures\\Std_Skin_Leg_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Leg_Normal",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Leg_Normal_1k.png",
+      "after": "//textures\\Std_Skin_Leg_Normal_1k.png",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_Normal_1k.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Leg_roughness.jpg",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Leg_roughness_1k.jpg",
+      "after": "//textures\\Std_Skin_Leg_roughness_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_roughness_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Skin_Leg_SSSMap.png",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Skin_Leg_SSSMap_1k.png",
+      "after": "//textures\\Std_Skin_Leg_SSSMap_1k.png",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Skin_Leg_SSSMap_1k.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Tearline_L_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Tearline_L_Diffuse_1k.jpg",
+      "after": "//textures\\Std_Tearline_L_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Tearline_L_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Tearline_R_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Tearline_R_Diffuse_1k.jpg",
+      "after": "//textures\\Std_Tearline_R_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Tearline_R_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Tearline_R_Opacity",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Tearline_R_Opacity_1k.jpg",
+      "after": "//textures\\Std_Tearline_R_Opacity_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Tearline_R_Opacity_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Tongue_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Tongue_Diffuse_1k.jpg",
+      "after": "//textures\\Std_Tongue_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Tongue_Normal",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Tongue_Normal_1k.jpg",
+      "after": "//textures\\Std_Tongue_Normal_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Tongue_Normal_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Upper_Teeth_ao.jpg",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Upper_Teeth_ao_1k.jpg",
+      "after": "//textures\\Std_Upper_Teeth_ao_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_ao_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Upper_Teeth_Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+      "after": "//textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Upper_Teeth_Normal",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Upper_Teeth_Normal_1k.jpg",
+      "after": "//textures\\Std_Upper_Teeth_Normal_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_Normal_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Std_Upper_Teeth_roughness.jpg",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Std_Upper_Teeth_roughness_1k.jpg",
+      "after": "//textures\\Std_Upper_Teeth_roughness_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Std_Upper_Teeth_roughness_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "studio.exr",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\studio_1k.exr",
+      "after": "//textures\\studio_1k.exr",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\studio_1k.exr",
+      "status": "relinked"
+    },
+    {
+      "image": "tattoo_atlas.png",
+      "before": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\decals\\tattoo_atlas.png",
+      "after": "//textures\\decals\\tattoo_atlas.png",
+      "exists_before": true,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\decals\\tattoo_atlas.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Torso_Decals",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Torso_Decals_1k.png",
+      "after": "//textures\\Torso_Decals_1k.png",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Torso_Decals_1k.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Waista__Diffuse",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Waista__Diffuse_1k.jpg",
+      "after": "//textures\\Waista__Diffuse_1k.jpg",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Waista__Diffuse_1k.jpg",
+      "status": "relinked"
+    },
+    {
+      "image": "Waista__roughness.png",
+      "before": "//..\\..\\..\\..\\recovered_blender_files\\textures\\Waista__roughness_1k.png",
+      "after": "//textures\\Waista__roughness_1k.png",
+      "exists_before": false,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\Waista__roughness_1k.png",
+      "status": "relinked"
+    },
+    {
+      "image": "WhiteBlackOmbre.png",
+      "before": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\WhiteBlackOmbre.png",
+      "after": "//textures\\WhiteBlackOmbre.png",
+      "exists_before": true,
+      "matched": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\WhiteBlackOmbre.png",
+      "status": "relinked"
+    },
+    {
+      "image": "Wrinkle_1.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Wrinkle_1.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Wrinkle_1.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Wrinkle_1.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Wrinkle_1.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Wrinkle_1.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Wrinkles_2.psd",
+      "before": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Dynamics_wrinkle.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Dynamics_wrinkle.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    },
+    {
+      "image": "Wrinkles_2.psd.001",
+      "before": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Dynamics_wrinkle.psd",
+      "after": "//..\\..\\..\\..\\..\\..\\..\\Asset_Addon_Library\\SuperSkin_Blender\\SuperSkin_Blender\\Alphas\\Wrinkles\\Dynamics_wrinkle.psd",
+      "exists_before": false,
+      "matched": null,
+      "status": "missing_no_local_match"
+    }
+  ]
+}
