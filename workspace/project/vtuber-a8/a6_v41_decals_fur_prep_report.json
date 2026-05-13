@@ -1,0 +1,128 @@
+{
+  "source": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v40_ribbon_vertex_group_material.blend",
+  "saved": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\a6_v41_decals_fur_prep.blend",
+  "decal_sources": {
+    "athena": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\decals\\athena_decal.PNG",
+    "pompompurrin": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\decals\\pompompurrin.png",
+    "tattoo_atlas": "C:\\Users\\14047\\Documents\\VS Code Scripts\\blender-render-pipeline\\blender-render-pipeline-git\\workspace\\project\\vtuber-a8\\textures\\decals\\tattoo_atlas.png"
+  },
+  "created_decals": [
+    {
+      "name": "DECAL_Athena_TankTop_Front",
+      "parent": "ALT_StreetwearTop_Smoothed",
+      "material": "DECAL_Athena_TankTop",
+      "location_hint": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DECAL_Tattoo_BigSun_LeftHip",
+      "parent": "Body",
+      "material": "DECAL_Tattoo_Atlas_Ink",
+      "location_hint": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DECAL_Tattoo_BehindEar_MoonStar",
+      "parent": "Body",
+      "material": "DECAL_Tattoo_Atlas_Ink",
+      "location_hint": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DECAL_Tattoo_RightAnkle_Planet",
+      "parent": "Body",
+      "material": "DECAL_Tattoo_Atlas_Ink",
+      "location_hint": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DECAL_Tattoo_LeftWrist_Crescent",
+      "parent": "Body",
+      "material": "DECAL_Tattoo_Atlas_Ink",
+      "location_hint": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DECAL_Tattoo_Hidden_UnderButtHeart",
+      "parent": "Body",
+      "material": "DECAL_Tattoo_Atlas_Ink",
+      "location_hint": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DECAL_Pomp_Underwear_FrontLeft",
+      "parent": "FINAL_Underwear_Contact",
+      "material": "DECAL_Pompompurrin_Underwear",
+      "location_hint": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DECAL_Pomp_Underwear_FrontRight",
+      "parent": "FINAL_Underwear_Contact",
+      "material": "DECAL_Pompompurrin_Underwear",
+      "location_hint": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DECAL_Pomp_Underwear_Back",
+      "parent": "FINAL_Underwear_Contact",
+      "material": "DECAL_Pompompurrin_Underwear",
+      "location_hint": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DECAL_Pomp_Underwear_Side",
+      "parent": "FINAL_Underwear_Contact",
+      "material": "DECAL_Pompompurrin_Underwear",
+      "location_hint": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "fur_asset_studied": "Hair_And_Fur_EEVEE_v01.blend: shader concepts used; direct append avoided because file is Blender 5.1-era and curve-hair oriented.",
+  "fur_targets": [
+    {
+      "object": "Dog Ears",
+      "old_materials": [
+        "Ears"
+      ],
+      "new_material": "A8_Realistic_PuppyFur_EEVEE"
+    },
+    {
+      "object": "Tail",
+      "old_materials": [
+        "EarTail.001"
+      ],
+      "new_material": "A8_Realistic_PuppyFur_EEVEE"
+    }
+  ]
+}
